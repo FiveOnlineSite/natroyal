@@ -31,9 +31,9 @@ const Home = () => {
   };
 
   const bannerSettings = {
-    dots: false,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    dots: true,
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
