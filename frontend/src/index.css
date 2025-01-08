@@ -101,7 +101,6 @@ body {
 
 .poster-container {
   position: relative;
-  height: 100vh;
 }
 
 .poster-image,
@@ -119,6 +118,11 @@ body {
   padding-left: 8%;
   display: block;
   height: auto;
+}
+
+.slick-prev,
+.slick-next {
+  top: 42% !important;
 }
 
 .banner-text h1 {
@@ -262,12 +266,15 @@ body {
   padding-top: 20px;
 }
 
+.corporate-office a,
 .corporate-office p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
   color: var(--light-gray-font);
+  text-decoration: none;
+  display: block;
 }
 
 .social-media {
@@ -289,11 +296,15 @@ body {
   color: var(--light-gray-font);
 }
 
-.about-us-section,
+.about-us-section {
+  padding: 70px 0;
+}
+
 .products-section,
 .map-section,
 .locate-section,
-.connect-section {
+.connect-section,
+.clients-section {
   padding: 50px 0;
 }
 
@@ -479,9 +490,13 @@ body {
   margin-bottom: 0;
 }
 
-.subdivision-section,
-.clients-section {
+.subdivision-section {
   padding: 50px 0 100px 0;
+  margin: 50px 0;
+  background-color: var(--off-white-bg);
+}
+
+.clients-section {
   margin: 50px 0;
   background-color: var(--off-white-bg);
 }
@@ -503,7 +518,7 @@ body {
   margin: 0 15px;
   padding: 40px 35px;
   box-shadow: 8px 8px var(--light-yellow-font);
-  height: 400px;
+  height: 400px !important;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -520,8 +535,12 @@ body {
   padding: 30px 0 25px 0;
 }
 
+.subdivision-text p {
+  min-height: 120px;
+}
+
 .subdivision-section .slick-slide {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 /* .slick-dots li {
@@ -537,7 +556,7 @@ body {
 } */
 
 .slick-dots {
-  width: 12% !important;
+  width: 16% !important;
   left: 44%;
   border: 1px solid var(--light-gray-font);
   border-radius: 100px;
@@ -549,8 +568,8 @@ body {
 }
 
 .slick-dots li button:before {
-  font-size: 8px;
-  line-height: 22px;
+  font-size: 8px !important;
+  line-height: 22px !important;
 }
 
 .single-map-container.world-map,
@@ -637,6 +656,7 @@ body {
 
 .location p {
   padding-right: 25%;
+  min-height: 85px;
 }
 
 .location .location-title {
@@ -657,11 +677,7 @@ body {
 }
 
 .connect-container {
-  width: 90%;
-}
-
-.connect-container p {
-  width: 90%;
+  padding: 0 60px 0 40px;
 }
 
 .get-started-form .form-control,
@@ -700,9 +716,13 @@ body {
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .subdivision-container {
-    height: auto;
+    height: 450px !important;
+  }
+
+  .subdivision-text p {
+    min-height: 160px;
   }
 
   .slick-dots {
@@ -719,6 +739,18 @@ body {
 @media screen and (max-width: 850px) {
   .slick-dots {
     width: 30% !important;
+  }
+
+  .connect-container {
+    padding: 0;
+  }
+
+  .single-map-container.india-map img {
+    height: 450px;
+  }
+
+  .single-map-container.world-map img {
+    height: 100%;
   }
 }
 

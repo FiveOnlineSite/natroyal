@@ -352,14 +352,14 @@ const Home = () => {
               </p>
 
               <div className="row align-items-center py-4">
-                <div className="col-lg-7 experience mb-lg-0 mb-4">
+                <div className="col-lg-6 experience mb-lg-0 mb-4">
                   <h2>60+</h2>
                   <p>
                     Years <br /> Experience
                   </p>
                 </div>
 
-                <div className="col-lg-5 mt-lg-0 mt-3 ">
+                <div className="col-lg-6 mt-lg-0 mt-3 d-flex justify-content-lg-end justify-content-start">
                   <a href="#" className="custom-button border-btn">
                     Read More
                     <img
@@ -413,7 +413,7 @@ const Home = () => {
             <h6 className="subtitle text-center">
               Applications <span></span>
             </h6>
-            <h2 className="title new-title">Our Subdivision</h2>
+            <h2 className="title new-title text-center">Our Subdivision</h2>
 
             <p className="paragraph">
               Natroyal Group offers versatile product solutions for various
@@ -714,7 +714,7 @@ const Home = () => {
                         <div className="mb-4">
                           <a
                             href="#"
-                            className="custom-button no-border-btn p-0"
+                            className="custom-button no-border-btn ps-3"
                           >
                             Submit
                             <img
