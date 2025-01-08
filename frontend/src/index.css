@@ -424,16 +424,9 @@ body {
   text-align: left;
 }
 
-.products-section .slick-track {
-  /* padding-left: 15%; */
-  gap: 16px;
-}
-
-.products-section .image-container .product-image {
-  border-radius: 5px;
-  width: 100%;
-  padding: 0 15px;
-  height: 100%;
+.products-section .slick-list {
+  padding-left: 0 !important; /* Ensure no unwanted padding */
+  margin-left: 0 !important;
 }
 
 .product-image,
@@ -445,8 +438,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-left: 5px;
+  padding: 0;
   overflow: hidden;
+}
+
+.image-container .product-image {
+  border-radius: 5px;
+  width: 100%;
+  /* padding: 0 15px; */
+  height: 100%;
 }
 
 .overlay-text {
@@ -457,7 +457,6 @@ body {
   position: absolute;
   bottom: 0;
   right: -70%;
-  margin-right: 14px;
   padding: 15px;
   transition: right 0.5s ease-in-out;
   display: hidden;

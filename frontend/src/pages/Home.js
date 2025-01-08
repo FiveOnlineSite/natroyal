@@ -58,86 +58,62 @@ const Home = () => {
     },
   ];
 
-  const productsSettings = {
-    dots: false,
-    arrows: false,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 3.5,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    centerMode: false,
+  // const productsSettings = {
+  //   dots: false,
+  //   arrows: false,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 2,
+  //   slidesToScroll: 1,
+  //   initialSlide: 0,
+  //   centerMode: true,
 
-    responsive: [
-      {
-        breakpoint: 821,
-        settings: {
-          slidesToShow: 2.2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 1.2,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+  //   responsive: [
+  //     {
+  //       breakpoint: 821,
+  //       settings: {
+  //         slidesToShow: 2.2,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //     {
+  //       breakpoint: 500,
+  //       settings: {
+  //         slidesToShow: 1.2,
+  //         slidesToScroll: 1,
+  //       },
+  //     },
+  //   ],
+  // };
 
-  const productsData = [
-    {
-      image: "/images/banners/Mask group (8).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
+  // const productsData = [
+  //   {
+  //     image: "/images/banners/Mask group (8).png",
+  //     title: "Coated Fabric",
+  //     content:
+  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
+  //   },
 
-    {
-      image: "/images/banners/image 55.png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
-    {
-      image: "/images/banners/Mask group (9).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
+  //   {
+  //     image: "/images/banners/image 55.png",
+  //     title: "Coated Fabric",
+  //     content:
+  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
+  //   },
+  //   {
+  //     image: "/images/banners/Mask group (9).png",
+  //     title: "Coated Fabric",
+  //     content:
+  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
+  //   },
 
-    {
-      image: "/images/banners/Mask group (9).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
-    {
-      image: "/images/banners/Mask group (9).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
-    {
-      image: "/images/banners/Mask group (9).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
-    {
-      image: "/images/banners/Mask group (9).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
-    {
-      image: "/images/banners/Mask group (9).png",
-      title: "Coated Fabric",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-    },
-  ];
+  //   {
+  //     image: "/images/banners/Mask group (9).png",
+  //     title: "Coated Fabric",
+  //     content:
+  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
+  //   },
+  // ];
 
   const subdivisionSettings = {
     dots: true,
@@ -396,14 +372,105 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="row products-row mt-4">
-          <SectionSlider
+        <div className="container-fluid">
+          <div className="row products-row mt-4">
+            <div className="col-lg-3 col-md-6 col-12">
+              <div className="image-container">
+                <img
+                  src="/images/banners/image 55.png"
+                  alt="product-image"
+                  className="w-100 product-image"
+                />
+                <a href="#" className="overlay-text">
+                  <div className="overlay-title">
+                    <h6>Coated Fabric</h6>
+                    <div>
+                      <img src="/images/icons/arrow-up-right.png" />
+                    </div>
+                  </div>
+                  <p>
+                    Our PVC Vinyl Flooring offers durability for sectors like
+                    Education, Healthcare, Retail, and more
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-md-0 mt-5">
+              <div className="image-container">
+                <img
+                  src="/images/banners/Mask group (8).png"
+                  alt="product-image"
+                  className="w-100 product-image"
+                />
+                <a href="#" className="overlay-text">
+                  <div className="overlay-title">
+                    <h6>Coated Fabric</h6>
+                    <div>
+                      <img src="/images/icons/arrow-up-right.png" />
+                    </div>
+                  </div>
+                  <p>
+                    Our PVC Vinyl Flooring offers durability for sectors like
+                    Education, Healthcare, Retail, and more
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-5">
+              <div className="image-container">
+                <img
+                  src="/images/banners/Mask group (9).png"
+                  alt="product-image"
+                  className="w-100 product-image"
+                />
+
+                <a href="#" className="overlay-text">
+                  <div className="overlay-title">
+                    <h6>Coated Fabric</h6>
+                    <div>
+                      <img src="/images/icons/arrow-up-right.png" />
+                    </div>
+                  </div>
+                  <p>
+                    Our PVC Vinyl Flooring offers durability for sectors like
+                    Education, Healthcare, Retail, and more
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-5">
+              <div className="image-container">
+                <img
+                  src="/images/banners/Mask group (8).png"
+                  alt="product-image"
+                  className="w-100 product-image"
+                />
+                <a href="#" className="overlay-text">
+                  <div className="overlay-title">
+                    <h6>Coated Fabric</h6>
+                    <div>
+                      <img src="/images/icons/arrow-up-right.png" />
+                    </div>
+                  </div>
+                  <p>
+                    Our PVC Vinyl Flooring offers durability for sectors like
+                    Education, Healthcare, Retail, and more
+                  </p>
+                </a>
+              </div>
+            </div>
+
+            {/* <SectionSlider
             settings={productsSettings}
             slides={productsData}
             products={true}
             subdivision={false}
             clients={false}
-          ></SectionSlider>
+          ></SectionSlider> */}
+          </div>
         </div>
       </section>
 
