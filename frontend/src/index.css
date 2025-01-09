@@ -819,11 +819,11 @@ body {
 
 @media screen and (max-width: 600px) {
   .banner-text {
-    top: 5%;
+    top: 3%;
   }
 
   .banner-text h1 {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
 
   .border-box-1 {
@@ -858,7 +858,7 @@ body {
   }
 
   .home-banner-section .slick-dots {
-    width: 25% !important;
+    width: 30% !important;
     left: 40% !important;
   }
 }
