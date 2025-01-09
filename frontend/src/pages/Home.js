@@ -31,13 +31,22 @@ const Home = () => {
   };
 
   const bannerSettings = {
-    dots: true,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+    dots: false,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          arrows: false,
+          dots: true,
+        },
+      },
+    ],
   };
 
   const bannerData = [

@@ -30,24 +30,24 @@ const Footer = () => {
 
         <div className="row corporate-office pb-5">
           <h6>Corporate Office</h6>
-          <div className="col-lg-3">
+          <div className="col-lg-3 mt-lg-0 mt-4">
             <a href="https://maps.app.goo.gl/85RC6CoSMz19U3an8" target="_blank">
               60 CD Shlok, Government Industrial Estate, Charkop, Kandivali
               West, Mumbai 400 067.
             </a>
           </div>
 
-          <div className="col-lg-3 px-lg-4 px-auto">
-            <a href="tel:+91-9016315193" className="m-0">
-              +91-9016315193
+          <div className="col-lg-3 px-lg-4 px-auto mt-lg-0 mt-4">
+            <a href="tel:+91-22-28603516" className="m-0">
+              +91-22-28603516
             </a>
-            <a href="tel:+91-9979607365">+91-9979607365</a>
+            <a href="tel:+91-22-28603514">+91-22-28603514</a>
             <a href="mailto:contact@natroyalgroup.com" className="mt-2">
               contact@natroyalgroup.com
             </a>
           </div>
 
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-lg-0 mt-4">
             <p>
               Natroyal Group is India’s leading manufacturer of Vinyl Flooring,
               Coated Fabrics, Rigid Films, Circular and Warp Knitted Fabrics and
@@ -64,12 +64,12 @@ const Footer = () => {
                   href="https://www.facebook.com/NatroyalGroup/"
                   target="_blank"
                 >
-                  <img src="/images/icons/image 27.png" alt="social-media" />
+                  <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="https://x.com/NatroyalGroup" target="_blank">
-                  <img src="/images/icons/image 28.png" alt="social-media" />
+                <a href="https://x.com/natroyali" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
                 </a>
               </li>
               <li>
@@ -77,12 +77,12 @@ const Footer = () => {
                   href="https://www.linkedin.com/company/natroyal-group"
                   target="_blank"
                 >
-                  <img src="/images/icons/image 29.png" alt="social-media" />
+                  <i class="fa-brands fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/images/icons/image 30.png" alt="social-media" />
+                  <i class="fa-brands fa-google-plus-g"></i>
                 </a>
               </li>
             </ul>
