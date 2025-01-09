@@ -818,6 +818,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .poster-image,
+  .video-element {
+    height: 82vh;
+  }
+
   .banner-text {
     top: 3%;
   }
@@ -859,7 +864,7 @@ body {
 
   .home-banner-section .slick-dots {
     width: 30% !important;
-    left: 40% !important;
+    left: 38% !important;
   }
 }
 
