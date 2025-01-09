@@ -316,7 +316,7 @@ const Home = () => {
               <div className="border-box-1"></div>
               <div className="border-box-2"></div>
               <img src="/images/banners/image (24).png" alt="about-img" />
-              <img src="/images/banners/image (20).png" alt="about-img" />
+              <img src="/images/banners/image-20.png" alt="about-img" />
 
               <img src="/images/banners/image (21).png" alt="about-img" />
               <img src="/images/banners/image (22).png" alt="about-img" />

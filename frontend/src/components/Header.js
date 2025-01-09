@@ -1,15 +1,16 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <nav className="navbar">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <NavLink className="navbar-brand" to="/">
           <img src="/images/icons/Natroyal 1.png" alt="logo" />
-        </a>
+        </NavLink>
 
         <div className="companies">
-          <a href="#" className="company-div">
+          <NavLink to="/" className="company-div">
             <img
               src="/images/icons/image 44.png"
               height={"49.29px"}
@@ -17,9 +18,9 @@ const Header = () => {
               alt="company"
             />
             <h6>Vinyl Flooring</h6>
-          </a>
+          </NavLink>
 
-          <a href="#" className="company-div">
+          <NavLink to="/" className="company-div">
             <img
               src="/images/icons/image 45.png"
               height={"50px"}
@@ -27,9 +28,9 @@ const Header = () => {
               alt="company"
             />
             <h6>Coated Fabrics</h6>
-          </a>
+          </NavLink>
 
-          <a href="#" className="company-div">
+          <NavLink to="/" className="company-div">
             <img
               src="/images/icons/image 46.png"
               height={"32px"}
@@ -37,9 +38,9 @@ const Header = () => {
               alt="company"
             />
             <h6>Seating Components</h6>
-          </a>
+          </NavLink>
 
-          <a href="#" className="company-div">
+          <NavLink to="/" className="company-div">
             <img
               src="/images/icons/image 47.png"
               height={"50px"}
@@ -47,7 +48,7 @@ const Header = () => {
               alt="company"
             />
             <h6>Knit Fabrics</h6>
-          </a>
+          </NavLink>
         </div>
         <button
           className="navbar-toggler d-flex align-items-center justify-content-center"
@@ -81,22 +82,22 @@ const Header = () => {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/about-us">
                   About Us
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <NavLink className="nav-link" to="/">
                   Contact Us
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a href="#" className="company-div mobile-company">
+                <NavLink to="/" className="company-div mobile-company">
                   <img
                     src="/images/icons/image 44.png"
                     height={"49.29px"}
@@ -104,11 +105,11 @@ const Header = () => {
                     alt="company"
                   />
                   <h6>Vinyl Flooring</h6>
-                </a>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <a href="#" className="company-div mobile-company">
+                <NavLink to="/" className="company-div mobile-company">
                   <img
                     src="/images/icons/image 45.png"
                     height={"50px"}
@@ -116,11 +117,11 @@ const Header = () => {
                     alt="company"
                   />
                   <h6>Coated Fabrics</h6>
-                </a>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <a href="#" className="company-div mobile-company">
+                <NavLink to="/" className="company-div mobile-company">
                   <img
                     src="/images/icons/image 46.png"
                     height={"32px"}
@@ -128,11 +129,11 @@ const Header = () => {
                     alt="company"
                   />
                   <h6>Seating Components</h6>
-                </a>
+                </NavLink>
               </li>
 
               <li className="nav-item">
-                <a href="#" className="company-div mobile-company">
+                <NavLink to="/" className="company-div mobile-company">
                   <img
                     src="/images/icons/image 47.png"
                     height={"50px"}
@@ -140,7 +141,7 @@ const Header = () => {
                     alt="company"
                   />
                   <h6>Knit Fabrics</h6>
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

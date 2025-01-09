@@ -31,7 +31,7 @@ const BannerSlider = ({ settings, slides }) => {
             <div className="poster-container">
               <img src={slide.poster} alt="Poster" className="poster-image" />
               <div className="banner-text">
-                <h1>{slide.text}</h1>
+                <h1 className="banner-title">{slide.text}</h1>
                 <div className="d-flex">
                   <a href="#" className="custom-button">
                     Get Started

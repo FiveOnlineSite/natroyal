@@ -125,7 +125,7 @@ body {
   top: 42% !important;
 }
 
-.banner-text h1 {
+.banner-title {
   /* font-family: Euclid Circular B Bold; */
   font-size: 48px;
   font-weight: 700;
@@ -641,7 +641,8 @@ body {
   color: var(--dark-yellow-font);
 }
 
-.map-tabs i {
+.map-tabs i,
+.about-points i {
   background-color: var(--gray-font);
   height: 40px;
   width: 40px;
@@ -649,6 +650,27 @@ body {
   padding: 5px;
   font-size: 30px;
   color: var(--white-font);
+  transition: color 0.5s ease;
+}
+
+.about-points {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.about-points i {
+  font-size: 18px;
+  padding: 6px;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.about-points:hover i {
+  color: var(--dark-yellow-font);
 }
 
 .map-tabs button:first-child {
@@ -711,6 +733,161 @@ body {
 .get-started-form .form-control:focus,
 .get-started-form .form-select {
   box-shadow: none;
+}
+
+.banner-section {
+  padding-bottom: 50px;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.banner-img img {
+  height: 84vh;
+  object-fit: cover;
+  position: relative;
+}
+
+.banner-section-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.section-banner-title {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--light-gray-font);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">" !important;
+  color: var(--light-gray-font);
+}
+
+.breadcrumb-item a {
+  color: var(--light-gray-font);
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: var(--white-font);
+}
+
+.breadcrumb-item a,
+.breadcrumb-item.active,
+.banner-btn {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.banner-btn {
+  padding: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.about-section {
+  padding: 80px 0 50px 0;
+}
+
+.about-content-img,
+.about-content-img img {
+  position: relative;
+}
+
+.projects-div,
+.awards-div {
+  position: absolute;
+  padding: 10px 40px;
+  min-width: 200px;
+  top: -10%;
+}
+
+.awards-div {
+  right: 5%;
+  background-color: var(--dark-yellow-font);
+}
+
+.projects-div {
+  right: 40%;
+  background-color: var(--dark-gray-font);
+}
+
+.projects-div img,
+.awards-div img {
+  margin: 10px 0;
+}
+
+.projects-div h2,
+.awards-div h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: var(--white-font);
+}
+
+.projects-div p,
+.awards-div p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--white-font);
+}
+
+.companies-section {
+  padding: 50px 0;
+}
+
+.companies-div {
+  display: flex;
+  height: 80vh;
+}
+
+.single-company {
+  align-items: end;
+  display: flex;
+  flex: 1 1;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  /* transition: width 0.8s ease; */
+  transition: all 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  /* width: 50%; */
+  filter: brightness(0.3);
+  z-index: 1;
+}
+
+.companies-div .single-company:hover {
+  flex: 2 1;
+  /* width: 90%; */
+  filter: brightness(1);
+}
+
+.company-text {
+  margin: auto 0;
+  text-align: center;
+}
+
+.company-text .company-content {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.companies-div:hover .company-text .company-content {
+  opacity: 1;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.company-text h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  color: var(--white-font);
+  z-index: 2;
 }
 
 @keyframes smallScale {
