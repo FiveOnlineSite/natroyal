@@ -1063,7 +1063,7 @@ body {
 
 .single-contact:hover .contact-content .contact-link,
 .single-contact .contact-content span {
-  color: var(--light-yellow-font);
+  text-decoration: underline;
 }
 
 @keyframes smallScale {

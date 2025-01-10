@@ -12,16 +12,16 @@ const Footer = () => {
             <div className="quick-links">
               <ul>
                 <li>
-                  <a href="#">About Us</a>
+                  <a href="/about-us">About Us</a>
                 </li>
                 <li>
-                  <a href="/company">Companies</a>
+                  <a href="/about-us#company">Companies</a>
                 </li>
                 <li>
                   <a href="#">Services</a>
                 </li>
                 <li>
-                  <a href="#">Inquiry</a>
+                  <a href="/contact-us#inquire">Inquiry</a>
                 </li>
               </ul>
             </div>
