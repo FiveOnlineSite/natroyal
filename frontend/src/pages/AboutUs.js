@@ -5,7 +5,8 @@ import Clients from "../components/Clients";
 
 const AboutUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/download (5) 1.png",
+    bannerImg:
+      "/images/banners/pngtree-modern-living-room-with-wooden-floors-picture-image_3171058.png",
     title: "About Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
@@ -151,7 +152,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/image-20.png"
+                    src="/images/banners/716b4630b5d6729d00a88b8f7d669e62.png"
                     alt="company"
                     className="w-100"
                   />
@@ -176,7 +177,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/image-20.png"
+                    src="/images/banners/dubai_tan_01.png"
                     alt="company"
                     className="w-100"
                   />
@@ -200,7 +201,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/image-20.png"
+                    src="/images/banners/71u7jCQY7SL._AC_SL1000.png"
                     alt="company"
                     className="w-100"
                   />
@@ -223,7 +224,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/image-20.png"
+                    src="/images/banners/photo-1686069275474-7293ed62f86b.png"
                     alt="company"
                     className="w-100"
                   />

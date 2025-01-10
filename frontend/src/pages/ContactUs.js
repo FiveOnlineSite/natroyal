@@ -5,7 +5,8 @@ import LocateUs from "../components/LocateUs";
 
 const ContactUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/download (5) 1.png",
+    bannerImg:
+      "/images/banners/pngtree-modern-living-room-with-wooden-floors-picture-image_3171058.png",
     title: "Contact Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
