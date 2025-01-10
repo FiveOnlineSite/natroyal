@@ -888,7 +888,7 @@ body {
 }
 
 .company-content:hover .company-thumbnail img {
-  filter: brightness(1);
+  /* filter: brightness(1); */
   /* transform: scale(1.2);s */
 }
 
@@ -925,7 +925,7 @@ body {
   transition: opacity 0.5s ease;
   display: none;
   max-width: 80%;
-  color: var(--gray-font);
+  color: var(--white-font);
 }
 
 .company-text .arrow-div {
@@ -933,7 +933,7 @@ body {
 }
 
 .company-content:hover .company-text h2 {
-  color: var(--gray-font);
+  /* color: var(--gray-font); */
   margin-bottom: 20px;
   line-height: 40px;
   font-weight: 700;
