@@ -94,7 +94,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about-us#company">
-                  Company
+                  Companies
                 </NavLink>
               </li>
               <li className="nav-item">
