@@ -1037,7 +1037,7 @@ body {
 
 .single-contact {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: start;
   padding: 15px 0;
 }
