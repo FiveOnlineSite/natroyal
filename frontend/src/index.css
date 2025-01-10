@@ -1229,6 +1229,10 @@ body {
     max-width: 100%;
   }
 
+  .company-content:hover .company-text p {
+    color: var(--dark-gray-font);
+  }
+
   .projects-div,
   .awards-div {
     min-width: 150px;
@@ -1243,6 +1247,20 @@ body {
   .awards-div h2 {
     font-size: 35px;
     line-height: 45px;
+  }
+
+  .inquire-container {
+    padding-bottom: 50px;
+  }
+
+  .connect-container {
+    padding-top: 50px;
+  }
+
+  .company-text p {
+    opacity: 1;
+    display: block;
+    color: var(--light-gray-font);
   }
 }
 

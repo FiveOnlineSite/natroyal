@@ -9,7 +9,7 @@ const Banner = ({ breadcrumbs, bannerImg, title }) => {
           <img src={bannerImg} alt="banner" className="w-100" />
 
           <div className="banner-section-text">
-            <div className="container">
+            <div className="container px-lg-0 px-4">
               <h1 className="banner-title section-banner-title">{title}</h1>
               <div className="row align-items-center">
                 <div className="col-lg-6">
