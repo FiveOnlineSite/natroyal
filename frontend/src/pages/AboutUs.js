@@ -124,18 +124,17 @@ const AboutUs = () => {
       <section className="companies-section">
         <div className="container-fluid">
           <div className="companies-div">
-            <div
-              className="single-company"
-              style={{
-                backgroundImage: "url('/images/banners/image-20.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-              <div className="company-text">
-                <h2>Royal House</h2>
-                <div className="company-content">
+            <a href="#" className="single-company">
+              <div className="company-content">
+                <div className="company-thumbnail">
+                  <img
+                    src="/images/banners/image-20.png"
+                    alt="company"
+                    className="w-100"
+                  />
+                </div>
+                <div className="company-text">
+                  <h2>Vinyl Flooring</h2>
                   <p>
                     Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
                     3mm) for sectors like education, healthcare, residential,
@@ -143,76 +142,83 @@ const AboutUs = () => {
                     India’s first PVC Planks (LVT) in 1.5mm and 2.0mm thickness,
                     sized 6x36 inches.
                   </p>
+
+                  <div className="arrow-div">
+                    <i className="lni lni-arrow-angular-top-right"></i>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="single-company"
-              style={{
-                backgroundImage: "url('/images/banners/image-20.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-              <div className="company-text">
-                <h2>Royal House</h2>
-                <div className="company-content">
+            </a>
+            <a href="#" className="single-company">
+              <div className="company-content">
+                <div className="company-thumbnail">
+                  <img
+                    src="/images/banners/image-20.png"
+                    alt="company"
+                    className="w-100"
+                  />
+                </div>
+                <div className="company-text">
+                  <h2>Coated Fabrics</h2>
                   <p>
-                    Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
-                    3mm) for sectors like education, healthcare, residential,
-                    and transport. Under the brand “Nuplank,” they introduced
-                    India’s first PVC Planks (LVT) in 1.5mm and 2.0mm thickness,
-                    sized 6x36 inches.
+                    Manufactures coated fabrics (artificial leather, PVC/PU
+                    vinyl) in 0.7mm to 2mm thickness, widely used in home &
+                    office furnishings, automotive interiors, fashion
+                    accessories, footwear, and medical applications.
                   </p>
+
+                  <div className="arrow-div">
+                    <i className="lni lni-arrow-angular-top-right"></i>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="single-company"
-              style={{
-                backgroundImage: "url('/images/banners/image-20.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-              <div className="company-text">
-                <h2>Royal House</h2>
-                <div className="company-content">
+            </a>
+            <a href="#" className="single-company">
+              <div className="company-content">
+                <div className="company-thumbnail">
+                  <img
+                    src="/images/banners/image-20.png"
+                    alt="company"
+                    className="w-100"
+                  />
+                </div>
+                <div className="company-text">
+                  <h2>Seating Components</h2>
                   <p>
-                    Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
-                    3mm) for sectors like education, healthcare, residential,
-                    and transport. Under the brand “Nuplank,” they introduced
-                    India’s first PVC Planks (LVT) in 1.5mm and 2.0mm thickness,
-                    sized 6x36 inches.
+                    The Seat Component Division produces frame fabrication, trim
+                    covers, and polyurethane foam for various seating needs,
+                    including automotive, cinema, auditorium, metro, bus, truck,
+                    and railway seats like driver’s and chair car seats.
                   </p>
+                  <div className="arrow-div">
+                    <i className="lni lni-arrow-angular-top-right"></i>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="single-company"
-              style={{
-                backgroundImage: "url('/images/banners/image-20.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-              {" "}
-              <div className="company-text">
-                <h2>Royal House</h2>
-                <div className="company-content">
+            </a>
+            <a href="#" className="single-company">
+              <div className="company-content">
+                <div className="company-thumbnail">
+                  <img
+                    src="/images/banners/image-20.png"
+                    alt="company"
+                    className="w-100"
+                  />
+                </div>
+                <div className="company-text">
+                  <h2>Knit Fabrics</h2>
                   <p>
-                    Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
-                    3mm) for sectors like education, healthcare, residential,
-                    and transport. Under the brand “Nuplank,” they introduced
-                    India’s first PVC Planks (LVT) in 1.5mm and 2.0mm thickness,
-                    sized 6x36 inches.
+                    we are manufacturing technical textile circular and warp
+                    knit fabrics which is a key ingredient for making leather
+                    cloth/ coated fabrics and backing fabric for making
+                    automotive fabric with foaming technology.
                   </p>
+                  <div className="arrow-div">
+                    <i className="lni lni-arrow-angular-top-right"></i>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>
