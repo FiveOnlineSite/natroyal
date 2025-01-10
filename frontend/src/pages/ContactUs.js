@@ -22,24 +22,27 @@ const ContactUs = () => {
 
       <section className="contact-section" id="inquire">
         <div className="container">
-          <div className="row">
+          <div className="contact-title">
+            <h6 className="subtitle">
+              Connect with Us <span></span>
+            </h6>
+            <h2 className="title new-title">Get In Touch</h2>
+            <p className="paragraph">
+              We’d love to hear from you! Get in touch with us for any
+              inquiries, support, or to learn more about our products and
+              services.
+            </p>
+          </div>
+
+          <div className="row mt-5">
             <div className="col-lg-12">
               <div className="row">
                 <div className="col-lg-5">
                   <div className="inquire-container">
-                    <h6 className="subtitle">
-                      Inquire Us <span></span>
-                    </h6>
-                    <h2 className="title new-title">Contact Details</h2>
-                    <p className="paragraph">
-                      We’re here to assist you! Please reach out with any
-                      questions, feedback, or project inquiries.
-                    </p>
-
                     <div className="inquire-content">
                       <div className="single-contact">
                         <div className="contact-img">
-                          <i class="fa-solid fa-phone"></i>
+                          <img src="/images/icons/email.png" alt="phone" />
                         </div>
                         <div className="contact-content">
                           <h5>Speak to Us</h5>
@@ -61,7 +64,10 @@ const ContactUs = () => {
 
                       <div className="single-contact">
                         <div className="contact-img">
-                          <i class="fa-solid fa-envelope"></i>
+                          <img
+                            src="/images/icons/placeholder.png"
+                            alt="phone"
+                          />
                         </div>
                         <div className="contact-content">
                           <h5>Write to Us</h5>
@@ -76,7 +82,7 @@ const ContactUs = () => {
 
                       <div className="single-contact">
                         <div className="contact-img">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <img src="/images/icons/phone.png" alt="phone" />
                         </div>
                         <div className="contact-content">
                           <h5>Visit Us</h5>
@@ -95,16 +101,6 @@ const ContactUs = () => {
                 </div>
                 <div className="col-lg-7">
                   <div className="connect-container">
-                    <h6 className="subtitle">
-                      Connect with Us <span></span>
-                    </h6>
-                    <h2 className="title new-title">Get In Touch</h2>
-                    <p className="paragraph">
-                      We’d love to hear from you! Get in touch with us for any
-                      inquiries, support, or to learn more about our products
-                      and services.
-                    </p>
-
                     <div className="get-started-form mt-4">
                       <form>
                         <div className="row">

@@ -269,7 +269,7 @@ const AboutUs = () => {
                     <div className="mission-div">
                       <div className="mission-no">01</div>
                       <div className="mission-img">
-                        <i class="fa-solid fa-users"></i>
+                        <img src="/images/icons/team.png" alt="team" />
                       </div>
                       <h4>Customer-Centric Excellence</h4>
                       <p className="paragraph">
@@ -282,7 +282,7 @@ const AboutUs = () => {
                     <div className="mission-div">
                       <div className="mission-no">02</div>
                       <div className="mission-img">
-                        <i class="fa-solid fa-lightbulb"></i>
+                        <img src="/images/icons/leaves.png" alt="team" />
                       </div>
                       <h4>Sustainable Innovation</h4>
                       <p className="paragraph">
@@ -320,7 +320,7 @@ const AboutUs = () => {
                     <div className="vision-div">
                       <div className="vision-no">01</div>
                       <div className="vision-img">
-                        <i className="fas fa-user-tie"></i>
+                        <img src="/images/icons/team.png" alt="team" />
                       </div>
                       <div className="vision-content">
                         <h4>Leadership</h4>
@@ -335,7 +335,7 @@ const AboutUs = () => {
                     <div className="vision-div">
                       <div className="vision-no">02</div>
                       <div className="vision-img">
-                        <i class="fas fa-award"></i>
+                        <img src="/images/icons/achievements.png" alt="team" />
                       </div>
                       <div className="vision-content">
                         <h4>Excellence</h4>
@@ -350,7 +350,7 @@ const AboutUs = () => {
                     <div className="vision-div">
                       <div className="vision-no">03</div>
                       <div className="vision-img">
-                        <i class="fas fa-chart-line"></i>
+                        <img src="/images/icons/growth.png" alt="team" />
                       </div>
                       <div className="vision-content">
                         <h4>Growth</h4>

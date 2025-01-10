@@ -44,13 +44,13 @@ const Banner = ({ breadcrumbs, bannerImg, title }) => {
                   </div>
                 </div>
 
-                <div className="col-lg-6 d-flex justify-content-lg-end justify-content-start">
+                {/* <div className="col-lg-6 d-flex justify-content-lg-end justify-content-start">
                   <div className="d-flex">
                     <a href="#" className="custom-button banner-btn">
                       Get Started
                     </a>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
