@@ -69,9 +69,9 @@ const Header = () => {
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div className="offcanvas-header">
-            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
+            <a href="/" className="offcanvas-title" id="offcanvasNavbarLabel">
               <img src="/images/icons/Natroyal 1.png" alt="logo" />
-            </h5>
+            </a>
             <button
               type="button"
               className="btn-close"
@@ -86,13 +86,24 @@ const Header = () => {
                   Home
                 </NavLink>
               </li>
+
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about-us">
                   About Us
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/">
+                <NavLink className="nav-link" to="/about-us#company">
+                  Company
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact-us#inquire">
+                  Inquiry
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/contact-us">
                   Contact Us
                 </NavLink>
               </li>

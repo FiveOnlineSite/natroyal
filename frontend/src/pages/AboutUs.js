@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
+import Clients from "../components/Clients";
 
 const AboutUs = () => {
   const bannerData = {
@@ -77,7 +78,7 @@ const AboutUs = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-7 mt-lg-0 mt-5">
               <div className="about-content-img">
                 <img
                   src="/images/banners/Outdoor Pillows & Cushions.jfif"
@@ -121,7 +122,29 @@ const AboutUs = () => {
         </div>
       </section>
 
-      <section className="companies-section">
+      <section className="companies-section" id="company">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-4">
+              <h6 className="subtitle">
+                Pioneers in Flooring & Textiles<span></span>
+              </h6>
+              <h2 className="title new-title">Our Companies</h2>
+            </div>
+
+            <div className="col-lg-6 offset-lg-2 offset-0">
+              <p className="paragraph">
+                Natroyal Group, formerly known as Samsons Group, has been a
+                pioneer in India since 1962, specializing in manufacturing and
+                exporting PVC Vinyl Flooring, coated fabrics, and seating
+                components. With production facilities near Vadodara, Gujarat,
+                and a corporate office in Mumbai, their products are distributed
+                nationwide and exported to Europe, the USA, Russia, the Middle
+                East, Africa, and Southeast Asia.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="container-fluid">
           <div className="companies-div">
             <a href="#" className="single-company">
@@ -222,6 +245,130 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
+      <section className="mission-section">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="subdivision-div">
+              <h6 className="subtitle text-center">
+                Excellence & Sustainability <span></span>
+              </h6>
+              <h2 className="title new-title">Our Mission</h2>
+
+              <p className="paragraph">
+                To deliver high-quality, innovative solutions that meet the
+                evolving needs of our customers while driving sustainable growth
+                and fostering long-term partnerships.
+              </p>
+            </div>
+
+            <div className="row justify-content-center mt-5">
+              <div className="col-lg-8">
+                <div className="row justify-content-center">
+                  <div className="col-lg-6">
+                    <div className="mission-div">
+                      <div className="mission-no">01</div>
+                      <div className="mission-img">
+                        <i class="fa-solid fa-users"></i>
+                      </div>
+                      <h4>Customer-Centric Excellence</h4>
+                      <p className="paragraph">
+                        Deliver high-quality, innovative solutions that meet
+                        customer needs.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 mt-lg-0 mt-5">
+                    <div className="mission-div">
+                      <div className="mission-no">02</div>
+                      <div className="mission-img">
+                        <i class="fa-solid fa-lightbulb"></i>
+                      </div>
+                      <h4>Sustainable Innovation</h4>
+                      <p className="paragraph">
+                        Drive sustainable growth through eco-friendly practices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="vision-section">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="subdivision-div">
+              <h6 className="subtitle text-center">
+                Global Leadership <span></span>
+              </h6>
+              <h2 className="title new-title">Our Vision</h2>
+
+              <p className="paragraph">
+                To be a global leader in flooring, coated fabrics, and seating,
+                known for our innovation, sustainability, and dedication to
+                customer satisfaction.
+              </p>
+            </div>
+
+            <div className="row justify-content-center mt-5">
+              <div className="col-lg-12">
+                <div className="row justify-content-center">
+                  <div className="col-lg-4">
+                    <div className="vision-div">
+                      <div className="vision-no">01</div>
+                      <div className="vision-img">
+                        <i className="fas fa-user-tie"></i>
+                      </div>
+                      <div className="vision-content">
+                        <h4>Leadership</h4>
+                        <p className="paragraph text-center">
+                          To be a global leader in flooring, coated fabrics, and
+                          seating solutions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 mt-lg-0 mt-5">
+                    <div className="vision-div">
+                      <div className="vision-no">02</div>
+                      <div className="vision-img">
+                        <i class="fas fa-award"></i>
+                      </div>
+                      <div className="vision-content">
+                        <h4>Excellence</h4>
+                        <p className="paragraph text-center">
+                          To set new standards in innovation, quality, and
+                          sustainability.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 mt-lg-0 mt-5">
+                    <div className="vision-div">
+                      <div className="vision-no">03</div>
+                      <div className="vision-img">
+                        <i class="fas fa-chart-line"></i>
+                      </div>
+                      <div className="vision-content">
+                        <h4>Growth</h4>
+                        <p className="paragraph text-center">
+                          To expand our reach and strengthen customer trust
+                          worldwide.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Clients />
     </Layout>
   );
 };

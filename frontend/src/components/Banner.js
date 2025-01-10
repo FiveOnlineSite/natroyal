@@ -5,7 +5,7 @@ const Banner = ({ breadcrumbs, bannerImg, title }) => {
   return (
     <section className="banner-section">
       <div className="row">
-        <div className="banner-img">
+        <div className="banner-img p-0">
           <img src={bannerImg} alt="banner" className="w-100" />
 
           <div className="banner-section-text">

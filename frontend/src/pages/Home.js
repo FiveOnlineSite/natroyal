@@ -3,6 +3,8 @@ import Layout from "../components/Layout";
 import BannerSlider from "../components/BannerSlider";
 import SectionSlider from "../components/SectionSlider";
 import ContinuousOwlCarousel from "../components/ContinuousOwlCarousel";
+import Clients from "../components/Clients";
+import LocateUs from "../components/LocateUs";
 // import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -191,112 +193,6 @@ const Home = () => {
       title: "Transport",
       content:
         "Our durable Transport Vinyl Flooring offers safety, comfort, and hygiene with premium ranges like Gripper, Suprema RS, and Sonata.",
-    },
-  ];
-
-  const clientsSetting = {
-    dots: false,
-    arrows: false,
-    infinite: true, // Enables infinite scrolling
-    speed: 3000, // Duration of one complete slide transition in ms
-    slidesToShow: 7, // Number of slides visible
-    autoplay: true, // Enables autoplay
-    autoplaySpeed: 0, // Sets the delay between autoplay transitions (0 for continuous)
-    pauseOnHover: false, // Prevents stopping on hover
-    centerMode: false,
-    draggable: true, // Enables dragging
-    swipeToSlide: true, // Smooth swipe to the closest slide
-    cssEase: "linear", // Smooth and continuous animation
-
-    responsive: [
-      {
-        breakpoint: 821,
-        settings: {
-          slidesToShow: 5,
-          swipeToSlide: true,
-        },
-      },
-      {
-        breakpoint: 500,
-        settings: {
-          slidesToShow: 2,
-          swipeToSlide: true,
-        },
-      },
-    ],
-  };
-
-  const clientsData = [
-    {
-      image: "/images/clients/image 4.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 5.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 6.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 7.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 8.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 9.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 10.png",
-      height: "50.93px",
-      width: "170px",
-    },
-
-    {
-      image: "/images/clients/image 4.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 5.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 6.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 7.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 8.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 9.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 10.png",
-      height: "50.93px",
-      width: "170px",
     },
   ];
 
@@ -609,104 +505,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="locate-section">
-        <div className="container">
-          <div className="subdivision-div">
-            <h6 className="subtitle text-center">
-              Find Us Here <span></span>
-            </h6>
-            <h2 className="title new-title">Locate Us</h2>
+      <LocateUs />
 
-            <p className="paragraph">
-              Visit us at our location for personalized assistance and to
-              explore our products. We look forward to welcoming you!
-            </p>
-          </div>
-          <div className="row justify-content-center mt-4">
-            <div className="col-lg-10 ">
-              <div className="row justify-content-center">
-                <div className="col-lg-6 ">
-                  <div className="location">
-                    <div className="location-title">
-                      <h5>Mumbai</h5>
-                      <img src="/images/icons/image 64.png" alt="location" />
-                    </div>
-
-                    <p className="paragraph">
-                      60 CD Shlok, Government Industrial Estate, Charkop,
-                      Kandivali West, Mumbai 400 067.
-                    </p>
-
-                    <a href="#" className="custom-button no-border-btn p-0">
-                      Get Direction
-                      <img
-                        src="/images/icons/arrow-up-right.png"
-                        className="ps-2"
-                        alt="arrow"
-                      />
-                    </a>
-                  </div>
-                </div>
-
-                <div className="col-lg-6 mt-lg-0 mt-5">
-                  <div className="location">
-                    <div className="location-title">
-                      <h5>Vadodara</h5>
-                      <img src="/images/icons/image 66.png" alt="location" />
-                    </div>
-
-                    <p className="paragraph">
-                      Plot No 318/319, Halol Vadodara Road, Village
-                      Baska,taluka- Halol, Panchmahals, Gujarat, 389350
-                    </p>
-
-                    <a href="#" className="custom-button no-border-btn p-0">
-                      Get Direction
-                      <img
-                        src="/images/icons/arrow-up-right.png"
-                        className="ps-2"
-                        alt="arrow"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="clients-section">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <h6 className="subtitle">
-                Trusted by Industry Leaders <span></span>
-              </h6>
-              <h2 className="title new-title">Our Clients</h2>
-            </div>
-
-            <div className="col-lg-6">
-              <p className="paragraph">
-                We are proud to work with a diverse range of esteemed clients
-                across various industries. Their trust in our products and
-                services reflects our commitment to excellence and customer
-                satisfaction.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row mt-5">
-          <SectionSlider
-            settings={clientsSetting}
-            slides={clientsData}
-            products={false}
-            subdivision={false}
-            clients={true}
-          ></SectionSlider>
-          {/* <ContinuousSlider /> */}
-        </div>
-      </section>
+      <Clients />
 
       <section className="connect-section">
         <div className="container-fluid">
