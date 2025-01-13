@@ -219,7 +219,7 @@ const AboutUs = () => {
                 <div className="company-text">
                   <img
                     src="/images/icons/image 46.png"
-                    height={"40px"}
+                    height={"30px"}
                     width={"100px"}
                     alt="company"
                   />
