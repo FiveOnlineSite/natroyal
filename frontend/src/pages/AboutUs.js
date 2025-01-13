@@ -159,7 +159,7 @@ const AboutUs = () => {
                   <img
                     src="/images/icons/image 44.png"
                     height={"70px"}
-                    width={"100px"}
+                    width={"120px"}
                     alt="company"
                   />
                   <h2>Vinyl Flooring</h2>
