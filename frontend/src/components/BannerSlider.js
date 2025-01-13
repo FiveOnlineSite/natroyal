@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import { NavLink } from "react-router-dom";
 
 const BannerSlider = ({ settings, slides }) => {
   const [playingIndex, setPlayingIndex] = useState(null);
@@ -33,9 +34,9 @@ const BannerSlider = ({ settings, slides }) => {
               <div className="banner-text">
                 <h1 className="banner-title">{slide.text}</h1>
                 <div className="d-flex">
-                  <a href="#" className="custom-button">
+                  <NavLink to="/contact-us" className="custom-button">
                     Get Started
-                  </a>
+                  </NavLink>
                 </div>
               </div>
               <div className="button-div">

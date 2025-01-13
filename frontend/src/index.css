@@ -601,8 +601,8 @@ body {
 .location-div {
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+  left: 28%;
+  top: 60%;
 }
 
 .map-pin {

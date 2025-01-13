@@ -5,8 +5,7 @@ import Clients from "../components/Clients";
 
 const AboutUs = () => {
   const bannerData = {
-    bannerImg:
-      "/images/banners/pngtree-modern-living-room-with-wooden-floors-picture-image_3171058.png",
+    bannerImg: "/images/banners/laminated-wooden-flooring-service.png",
     title: "About Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
@@ -61,7 +60,6 @@ const AboutUs = () => {
                     </p>
                   </a>
                 </div>
-
                 <p className="paragraph">
                   With decades of expertise and commitment in these fields,
                   Natroyal Group has established itself as a leading brand in
@@ -158,6 +156,12 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
+                  <img
+                    src="/images/icons/image 44.png"
+                    height={"70px"}
+                    width={"100px"}
+                    alt="company"
+                  />
                   <h2>Vinyl Flooring</h2>
                   <p>
                     Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
@@ -183,6 +187,12 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
+                  <img
+                    src="/images/icons/image 45.png"
+                    height={"70px"}
+                    width={"100px"}
+                    alt="company"
+                  />
                   <h2>Coated Fabrics</h2>
                   <p>
                     Manufactures coated fabrics (artificial leather, PVC/PU
@@ -207,6 +217,12 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
+                  <img
+                    src="/images/icons/image 46.png"
+                    height={"40px"}
+                    width={"100px"}
+                    alt="company"
+                  />
                   <h2>Seating Components</h2>
                   <p>
                     The Seat Component Division produces frame fabrication, trim
@@ -230,6 +246,12 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
+                  <img
+                    src="/images/icons/image 47.png"
+                    height={"70px"}
+                    width={"100px"}
+                    alt="company"
+                  />
                   <h2>Knit Fabrics</h2>
                   <p>
                     we are manufacturing technical textile circular and warp

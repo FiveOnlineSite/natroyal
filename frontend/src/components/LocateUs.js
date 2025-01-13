@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const LocateUs = () => {
   return (
@@ -30,14 +31,18 @@ const LocateUs = () => {
                     Kandivali West, Mumbai 400 067.
                   </p>
 
-                  <a href="#" className="custom-button no-border-btn p-0">
+                  <NavLink
+                    to="https://maps.app.goo.gl/85RC6CoSMz19U3an8"
+                    target="_blank"
+                    className="custom-button no-border-btn p-0"
+                  >
                     Get Direction
                     <img
                       src="/images/icons/arrow-up-right.png"
                       className="ps-2"
                       alt="arrow"
                     />
-                  </a>
+                  </NavLink>
                 </div>
               </div>
 
@@ -53,14 +58,18 @@ const LocateUs = () => {
                     Halol, Panchmahals, Gujarat, 389350
                   </p>
 
-                  <a href="#" className="custom-button no-border-btn p-0">
+                  <NavLink
+                    to="https://maps.app.goo.gl/tPSLYmAjTbS8DGKC6"
+                    target="_blank"
+                    className="custom-button no-border-btn p-0"
+                  >
                     Get Direction
                     <img
                       src="/images/icons/arrow-up-right.png"
                       className="ps-2"
                       alt="arrow"
                     />
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>

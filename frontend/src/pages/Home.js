@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Layout from "../components/Layout";
 import BannerSlider from "../components/BannerSlider";
 import SectionSlider from "../components/SectionSlider";
-import ContinuousOwlCarousel from "../components/ContinuousOwlCarousel";
 import Clients from "../components/Clients";
 import LocateUs from "../components/LocateUs";
+import { NavLink } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -53,18 +53,20 @@ const Home = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/big_buck_bunny_720p_1mb.mp4",
+      videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
       poster: "/images/banners/image (19).png",
       text: "Natroyal Group: Excellence in Premium Flooring, Fabrics & Seating",
     },
     {
-      videoUrl: "/videos/big_buck_bunny_720p_1mb.mp4",
-      poster: "/images/banners/image (19).png",
+      videoUrl:
+        "/videos/vecteezy_a-wide-empty-room-with-wooden-floor-and-white-wall_2018264.mov",
+      poster: "/images/banners/tiles.png",
       text: "Natroyal Group: Excellence in Premium Flooring, Fabrics & Seating",
     },
     {
-      videoUrl: "/videos/big_buck_bunny_720p_1mb.mp4",
-      poster: "/images/banners/image (19).png",
+      videoUrl: "/videos/1103522677-preview.mp4",
+      poster:
+        "/images/banners/5mm-Click-Luxury-Vinyl-Tiles-Plastic-PVC-Plank-Lvt-Flooring.png",
       text: "Natroyal Group: Excellence in Premium Flooring, Fabrics & Seating",
     },
   ];
@@ -241,14 +243,14 @@ const Home = () => {
                 </div>
 
                 <div className="col-lg-6 mt-lg-0 mt-3 d-flex justify-content-lg-end justify-content-start">
-                  <a href="#" className="custom-button border-btn">
+                  <NavLink to="/about-us" className="custom-button border-btn">
                     Read More
                     <img
                       src="/images/icons/arrow-up-right.png"
                       className="ps-2"
                       alt="arrow"
                     />
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
