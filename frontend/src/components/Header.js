@@ -113,7 +113,7 @@ const Header = () => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link"
-                  to="/about-us#company"
+                  to="/companies"
                   onClick={closeOffcanvas}
                 >
                   Companies
