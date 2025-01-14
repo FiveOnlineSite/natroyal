@@ -1096,16 +1096,20 @@ body {
   line-height: 40px;
   font-weight: 700;
   border: none;
+  opacity: 0.5;
+  transition: opacity 0.8s ease;
 }
 
 .companies-tabs .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
   border: none;
+  opacity: 1;
 }
 
 .companies-tabs .nav-link:focus,
 .nav-link:hover {
   border: none;
+  opacity: 1;
 }
 
 .companies-tab-content {
