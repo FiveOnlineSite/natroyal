@@ -4,6 +4,7 @@ import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import ScrollToSection from "./components/ScrollToSesction";
 import Company from "./pages/Company";
+import FloatingWhatsapp from "./components/FloatingWhatsapp";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/companies" element={<Company />} />
       </Routes>
+      <FloatingWhatsapp />
     </Router>
   );
 }

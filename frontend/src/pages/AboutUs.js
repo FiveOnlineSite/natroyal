@@ -33,32 +33,6 @@ const AboutUs = () => {
                     exporting, and supplying of high-quality products,
                     including:
                   </p>
-
-                  <a href="#" className="about-points">
-                    <i className="lni lni-arrow-angular-top-right"></i>
-                    <p className="paragraph mb-0">
-                      PVC Vinyl Flooring (Royal House)
-                    </p>
-                  </a>
-                  <a href="#" className="about-points">
-                    <i className="lni lni-arrow-angular-top-right"></i>
-                    <p className="paragraph mb-0">
-                      Coated Fabrics / Leather Cloth / Artificial Leather
-                      (National’s Royal Touch)
-                    </p>
-                  </a>
-                  <a href="#" className="about-points">
-                    <i className="lni lni-arrow-angular-top-right"></i>
-                    <p className="paragraph mb-0">
-                      Circular & Warp Knitted Fabrics (Royal Knit)
-                    </p>
-                  </a>
-                  <a href="#" className="about-points mb-4">
-                    <i className="lni lni-arrow-angular-top-right"></i>{" "}
-                    <p className="paragraph mb-0">
-                      Seating Components (Vijayjyot)
-                    </p>
-                  </a>
                 </div>
                 <p className="paragraph">
                   With decades of expertise and commitment in these fields,
@@ -80,7 +54,7 @@ const AboutUs = () => {
             <div className="col-lg-7 mt-lg-0 mt-5">
               <div className="about-content-img">
                 <img
-                  src="/images/banners/Outdoor Pillows & Cushions.jfif"
+                  src="/images/banners/Outdoor Pillows & Cushions.png"
                   alt="about-content"
                   className="w-100"
                 />

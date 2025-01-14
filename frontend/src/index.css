@@ -7,6 +7,7 @@
   --gray-font: #555555;
   --light-gray-font: #cccccc;
   --off-white-bg: #f9f9f9;
+  --whatsapp-bg: #6cd54f;
 }
 
 /* @font-face {
@@ -1159,6 +1160,20 @@ body {
   line-height: 30px;
   font-weight: 600;
   color: var(--dark-gray-font);
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  background-color: var(--whatsapp-bg);
+  padding: 10px 12px;
+  border-radius: 50%;
+}
+
+.whatsapp-icon i {
+  font-size: 40px;
+  color: white;
 }
 
 @keyframes smallScale {

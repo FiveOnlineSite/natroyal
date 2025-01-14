@@ -515,11 +515,21 @@ const Home = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-lg-6 p-lg-0 p-auto">
-              <img
+              {/* <img
                 src="/images/banners/contact-banner (2).png"
                 alt="contact-banner"
                 className="w-100"
-              />
+              /> */}
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/ngbVMDCpe78?si=XvS_2BYhaFvsoAuf"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
             </div>
             <div className="col-lg-6 mt-lg-0 mt-5 ps-lg-5 ps-auto">
               <div className="connect-container">

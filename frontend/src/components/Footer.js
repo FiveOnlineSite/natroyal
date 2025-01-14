@@ -72,7 +72,7 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="https://x.com/natroyali" target="_blank">
+                <NavLink to="https://x.com/NatroyalGroup" target="_blank">
                   <i class="fa-brands fa-x-twitter"></i>
                 </NavLink>
               </li>
@@ -82,6 +82,14 @@ const Footer = () => {
                   target="_blank"
                 >
                   <i class="fa-brands fa-linkedin-in"></i>
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="https://www.youtube.com/@NatroyalGroup"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-youtube"></i>
                 </NavLink>
               </li>
               <li>
