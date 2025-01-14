@@ -51,7 +51,7 @@ const Company = () => {
                   >
                     <li className="nav-item mb-4" role="presentation">
                       <button
-                        className="nav-link active company-div ps-0 align-items-start"
+                        className="nav-link active company-div ps-0"
                         data-bs-target="#vinyl"
                         type="button"
                         role="tab"
@@ -59,18 +59,25 @@ const Company = () => {
                         aria-controls="vinyl"
                         data-bs-toggle="tab"
                       >
-                        <img
-                          src="/images/icons/image 44.png"
-                          height={"49.29px"}
-                          width={"75px"}
-                          alt="company"
-                        />
-                        <h6>Vinyl Flooring</h6>
+                        <div className="w-100 d-flex flex-column align-items-start">
+                          <img
+                            src="/images/icons/image 44.png"
+                            height={"49.29px"}
+                            width={"75px"}
+                            alt="company"
+                          />
+                          <h6>
+                            Vinyl <br /> Flooring
+                          </h6>
+                        </div>
+                        <div className="arrow-div w-100">
+                          <i className="lni lni-arrow-angular-top-right"></i>
+                        </div>
                       </button>
                     </li>
                     <li className="nav-item mb-4" role="presentation">
                       <button
-                        className="nav-link company-div ps-0 align-items-start"
+                        className="nav-link company-div ps-0"
                         id="coated-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#coated"
@@ -79,19 +86,25 @@ const Company = () => {
                         aria-controls="coated"
                         aria-selected="false"
                       >
-                        <img
-                          src="/images/icons/image 45.png"
-                          height={"50px"}
-                          width={"75px"}
-                          alt="company"
-                        />
-                        <h6>Coated Fabrics</h6>
+                        <div className="w-100 d-flex flex-column align-items-start">
+                          <img
+                            src="/images/icons/image 45.png"
+                            height={"50px"}
+                            width={"75px"}
+                            alt="company"
+                          />
+                          <h6>Coated Fabrics</h6>
+                        </div>
+
+                        <div className="arrow-div w-100">
+                          <i className="lni lni-arrow-angular-top-right"></i>
+                        </div>
                       </button>
                     </li>
 
                     <li className="nav-item mb-4" role="presentation">
                       <button
-                        className="nav-link company-div ps-0 align-items-start"
+                        className="nav-link company-div ps-0"
                         id="seating-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#seating"
@@ -100,19 +113,25 @@ const Company = () => {
                         aria-controls="seating"
                         aria-selected="false"
                       >
-                        <img
-                          src="/images/icons/image 46.png"
-                          height={"32px"}
-                          width={"120px"}
-                          alt="company"
-                        />
-                        <h6>Seating Components</h6>
+                        {" "}
+                        <div className="w-100 d-flex flex-column align-items-start">
+                          <img
+                            src="/images/icons/image 46.png"
+                            height={"32px"}
+                            width={"120px"}
+                            alt="company"
+                          />
+                          <h6>Seating Components</h6>
+                        </div>
+                        <div className="arrow-div w-100">
+                          <i className="lni lni-arrow-angular-top-right"></i>
+                        </div>
                       </button>
                     </li>
 
                     <li className="nav-item mb-4" role="presentation">
                       <button
-                        className="nav-link company-div ps-0 align-items-start"
+                        className="nav-link company-div ps-0"
                         id="knit-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#knit"
@@ -121,13 +140,22 @@ const Company = () => {
                         aria-controls="knit"
                         aria-selected="false"
                       >
-                        <img
-                          src="/images/icons/image 47.png"
-                          height={"50px"}
-                          width={"75px"}
-                          alt="company"
-                        />
-                        <h6>Knit Fabrics</h6>
+                        <div className="w-100 d-flex flex-column align-items-start">
+                          <img
+                            src="/images/icons/image 47.png"
+                            height={"50px"}
+                            width={"75px"}
+                            alt="company"
+                          />
+                          <h6>
+                            Knit <br />
+                            Fabrics
+                          </h6>
+                        </div>
+
+                        <div className="arrow-div w-100">
+                          <i className="lni lni-arrow-angular-top-right"></i>
+                        </div>
                       </button>
                     </li>
                   </ul>

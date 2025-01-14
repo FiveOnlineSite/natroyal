@@ -147,6 +147,14 @@ const AboutUs = () => {
         <div className="container-fluid">
           <div className="companies-div">
             <a href="#" className="single-company">
+              <div className="single-company-img">
+                <img
+                  src="/images/icons/image 44.png"
+                  height={"100%"}
+                  width={"120px"}
+                  alt="company"
+                />
+              </div>
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
@@ -156,12 +164,6 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
-                  <img
-                    src="/images/icons/image 44.png"
-                    height={"70px"}
-                    width={"120px"}
-                    alt="company"
-                  />
                   <h2>Vinyl Flooring</h2>
                   <p>
                     Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
@@ -178,6 +180,14 @@ const AboutUs = () => {
               </div>
             </a>
             <a href="#" className="single-company">
+              <div className="single-company-img">
+                <img
+                  src="/images/icons/image 45.png"
+                  height={"100%"}
+                  width={"100px"}
+                  alt="company"
+                />
+              </div>
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
@@ -187,12 +197,6 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
-                  <img
-                    src="/images/icons/image 45.png"
-                    height={"70px"}
-                    width={"100px"}
-                    alt="company"
-                  />
                   <h2>Coated Fabrics</h2>
                   <p>
                     Manufactures coated fabrics (artificial leather, PVC/PU
@@ -208,6 +212,15 @@ const AboutUs = () => {
               </div>
             </a>
             <a href="#" className="single-company">
+              <div className="single-company-img">
+                <img
+                  src="/images/icons/image 46.png"
+                  height={"100%"}
+                  width={"100px"}
+                  alt="company"
+                />
+              </div>
+
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
@@ -217,12 +230,6 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
-                  <img
-                    src="/images/icons/image 46.png"
-                    height={"30px"}
-                    width={"100px"}
-                    alt="company"
-                  />
                   <h2>Seating Components</h2>
                   <p>
                     The Seat Component Division produces frame fabrication, trim
@@ -237,6 +244,14 @@ const AboutUs = () => {
               </div>
             </a>
             <a href="#" className="single-company">
+              <div className="single-company-img">
+                <img
+                  src="/images/icons/image 47.png"
+                  height={"100%"}
+                  width={"100px"}
+                  alt="company"
+                />
+              </div>
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
@@ -246,12 +261,6 @@ const AboutUs = () => {
                   />
                 </div>
                 <div className="company-text">
-                  <img
-                    src="/images/icons/image 47.png"
-                    height={"70px"}
-                    width={"100px"}
-                    alt="company"
-                  />
                   <h2>Knit Fabrics</h2>
                   <p>
                     we are manufacturing technical textile circular and warp

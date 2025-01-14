@@ -861,6 +861,13 @@ body {
   transform: scale(1);
 }
 
+.single-company .single-company-img {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .company-content {
   height: 100%;
   width: 100%;
@@ -928,7 +935,7 @@ body {
   color: var(--white-font);
 }
 
-.company-text .arrow-div {
+.arrow-div {
   bottom: 3%;
 }
 
@@ -945,7 +952,7 @@ body {
   max-width: 900px;
 }
 
-.company-text .arrow-div i {
+.arrow-div i {
   background-color: var(--light-gray-font);
   height: 40px;
   width: 40px;
@@ -957,7 +964,9 @@ body {
   transition: color 0.5s ease, transform 0.5s ease;
 }
 
-.company-content:hover .company-text .arrow-div i {
+.company-content:hover .arrow-div i,
+.companies-tabs .nav-link:hover .arrow-div i,
+.companies-tabs .nav-link.active .arrow-div i {
   transform: rotate(0);
   color: var(--dark-yellow-font);
   background-color: var(--gray-font);
@@ -1081,7 +1090,7 @@ body {
 }
 
 .company-section {
-  padding: 50px 0 150px 0;
+  padding: 50px 0 100px 0;
 }
 
 .companies-tabs {
@@ -1098,9 +1107,18 @@ body {
   border: none;
   opacity: 0.5;
   transition: opacity 0.8s ease;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.companies-tabs .nav-tabs .nav-item.show .nav-link,
+/* .nav-item .nav-link h6 {
+  min-width: 20px;
+} */
+
+/* .companies-tabs .nav-tabs .nav-item.show .nav-link, */
 .nav-tabs .nav-link.active {
   border: none;
   opacity: 1;
@@ -1257,7 +1275,7 @@ body {
 
   .single-company {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: block;
     flex-direction: column;
     overflow: hidden;
@@ -1296,7 +1314,6 @@ body {
   }
 
   .company-content:hover .company-text h2 {
-    color: var(--gray-font);
     margin-bottom: 10px;
   }
 
@@ -1304,10 +1321,6 @@ body {
     opacity: 1;
     display: block;
     max-width: 100%;
-  }
-
-  .company-content:hover .company-text p {
-    color: var(--dark-gray-font);
   }
 
   .projects-div,
