@@ -22,8 +22,8 @@ const Company = () => {
       />
 
       <section className="company-section">
-        <div className="container">
-          <div className="row">
+        <div className="container-fluid">
+          {/* <div className="row">
             <div className="col-lg-8">
               <h6 className="subtitle">
                 Companies <span></span>
@@ -38,9 +38,9 @@ const Company = () => {
                 Southeast Asia.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="row mt-5">
+          {/* <div className="row mt-5">
             <div className="col-lg-12">
               <div className="row">
                 <div className="col-lg-3 pb-lg-0 pb-4">
@@ -333,6 +333,276 @@ const Company = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> */}
+
+          <div className="row company-row">
+            <div className="col-lg-12">
+              <div className="row mt-5 align-items-center justify-content-center">
+                <div className="col-lg-6 company-bg ">
+                  <div className="company-img">
+                    <img
+                      src="/images/banners/Brown_and_White_For_Men_Fashion_Facebook_Post_1 (1).png"
+                      alt="company-img"
+                    />
+                    <div className="logo-gray-div">
+                      <img src="/images/icons/image 44.png" alt="logo" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
+                  <div className="companies-content">
+                    <h6 className="subtitle">
+                      Coated Fabrics<span></span>
+                    </h6>
+                    <h2 className="title">
+                      VinyRoyal Plasticoates Private Limited (VPPL)
+                    </h2>
+                    <p className="paragraph">
+                      The pioneering entrepreneur of the group started the
+                      flagship company NLC in 1962. It is engaged in
+                      manufacturing of Artificial Leathercloth and is one of the
+                      largest manufacturers in the world with installed capacity
+                      of 13.5 million square meters with 3 Coating lines.
+                    </p>
+
+                    <div className="company-points">
+                      <h5>Infrastructure</h5>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          Specializes in Manufacturing PVC artificial leather to
+                          various Indian and International standards for
+                          automobile seat upholstery and trims.
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          Collection of designs in natural leather like grains
+                          and fabric type patterns in a wide range of colors.
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          Choice of PVC Artificial, Leather with knit, woven and
+                          non woven backing fabric to suit a range of end uses.
+                        </p>
+                      </div>
+                      <div className="company-point mb-5">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          A well equipped laboratory for testing raw material
+                          and the finished products. Modern and well laid out
+                          plant for production and storage.
+                        </p>
+                      </div>
+                    </div>
+
+                    <NavLink
+                      to="/"
+                      target="_blank"
+                      className="custom-button border-btn"
+                    >
+                      View More
+                      <img
+                        src="/images/icons/arrow-up-right.png"
+                        className="ps-2"
+                        alt="arrow"
+                      />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row company-row">
+            <div className="col-lg-12">
+              <div className="row mt-5 align-items-center justify-content-center">
+                <div className="col-lg-6 company-bg order-lg-2 order-1">
+                  <div className="company-img">
+                    <img
+                      src="/images/banners/vinyl-flooring (1).png"
+                      alt="company-img"
+                    />
+                    <div className="logo-gray-div">
+                      <img src="/images/icons/image 45.png" alt="logo" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto order-lg-1 order-2 pt-lg-0 pt-5">
+                  <div className="companies-content">
+                    <h6 className="subtitle">
+                      PVC Vinyl Flooring <span></span>
+                    </h6>
+                    <h2 className="title">Royal Cushion Vinyl Products Ltd.</h2>
+                    <p className="paragraph">
+                      Royal Cushion Vinyl Products Ltd. has two plants spread
+                      across 130 acres of land, at Garadia, Halol, Gujarat, for
+                      manufacturing of Vinyl Floorings of different types for
+                      various end-users and Rigid Films. RCVPL caters to
+                      customers in over 40 countries worldwide.
+                    </p>
+
+                    <div className="company-points">
+                      <h5>Quality Policy</h5>
+                      <div className="company-point mb-5">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          To achieve customer satisfaction by providing
+                          international quality products in all our product
+                          ranges.
+                        </p>
+                      </div>
+                    </div>
+
+                    <NavLink
+                      to="/"
+                      target="_blank"
+                      className="custom-button border-btn"
+                    >
+                      View More
+                      <img
+                        src="/images/icons/arrow-up-right.png"
+                        className="ps-2"
+                        alt="arrow"
+                      />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row company-row">
+            <div className="col-lg-12">
+              <div className="row mt-5 align-items-center justify-content-center">
+                <div className="col-lg-6 company-bg">
+                  <div className="company-img">
+                    <img
+                      src="/images/banners/pngtree-seat-belt-mount-safety-belt-in-bus-image_15662949 (1).png"
+                      alt="company-img"
+                    />
+                    <div className="logo-gray-div">
+                      <img src="/images/icons/image 46.png" alt="logo" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
+                  <div className="companies-content">
+                    <h6 className="subtitle">
+                      Seating Components <span></span>
+                    </h6>
+                    <h2 className="title">Vijayjyot</h2>
+                    <p className="paragraph">
+                      Vijayjyot seating components division is leading
+                      components manufacturer for Metro, Bus, Car, Cinema and
+                      Auditorium seats. The product line includes fabrication of
+                      Metal Frames (MS and SS), Polyurethane (PU) Foam and
+                      Upholstery / Trim Covers. We also manufacture and supply
+                      fully assembled Railway seats.
+                    </p>
+
+                    <p className="paragraph mb-5">
+                      Our seating components division provides one-stop solution
+                      to customers from design inception, proto-type sample,
+                      product development to commercial supplies. Facilities
+                      include Design center, Tool room, Weld shop with advanced
+                      technology like Multi Axis Bending Machine, Cutting &
+                      Sewing Machines and PU Machines. The plant is located in
+                      Halol, near Vadodara in state of Gujarat, INDIA.
+                    </p>
+
+                    <NavLink
+                      to="/"
+                      target="_blank"
+                      className="custom-button border-btn"
+                    >
+                      View More
+                      <img
+                        src="/images/icons/arrow-up-right.png"
+                        className="ps-2"
+                        alt="arrow"
+                      />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row company-row">
+            <div className="col-lg-12">
+              <div className="row mt-5 align-items-center justify-content-center">
+                <div className="col-lg-6 company-bg order-lg-2 order-1">
+                  <div className="company-img">
+                    <img
+                      src="/images/banners/wool-knitting-woolen-fabric (2).png"
+                      alt="company-img"
+                    />
+                    <div className="logo-gray-div">
+                      <img src="/images/icons/image 44.png" alt="logo" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto order-lg-1 order-2 pt-lg-0 pt-5">
+                  <div className="companies-content">
+                    <h6 className="subtitle">
+                      Knit Fabrics <span></span>
+                    </h6>
+                    <h2 className="title">Royal Knitting</h2>
+                    <p className="paragraph">
+                      Initially Royal Knitting Pvt. Ltd [RKPL] established in
+                      1983, produced knitted fabrics to meet the in-house
+                      requirements for leathercloth backing, for our sister
+                      concern - National Leathercloth Mfg. Co. and Vinyroyal
+                      Plasticoates Pvt. Ltd. Today RKPL’s installed capacity
+                      stands at 175 tonnes/month of circular knitted fabrics and
+                      20 tonnes/month of warp knitted fabrics.
+                    </p>
+
+                    <p className="paragraph">
+                      Only 30% of the capacity is utilized to make supplies to
+                      group company, 50% supplies are made to other local
+                      Artificial Leathercloth manufacturers & exports and
+                      remaining 20% supplies go to OE customers such as Melba,
+                      Faze 3, Reliance, Shamkeen. In OE the fabric is applied
+                      for back scrim application in automotive upholstery.
+                    </p>
+
+                    <p className="paragraph">
+                      Production facility consists of 28 circular knitting
+                      machines (Single Jersey, Terry, Interlock) of Mayer & Cie
+                      make, 4 Orizio make, 2 Taifan make and 1 Fukuhara.
+                    </p>
+
+                    <p className="paragraph">
+                      Warp Knitting machines of Karl Mayer; of which 2 are KS-3
+                      and 1 HKS-3M.
+                    </p>
+
+                    <p className="paragraph mb-5">
+                      Raising machine of Daintipaolo. Future plans include
+                      setting up of in-house dyeing & finishing line.
+                    </p>
+
+                    <NavLink
+                      to="/"
+                      target="_blank"
+                      className="custom-button border-btn"
+                    >
+                      View More
+                      <img
+                        src="/images/icons/arrow-up-right.png"
+                        className="ps-2"
+                        alt="arrow"
+                      />
+                    </NavLink>
                   </div>
                 </div>
               </div>

@@ -1090,8 +1090,8 @@ body {
   width: 60%;
 }
 
-.company-section {
-  padding: 50px 0 100px 0;
+.company-row {
+  padding: 50px 0;
 }
 
 .companies-tabs {
@@ -1174,6 +1174,58 @@ body {
 .whatsapp-icon i {
   font-size: 40px;
   color: white;
+}
+
+.company-bg {
+  background-image: url("../public/images/banners/about_center_shpae.webp");
+  background-position: center left;
+
+  background-repeat: no-repeat;
+}
+
+.company-img {
+  position: relative;
+  width: 100%;
+}
+
+.company-img img {
+  position: relative;
+  width: 90%;
+}
+
+.logo-gray-div {
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  background-color: var(--white-font);
+  padding: 60px 80px;
+}
+
+.logo-gray-div img {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.company-points h5 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.company-point {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.company-point i {
+  font-size: 24px;
+}
+
+.company-point p {
+  padding-left: 15px;
 }
 
 @keyframes smallScale {
@@ -1426,7 +1478,7 @@ body {
     justify-content: center;
   }
 
-  .company-section {
+  .company-row {
     padding: 50px 0;
   }
 }
