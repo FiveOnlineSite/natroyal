@@ -427,6 +427,54 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
+                      src="/images/banners/WeTransformSpaces-qx19auns89zyddt5mo4mrb7761rnpqi25vb42khzpw.webp"
+                      alt="company-img"
+                    />
+                    <div className="logo-gray-div">
+                      {/* <img src="/images/icons/image 46.png" alt="logo" /> */}
+                      <h2>LVT</h2>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5 order-lg-1 order-2">
+                  <div className="companies-content">
+                    <h6 className="subtitle">
+                      Vinyl Plank & Tiles <span></span>
+                    </h6>
+                    <h2 className="title">Luxury Vinyl Plank & Tiles (LVT)</h2>
+
+                    <p className="paragraph mb-5">
+                      Natroyal Group (formerly Samsons Group) is a pioneer in
+                      India, manufacturing and supplying luxury vinyl planks and
+                      tiles for various industries, including education,
+                      healthcare, residential, hospitality, office/retail, and
+                      transportation sectors.
+                    </p>
+
+                    <NavLink
+                      to="/"
+                      target="_blank"
+                      className="custom-button border-btn"
+                    >
+                      View More
+                      <img
+                        src="/images/icons/arrow-up-right.png"
+                        className="ps-2"
+                        alt="arrow"
+                      />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row company-row">
+            <div className="col-lg-12">
+              <div className="row mt-5 align-items-center justify-content-center">
+                <div className="col-lg-6 company-bg order-lg-1 order-2">
+                  <div className="company-img">
+                    <img
                       src="/images/banners/vinyl-flooring (1).png"
                       alt="company-img"
                     />
@@ -435,7 +483,7 @@ const Company = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto order-lg-1 order-2 pt-lg-0 pt-5">
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto order-lg-2 order-1 pt-lg-0 pt-5">
                   <div className="companies-content">
                     <h6 className="subtitle">
                       PVC Vinyl Flooring <span></span>
@@ -482,7 +530,7 @@ const Company = () => {
           <div className="row company-row">
             <div className="col-lg-12">
               <div className="row mt-5 align-items-center justify-content-center">
-                <div className="col-lg-6 company-bg">
+                <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
                       src="/images/banners/pngtree-seat-belt-mount-safety-belt-in-bus-image_15662949 (1).png"
@@ -493,7 +541,7 @@ const Company = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5 order-lg-1 order-2">
                   <div className="companies-content">
                     <h6 className="subtitle">
                       Seating Components <span></span>
@@ -539,18 +587,18 @@ const Company = () => {
           <div className="row company-row">
             <div className="col-lg-12">
               <div className="row mt-5 align-items-center justify-content-center">
-                <div className="col-lg-6 company-bg order-lg-2 order-1">
+                <div className="col-lg-6 company-bg order-lg-1 order-2">
                   <div className="company-img">
                     <img
                       src="/images/banners/wool-knitting-woolen-fabric (2).png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
-                      <img src="/images/icons/image 44.png" alt="logo" />
+                      <img src="/images/icons/image 47.png" alt="logo" />
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto order-lg-1 order-2 pt-lg-0 pt-5">
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto order-lg-2 order-1 pt-lg-0 pt-5">
                   <div className="companies-content">
                     <h6 className="subtitle">
                       Knit Fabrics <span></span>
@@ -589,54 +637,6 @@ const Company = () => {
                     <p className="paragraph mb-5">
                       Raising machine of Daintipaolo. Future plans include
                       setting up of in-house dyeing & finishing line.
-                    </p>
-
-                    <NavLink
-                      to="/"
-                      target="_blank"
-                      className="custom-button border-btn"
-                    >
-                      View More
-                      <img
-                        src="/images/icons/arrow-up-right.png"
-                        className="ps-2"
-                        alt="arrow"
-                      />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row company-row">
-            <div className="col-lg-12">
-              <div className="row mt-5 align-items-center justify-content-center">
-                <div className="col-lg-6 company-bg">
-                  <div className="company-img">
-                    <img
-                      src="/images/banners/WeTransformSpaces-qx19auns89zyddt5mo4mrb7761rnpqi25vb42khzpw.webp"
-                      alt="company-img"
-                    />
-                    <div className="logo-gray-div">
-                      {/* <img src="/images/icons/image 46.png" alt="logo" /> */}
-                      <h2>LVT</h2>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
-                  <div className="companies-content">
-                    <h6 className="subtitle">
-                      Vinyl Plank & Tiles <span></span>
-                    </h6>
-                    <h2 className="title">Luxury Vinyl Plank & Tiles (LVT)</h2>
-
-                    <p className="paragraph mb-5">
-                      Natroyal Group (formerly Samsons Group) is a pioneer in
-                      India, manufacturing and supplying luxury vinyl planks and
-                      tiles for various industries, including education,
-                      healthcare, residential, hospitality, office/retail, and
-                      transportation sectors.
                     </p>
 
                     <NavLink
