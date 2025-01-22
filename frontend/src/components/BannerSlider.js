@@ -20,7 +20,7 @@ const BannerSlider = ({ settings, slides }) => {
     <Slider {...enhancedSettings}>
       {slides.map((slide, index) => (
         <div key={index} className="slide-container">
-          {playingIndex === index ? (
+          {/* {playingIndex === index ? (
             <video
               src={slide.videoUrl}
               muted
@@ -28,34 +28,34 @@ const BannerSlider = ({ settings, slides }) => {
               onEnded={() => setPlayingIndex(null)}
               className="video-element"
             />
-          ) : (
-            <div className="poster-container">
-              <img src={slide.poster} alt="Poster" className="poster-image" />
-              <div className="banner-text">
-                <h1 className="banner-title">{slide.text}</h1>
-                <div className="d-flex">
-                  <NavLink to="/contact-us" className="custom-button">
-                    Get Started
-                  </NavLink>
-                </div>
-              </div>
-              <div className="button-div">
-                <button
-                  className="play-button-div"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handlePlay(index);
-                  }}
-                >
-                  <div class="button-outer-circle has-scale-animation"></div>
-                  <div class="button-outer-circle has-scale-animation has-delay-short"></div>
-                  <div className="play-button">
-                    <img src="/images/icons/play (1).png" alt="play-icon" />
-                  </div>
-                </button>
+          ) : ( */}
+          <div className="poster-container">
+            <img src={slide.poster} alt="Poster" className="poster-image" />
+            <div className="banner-text">
+              <h1 className="banner-title">{slide.text}</h1>
+              <div className="d-flex">
+                <NavLink to="/contact-us" className="custom-button">
+                  Get Started
+                </NavLink>
               </div>
             </div>
-          )}
+            {/* <div className="button-div">
+              <button
+                className="play-button-div"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handlePlay(index);
+                }}
+              >
+                <div class="button-outer-circle has-scale-animation"></div>
+                <div class="button-outer-circle has-scale-animation has-delay-short"></div>
+                <div className="play-button">
+                  <img src="/images/icons/play (1).png" alt="play-icon" />
+                </div>
+              </button>
+            </div> */}
+          </div>
+          {/* )} */}
         </div>
       ))}
     </Slider>
