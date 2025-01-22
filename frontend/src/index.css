@@ -64,7 +64,7 @@ body {
 }
 
 .offcanvas-backdrop.show {
-  opacity: 1 !important;
+  opacity: 0 !important;
 }
 
 .nav-link {
