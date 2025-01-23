@@ -53,80 +53,94 @@ const Home = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
-      poster: "/images/banners/image (19).png",
-      text: "Natroyal Group: Excellence in Premium Flooring, Fabrics & Seating",
-    },
-    {
       videoUrl:
         "/videos/vecteezy_a-wide-empty-room-with-wooden-floor-and-white-wall_2018264.mov",
-      poster: "/images/banners/tiles.png",
-      text: "Natroyal Group: Excellence in Premium Flooring, Fabrics & Seating",
+      poster: "/images/banners/pexels-digitalbuggu-218535.png",
+      text: "Natroyal Group: Elevate Spaces with Premium Vinyl Flooring",
     },
     {
       videoUrl: "/videos/1103522677-preview.mp4",
-      poster:
-        "/images/banners/5mm-Click-Luxury-Vinyl-Tiles-Plastic-PVC-Plank-Lvt-Flooring.png",
-      text: "Natroyal Group: Excellence in Premium Flooring, Fabrics & Seating",
+      poster: "/images/banners/l-r-agcTGM582Uo-unsplash.png",
+      text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
+    },
+    {
+      videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
+      poster: "/images/banners/elimende-inagella-hO4AGt3czSQ-unsplash.png",
+      text: "Natroyal Group: Superior Coated Fabrics for All Your Furniture Needs",
+    },
+    {
+      videoUrl: "/videos/1103522677-preview.mp4",
+      poster: "/images/banners/nikola-johnny-mirkovic-nBD3KFnUm5M-unsplash.png",
+      text: "Natroyal Group: High-Quality Seating Components for Ultimate Comfort",
+    },
+    {
+      videoUrl: "/videos/1103522677-preview.mp4",
+      poster: "/images/banners/moonstarious-project-R2Z3xE7nsB8-unsplash.png",
+      text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
     },
   ];
 
-  // const productsSettings = {
-  //   dots: false,
-  //   arrows: false,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 2,
-  //   slidesToScroll: 1,
-  //   initialSlide: 0,
-  //   centerMode: true,
+  const productsSettings = {
+    dots: false,
+    arrows: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    centerMode: false,
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 821,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 500,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
-  //   responsive: [
-  //     {
-  //       breakpoint: 821,
-  //       settings: {
-  //         slidesToShow: 2.2,
-  //         slidesToScroll: 1,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 500,
-  //       settings: {
-  //         slidesToShow: 1.2,
-  //         slidesToScroll: 1,
-  //       },
-  //     },
-  //   ],
-  // };
+  const productsData = [
+    {
+      image: "/images/banners/pexels-heyho-7031828.png",
+      title: "Vinly Flooring",
+      content:
+        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more.",
+    },
+    {
+      image: "/images/banners/pexels-fwstudio-33348-129731.png",
+      title: "Luxury Vinyl Planks & Tiles (LVT)",
+      content:
+        "LVT provide a durable, stylish, and low-maintenance flooring option ideal for various sectors like education, healthcare, and retail.",
+    },
+    {
+      image: "/images/banners/kelly-sikkema-qATevUkntlo-unsplash.png",
+      title: "Coated Fabrics",
+      content:
+        "Coated fabrics offer durability, water resistance, and versatility for applications like upholstery and outdoor furniture.",
+    },
 
-  // const productsData = [
-  //   {
-  //     image: "/images/banners/Mask group (8).png",
-  //     title: "Coated Fabric",
-  //     content:
-  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-  //   },
-
-  //   {
-  //     image: "/images/banners/image 55.png",
-  //     title: "Coated Fabric",
-  //     content:
-  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-  //   },
-  //   {
-  //     image: "/images/banners/Mask group (9).png",
-  //     title: "Coated Fabric",
-  //     content:
-  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-  //   },
-
-  //   {
-  //     image: "/images/banners/Mask group (9).png",
-  //     title: "Coated Fabric",
-  //     content:
-  //       "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more",
-  //   },
-  // ];
+    {
+      image: "/images/banners/alessia-c_jpg-cGNVTBcP7vY-unsplash.png",
+      title: "Seating Components",
+      content:
+        "Seating components provide comfort, durability, and support for various furniture applications.",
+    },
+    {
+      image: "/images/banners/moonstarious-project-KbaSNX-6Vdo-unsplash.png",
+      title: "Knit Fabrics",
+      content:
+        "Knit fabrics offer flexibility, breathability, and softness for a wide range of textile applications.",
+    },
+  ];
 
   const subdivisionSettings = {
     dots: true,
@@ -180,21 +194,21 @@ const Home = () => {
     },
     {
       icon: "/images/icons/image 59.png",
-      title: "Education",
+      title: "Residential",
       content:
-        "Our Education Vinyl Flooring sparks creativity and focus, with vibrant colors that inspire both students and facilitators.",
+        "Our Residential Vinyl Flooring combines durability and style, featuring soft textures and warm tones that create a comfortable and inviting living space.",
     },
     {
       icon: "/images/icons/image 62.png",
-      title: "Healthcare",
+      title: "Offices/Retail",
       content:
-        "Our flooring promotes patient recovery, offers caregiver comfort, and is designed for barefoot use and wet areas.",
+        "Our Vinyl Flooring for offices and retail spaces offers durability, easy maintenance, and a sleek, professional look that enhances both functionality and aesthetics.",
     },
     {
       icon: "/images/icons/image 63.png",
-      title: "Transport",
+      title: "Sports",
       content:
-        "Our durable Transport Vinyl Flooring offers safety, comfort, and hygiene with premium ranges like Gripper, Suprema RS, and Sonata.",
+        "Our Vinyl Flooring for sports provides excellent durability, impact resistance, and slip resistance, making it ideal for sports facilities and gym environments.",
     },
   ];
 
@@ -213,11 +227,23 @@ const Home = () => {
             <div className="col-lg-6 about-img-div">
               <div className="border-box-1"></div>
               <div className="border-box-2"></div>
-              <img src="/images/banners/image (24).png" alt="about-img" />
-              <img src="/images/banners/image-20.png" alt="about-img" />
+              <img
+                src="/images/banners/pexels-heyho-7214329.png"
+                alt="about-img"
+              />
+              <img
+                src="/images/banners/pexels-skylar-kang-6044919.png"
+                alt="about-img"
+              />
 
-              <img src="/images/banners/image (21).png" alt="about-img" />
-              <img src="/images/banners/image (22).png" alt="about-img" />
+              <img
+                src="/images/banners/pexels-lynxexotics-3954434.png"
+                alt="about-img"
+              />
+              <img
+                src="/images/banners/pexels-karolina-grabowska-6276068.png"
+                alt="about-img"
+              />
             </div>
             <div className="col-lg-6 ps-lg-5 ps-auto mt-lg-0 mt-5">
               <h6 className="subtitle">
@@ -279,9 +305,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
-          <div className="row products-row mt-4">
-            <div className="col-lg-3 col-md-6 col-12">
+        <div className="row products-row mt-4">
+          {/* <div className="col-lg-3 col-md-6 col-12">
               <div className="image-container">
                 <img
                   src="/images/banners/image 55.png"
@@ -368,16 +393,15 @@ const Home = () => {
                   </p>
                 </a>
               </div>
-            </div>
+            </div> */}
 
-            {/* <SectionSlider
+          <SectionSlider
             settings={productsSettings}
             slides={productsData}
             products={true}
             subdivision={false}
             clients={false}
-          ></SectionSlider> */}
-          </div>
+          ></SectionSlider>
         </div>
       </section>
 

@@ -5,7 +5,7 @@ import Clients from "../components/Clients";
 
 const AboutUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/laminated-wooden-flooring-service.png",
+    bannerImg: "/images/banners/pexels-heyho-6436826.png",
     title: "About Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
@@ -54,7 +54,7 @@ const AboutUs = () => {
             <div className="col-lg-7 mt-lg-0 mt-5">
               <div className="about-content-img">
                 <img
-                  src="/images/banners/Outdoor Pillows & Cushions.png"
+                  src="/images/banners/pexels-digitalbuggu-365066.png"
                   alt="about-content"
                   className="w-100"
                 />
@@ -118,7 +118,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="container-fluid">
+        <div className="row">
           <div className="companies-div">
             <a href="#" className="single-company">
               <div className="single-company-img">
@@ -132,7 +132,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/716b4630b5d6729d00a88b8f7d669e62.png"
+                    src="/images/banners/pexels-digitalbuggu-326862.png"
                     alt="company"
                     className="w-100"
                   />
@@ -140,11 +140,45 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Vinyl Flooring</h2>
                   <p>
-                    Natroyal Group manufactures PVC Vinyl Flooring (0.37mm to
-                    3mm) for sectors like education, healthcare, residential,
-                    and transport. Under the brand “Nuplank,” they introduced
-                    India’s first PVC Planks (LVT) in 1.5mm and 2.0mm thickness,
-                    sized 6x36 inches.
+                    Natroyal Group manufactures high-quality PVC Vinyl Flooring
+                    ranging from 0.37mm to 3mm, designed for sectors such as
+                    education, healthcare, residential, and transport. Under the
+                    brand “Nuplank,” they introduced India’s first Luxury Vinyl
+                    Planks (LVT) in 1.5mm and 2.0mm thickness, available in 6x36
+                    inch sizes.
+                  </p>
+
+                  <div className="arrow-div">
+                    <i className="lni lni-arrow-angular-top-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" className="single-company">
+              <div className="single-company-img">
+                <img
+                  src="/images/icons/image 44.png"
+                  height={"100%"}
+                  width={"120px"}
+                  alt="company"
+                />
+              </div>
+              <div className="company-content">
+                <div className="company-thumbnail">
+                  <img
+                    src="/images/banners/mariia-savchenko-2ncdkwsSFrE-unsplash.png"
+                    alt="company"
+                    className="w-100"
+                  />
+                </div>
+                <div className="company-text">
+                  <h2>Luxury Vinyl Planks & Tiles (LVT)</h2>
+                  <p>
+                    Natroyal Group (formerly Samsons Group) is a pioneer in
+                    India, leading the way in manufacturing and supplying luxury
+                    vinyl planks and tiles for a wide range of industries,
+                    including education, healthcare, residential, hospitality,
+                    office/retail, and transportation sectors.
                   </p>
 
                   <div className="arrow-div">
@@ -165,7 +199,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/dubai_tan_01.png"
+                    src="/images/banners/leather-540142_1920.png"
                     alt="company"
                     className="w-100"
                   />
@@ -198,7 +232,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/71u7jCQY7SL._AC_SL1000.png"
+                    src="/images/banners/al-nik-J5XqX-qvEZE-unsplash.png"
                     alt="company"
                     className="w-100"
                   />
@@ -229,7 +263,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/photo-1686069275474-7293ed62f86b.png"
+                    src="/images/banners/vitalijs-barilo-azMZaQCUyV8-unsplash.png"
                     alt="company"
                     className="w-100"
                   />
@@ -237,7 +271,7 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Knit Fabrics</h2>
                   <p>
-                    we are manufacturing technical textile circular and warp
+                    We are manufacturing technical textile circular and warp
                     knit fabrics which is a key ingredient for making leather
                     cloth/ coated fabrics and backing fabric for making
                     automotive fabric with foaming technology.
