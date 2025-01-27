@@ -193,19 +193,19 @@ const Home = () => {
         "Our durable Transport Vinyl Flooring offers safety, comfort, and hygiene with premium ranges like Gripper, Suprema RS, and Sonata.",
     },
     {
-      icon: "/images/icons/image 59.png",
+      icon: "/images/icons/images (4) 1.png",
       title: "Residential",
       content:
         "Our Residential Vinyl Flooring combines durability and style, featuring soft textures and warm tones that create a comfortable and inviting living space.",
     },
     {
-      icon: "/images/icons/image 62.png",
+      icon: "/images/icons/download (9) 1.png",
       title: "Offices/Retail",
       content:
         "Our Vinyl Flooring for offices and retail spaces offers durability, easy maintenance, and a sleek, professional look that enhances both functionality and aesthetics.",
     },
     {
-      icon: "/images/icons/image 63.png",
+      icon: "/images/icons/download (11) 1 (1).png",
       title: "Sports",
       content:
         "Our Vinyl Flooring for sports provides excellent durability, impact resistance, and slip resistance, making it ideal for sports facilities and gym environments.",
