@@ -5,7 +5,7 @@ import LocateUs from "../components/LocateUs";
 
 const ContactUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/gaia-spc-espc-picchi-ga805314-room-wide.png",
+    bannerImg: "/images/banners/pexels-heyho-7031827.png",
     title: "Contact Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
