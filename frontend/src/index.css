@@ -565,13 +565,14 @@ body {
 
 .home-banner-section .slick-dots {
   width: 10% !important;
-  left: 45% !important;
   bottom: 5% !important;
 }
 
 .slick-dots {
   width: 16% !important;
-  left: 44%;
+
+  left: 50% !important;
+  transform: translate(-50%, 0);
   border: 1px solid var(--light-gray-font);
   border-radius: 100px;
   bottom: -50px !important;
@@ -1168,16 +1169,22 @@ body {
 
 .whatsapp-icon {
   position: fixed;
-  bottom: 5%;
-  right: 2%;
+  bottom: 8%;
+  right: 4%;
   background-color: var(--whatsapp-bg);
-  padding: 10px 12px;
+  padding: 10px;
   border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 .whatsapp-icon i {
-  font-size: 40px;
+  font-size: 32px;
   color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .company-bg {
@@ -1286,7 +1293,6 @@ body {
 
   .home-banner-section .slick-dots {
     width: 15% !important;
-    left: 42% !important;
   }
 
   .overlay-text {
@@ -1508,8 +1514,7 @@ body {
   }
 
   .home-banner-section .slick-dots {
-    width: 30% !important;
-    left: 38% !important;
+    width: 42% !important;
   }
 }
 

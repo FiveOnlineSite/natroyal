@@ -255,9 +255,10 @@ const Home = () => {
               </h2>
               <p className="paragraph">
                 Since 1962, Natroyal Group (formerly Samsons Group) has been a
-                leader in manufacturing and exporting PVC Vinyl Flooring, Coated
-                Fabrics, Heat-Managed Seat Covers, Knitted Fabrics, and Seating
-                Components, earning trust through decades of expertise.
+                leader in manufacturing and exporting Luxury Vinyl Plank & Tile,
+                PVC vinyl flooring, coated fabrics, knitted fabrics, and seating
+                components—earning trust through decades of expertise and
+                innovation.
               </p>
 
               <div className="row align-items-center py-4">

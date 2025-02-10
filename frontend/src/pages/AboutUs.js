@@ -29,15 +29,14 @@ const AboutUs = () => {
                 <div>
                   <p className="paragraph">
                     Since 1962, Natroyal Group (formerly Samsons Group) has been
-                    a pioneer in India, specializing in the manufacturing,
-                    exporting, and supplying of high-quality products,
-                    including:
+                    a pioneer in India, specializing in manufacturing,
+                    exporting, and supplying high-quality products, including:
                   </p>
                 </div>
                 <p className="paragraph">
-                  With decades of expertise and commitment in these fields,
-                  Natroyal Group has established itself as a leading brand in
-                  the market for all its offerings.
+                  With decades of expertise and commitment, Natroyal Group has
+                  established itself as a leading brand in the market for its
+                  diverse offerings.
                 </p>
 
                 <p className="paragraph">
@@ -45,7 +44,7 @@ const AboutUs = () => {
                   Vadodara (Baroda), Gujarat, while our corporate office
                   operates from Mumbai, India. Through an extensive network of
                   distributors and retailers, our products are available across
-                  India. Additionally, we proudly export to and enjoy wide
+                  India. Furthermore, we proudly export to and enjoy wide
                   acceptance in Europe, the USA, Russia, the Middle East,
                   Africa, and Southeast Asia.
                 </p>
@@ -108,12 +107,13 @@ const AboutUs = () => {
             <div className="col-lg-6 offset-lg-2 offset-0">
               <p className="paragraph">
                 Natroyal Group, formerly known as Samsons Group, has been a
-                pioneer in India since 1962, specializing in manufacturing and
-                exporting PVC Vinyl Flooring, coated fabrics, and seating
-                components. With production facilities near Vadodara, Gujarat,
-                and a corporate office in Mumbai, their products are distributed
-                nationwide and exported to Europe, the USA, Russia, the Middle
-                East, Africa, and Southeast Asia.
+                pioneer in India since 1962, specializing in the manufacturing
+                and exporting of Luxury Vinyl Plank & Tile, PVC vinyl flooring,
+                coated fabrics, and seating components. With state-of-the-art
+                production facilities near Vadodara, Gujarat, and a corporate
+                office in Mumbai, our products are distributed nationwide and
+                exported to Europe, the USA, Russia, the Middle East, Africa,
+                and Southeast Asia.
               </p>
             </div>
           </div>
@@ -140,12 +140,12 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Vinyl Flooring</h2>
                   <p>
-                    Natroyal Group manufactures high-quality PVC Vinyl Flooring
+                    Natroyal Group manufactures high-quality PVC vinyl flooring
                     ranging from 0.37mm to 3mm, designed for sectors such as
                     education, healthcare, residential, and transport. Under the
-                    brand “Nuplank,” they introduced India’s first Luxury Vinyl
-                    Planks (LVT) in 1.5mm and 2.0mm thickness, available in 6x36
-                    inch sizes.
+                    brand 'Nuplank,' we have introduced India's first Luxury
+                    Vinyl Plank & Tile (LVT) in 1.5mm and 2mm thicknesses,
+                    available in a 6-inch x 36-inch size.
                   </p>
 
                   <div className="arrow-div">
@@ -174,11 +174,11 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Luxury Vinyl Planks & Tiles (LVT)</h2>
                   <p>
-                    Natroyal Group (formerly Samsons Group) is a pioneer in
-                    India, leading the way in manufacturing and supplying luxury
-                    vinyl planks and tiles for a wide range of industries,
-                    including education, healthcare, residential, hospitality,
-                    office/retail, and transportation sectors.
+                    Natroyal Group (formerly known as Samsons Group) is a
+                    pioneer in India, leading the way in manufacturing and
+                    supplying Luxury Vinyl Plank & Tiles for a wide range of
+                    industries, including education, healthcare, residential,
+                    hospitality, office/retail, and transportation sectors.
                   </p>
 
                   <div className="arrow-div">
@@ -207,10 +207,10 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Coated Fabrics</h2>
                   <p>
-                    Manufactures coated fabrics (artificial leather, PVC/PU
-                    vinyl) in 0.7mm to 2mm thickness, widely used in home &
-                    office furnishings, automotive interiors, fashion
-                    accessories, footwear, and medical applications.
+                    We manufacture coated fabrics (artificial leather, PVC/PU
+                    vinyl) in thicknesses ranging from 0.7mm to 2mm, widely used
+                    in home and office furnishings, automotive interiors,
+                    fashion accessories, footwear, and medical applications.
                   </p>
 
                   <div className="arrow-div">
@@ -240,10 +240,11 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Seating Components</h2>
                   <p>
-                    The Seat Component Division produces frame fabrication, trim
-                    covers, and polyurethane foam for various seating needs,
-                    including automotive, cinema, auditorium, metro, bus, truck,
-                    and railway seats like driver’s and chair car seats.
+                    The Seating Component Division produces frame fabrication,
+                    trim covers, and polyurethane foam for various seating
+                    needs, including automotive, cinema, auditorium, metro, bus,
+                    truck, and railway seats, such as driver seats and chair car
+                    seats.
                   </p>
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
@@ -271,10 +272,10 @@ const AboutUs = () => {
                 <div className="company-text">
                   <h2>Knit Fabrics</h2>
                   <p>
-                    We are manufacturing technical textile circular and warp
-                    knit fabrics which is a key ingredient for making leather
-                    cloth/ coated fabrics and backing fabric for making
-                    automotive fabric with foaming technology.
+                    We manufacture technical textile circular and warp-knit
+                    fabrics, which are key ingredients in making leather
+                    cloth/coated fabrics and backing fabrics for automotive
+                    upholstery, utilizing foaming technology.
                   </p>
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
@@ -296,9 +297,9 @@ const AboutUs = () => {
               <h2 className="title new-title">Our Mission</h2>
 
               <p className="paragraph">
-                To deliver high-quality, innovative solutions that meet the
-                evolving needs of our customers while driving sustainable growth
-                and fostering long-term partnerships.
+                To deliver high-quality, innovative solutions that meet our
+                customers' evolving needs, drive sustainable growth, and foster
+                long-term partnerships.
               </p>
             </div>
 
@@ -313,8 +314,8 @@ const AboutUs = () => {
                       </div>
                       <h4>Customer-Centric Excellence</h4>
                       <p className="paragraph">
-                        Deliver high-quality, innovative solutions that meet
-                        customer needs.
+                        Deliver high-quality, innovative solutions that meet our
+                        customers' needs.
                       </p>
                     </div>
                   </div>
@@ -347,9 +348,10 @@ const AboutUs = () => {
               <h2 className="title new-title">Our Vision</h2>
 
               <p className="paragraph">
-                To be a global leader in flooring, coated fabrics, and seating,
-                known for our innovation, sustainability, and dedication to
-                customer satisfaction.
+                To be a global leader in Luxury Vinyl Plank & Tile, PVC vinyl
+                flooring, coated fabrics, and seating components, known for our
+                innovation, sustainability, and commitment to customer
+                satisfaction.
               </p>
             </div>
 

@@ -53,9 +53,9 @@ const Footer = () => {
 
           <div className="col-lg-6 mt-lg-0 mt-4">
             <p>
-              Natroyal Group is India’s leading manufacturer of Vinyl Flooring,
-              Coated Fabrics, Rigid Films, Circular and Warp Knitted Fabrics and
-              Seating Components.
+              Natroyal Group is India's leading manufacturer of Luxury Vinyl
+              Plank & Tile, PVC vinyl flooring, coated fabrics, and seating
+              components.
             </p>
           </div>
         </div>

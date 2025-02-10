@@ -410,11 +410,12 @@ const Company = () => {
                       VinyRoyal Plasticoates Private Limited (VPPL)
                     </h2>
                     <p className="paragraph">
-                      The pioneering entrepreneur of the group started the
-                      flagship company NLC in 1962. It is engaged in
+                      The pioneering entrepreneur of the group founded the
+                      flagship company NLC in 1962. It is engaged in the
                       manufacturing of Artificial Leathercloth and is one of the
-                      largest manufacturers in the world with installed capacity
-                      of 13.5 million square meters with 3 Coating lines.
+                      largest manufacturers in the world, with an installed
+                      capacity of 13.5 million square meters and 3 coating
+                      lines.
                     </p>
 
                     <div className="company-points">
@@ -422,31 +423,39 @@ const Company = () => {
                       <div className="company-point">
                         <i className="lni lni-arrow-right"></i>
                         <p>
-                          Specializes in Manufacturing PVC artificial leather to
-                          various Indian and International standards for
+                          Specializes in manufacturing PVC artificial leather to
+                          various Indian and international standards for
                           automobile seat upholstery and trims.
                         </p>
                       </div>
                       <div className="company-point">
                         <i className="lni lni-arrow-right"></i>
                         <p>
-                          Collection of designs in natural leather like grains
-                          and fabric type patterns in a wide range of colors.
+                          Offers a collection of designs in natural leather-like
+                          grains and fabric-type patterns in a wide range of
+                          colors.
                         </p>
                       </div>
                       <div className="company-point">
                         <i className="lni lni-arrow-right"></i>
                         <p>
-                          Choice of PVC Artificial, Leather with knit, woven and
-                          non woven backing fabric to suit a range of end uses.
+                          Provides a choice of PVC artificial leather with knit,
+                          woven, and non-woven backing fabrics to suit a variety
+                          of end uses.
                         </p>
                       </div>
                       <div className="company-point mb-5">
                         <i className="lni lni-arrow-right"></i>
                         <p>
-                          A well equipped laboratory for testing raw material
-                          and the finished products. Modern and well laid out
-                          plant for production and storage.
+                          Equipped with a well-established laboratory for
+                          testing raw materials and finished products.
+                        </p>
+                      </div>
+                      <div className="company-point mb-5">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          Features a modern and well-laid-out plant for
+                          production and storage.
                         </p>
                       </div>
                     </div>
@@ -491,9 +500,9 @@ const Company = () => {
                     <h2 className="title">Royal Cushion Vinyl Products Ltd.</h2>
                     <p className="paragraph">
                       Royal Cushion Vinyl Products Ltd. has two plants spread
-                      across 130 acres of land, at Garadia, Halol, Gujarat, for
-                      manufacturing of Vinyl Floorings of different types for
-                      various end-users and Rigid Films. RCVPL caters to
+                      across 130 acres of land at Garadia, Halol, Gujarat, for
+                      the manufacturing of vinyl floorings of various types for
+                      different end-users, as well as rigid films. RCVPL serves
                       customers in over 40 countries worldwide.
                     </p>
 
@@ -503,7 +512,7 @@ const Company = () => {
                         <i className="lni lni-arrow-right"></i>
                         <p>
                           To achieve customer satisfaction by providing
-                          international quality products in all our product
+                          international-quality products across all our product
                           ranges.
                         </p>
                       </div>
@@ -548,22 +557,23 @@ const Company = () => {
                     </h6>
                     <h2 className="title">Vijayjyot</h2>
                     <p className="paragraph">
-                      Vijayjyot seating components division is leading
-                      components manufacturer for Metro, Bus, Car, Cinema and
-                      Auditorium seats. The product line includes fabrication of
-                      Metal Frames (MS and SS), Polyurethane (PU) Foam and
-                      Upholstery / Trim Covers. We also manufacture and supply
-                      fully assembled Railway seats.
+                      Vijayjyot Seating Components Division is a leading
+                      manufacturer of components for metro, bus, car, cinema,
+                      and auditorium seats. The product line includes the
+                      fabrication of metal frames (MS and SS), polyurethane (PU)
+                      foam, and upholstery/trim covers. We also manufacture and
+                      supply fully assembled railway seats.
                     </p>
 
                     <p className="paragraph mb-5">
-                      Our seating components division provides one-stop solution
-                      to customers from design inception, proto-type sample,
-                      product development to commercial supplies. Facilities
-                      include Design center, Tool room, Weld shop with advanced
-                      technology like Multi Axis Bending Machine, Cutting &
-                      Sewing Machines and PU Machines. The plant is located in
-                      Halol, near Vadodara in state of Gujarat, INDIA.
+                      <strong>Our Seating Components Division</strong> provides
+                      a one-stop solution for customers, from design inception
+                      and prototype samples to product development and
+                      commercial supplies. Our facilities include a design
+                      center, tool room, weld shop, and advanced technology such
+                      as multi-axis bending machines, cutting and sewing
+                      machines, and PU machines. The plant is located in Halol,
+                      near Vadodara, in the state of Gujarat, India.
                     </p>
 
                     <NavLink
@@ -605,38 +615,33 @@ const Company = () => {
                     </h6>
                     <h2 className="title">Royal Knitting</h2>
                     <p className="paragraph">
-                      Initially Royal Knitting Pvt. Ltd [RKPL] established in
-                      1983, produced knitted fabrics to meet the in-house
-                      requirements for leathercloth backing, for our sister
-                      concern - National Leathercloth Mfg. Co. and Vinyroyal
-                      Plasticoates Pvt. Ltd. Today RKPL’s installed capacity
-                      stands at 175 tonnes/month of circular knitted fabrics and
-                      20 tonnes/month of warp knitted fabrics.
+                      Royal Knitting Pvt. Ltd. (RKPL), established in 1983,
+                      initially produced knitted fabrics to meet the in-house
+                      requirements for leathercloth backing for our sister
+                      concerns—National Leathercloth Mfg. Co. and Vinyroyal
+                      Plasticoates Pvt. Ltd. Today, RKPL boasts an installed
+                      capacity of 175 tonnes per month for circular knitted
+                      fabrics and 20 tonnes per month for warp-knitted fabrics.
                     </p>
 
                     <p className="paragraph">
-                      Only 30% of the capacity is utilized to make supplies to
-                      group company, 50% supplies are made to other local
-                      Artificial Leathercloth manufacturers & exports and
-                      remaining 20% supplies go to OE customers such as Melba,
-                      Faze 3, Reliance, Shamkeen. In OE the fabric is applied
-                      for back scrim application in automotive upholstery.
-                    </p>
-
-                    <p className="paragraph">
-                      Production facility consists of 28 circular knitting
-                      machines (Single Jersey, Terry, Interlock) of Mayer & Cie
-                      make, 4 Orizio make, 2 Taifan make and 1 Fukuhara.
-                    </p>
-
-                    <p className="paragraph">
-                      Warp Knitting machines of Karl Mayer; of which 2 are KS-3
-                      and 1 HKS-3M.
+                      Currently, only 30% of the capacity is utilized for
+                      supplies to group companies, 50% is supplied to other
+                      local artificial leathercloth manufacturers and for
+                      exports, while the remaining 20% is supplied to OE
+                      customers such as Melba, Faze 3, Reliance, and Shamkeen.
+                      In the OE segment, the fabric is used for back scrim
+                      applications in automotive upholstery.
                     </p>
 
                     <p className="paragraph mb-5">
-                      Raising machine of Daintipaolo. Future plans include
-                      setting up of in-house dyeing & finishing line.
+                      The production facility is equipped with 28 circular
+                      knitting machines (Single Jersey, Terry, Interlock) from
+                      Mayer & Cie, 4 from Orizio, 2 from Taifan, and 1 from
+                      Fukuhara. It also houses warp knitting machines from Karl
+                      Mayer, including 2 KS-3 and 1 HKS-3M, along with a raising
+                      machine from Daintipaolo. Future plans include setting up
+                      an in-house dyeing and finishing line.
                     </p>
 
                     <NavLink
