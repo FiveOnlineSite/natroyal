@@ -444,7 +444,7 @@ const Company = () => {
                           of end uses.
                         </p>
                       </div>
-                      <div className="company-point mb-5">
+                      <div className="company-point">
                         <i className="lni lni-arrow-right"></i>
                         <p>
                           Equipped with a well-established laboratory for
