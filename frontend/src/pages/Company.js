@@ -393,7 +393,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/interior-boat.png"
+                      src="/images/banners/3d-contemporary-living-room-interior-modern-furniture.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
@@ -402,6 +402,65 @@ const Company = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5 order-lg-1 order-2">
+                  <div className="companies-content">
+                    <h6 className="subtitle">
+                      PVC Vinyl Flooring <span></span>
+                    </h6>
+                    <h2 className="title">Royal Cushion Vinyl Products Ltd.</h2>
+                    <p className="paragraph">
+                      Royal Cushion Vinyl Products Ltd. has two plants spread
+                      across 130 acres of land at Garadia, Halol, Gujarat, for
+                      the manufacturing of vinyl floorings of various types for
+                      different end-users, as well as rigid films. RCVPL serves
+                      customers in over 40 countries worldwide.
+                    </p>
+
+                    <div className="company-points">
+                      <h5>Quality Policy</h5>
+                      <div className="company-point mb-5">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          To achieve customer satisfaction by providing
+                          international-quality products across all our product
+                          ranges.
+                        </p>
+                      </div>
+                    </div>
+
+                    <NavLink
+                      to="/"
+                      target="_blank"
+                      className="custom-button border-btn"
+                    >
+                      View More
+                      <img
+                        src="/images/icons/arrow-up-right.png"
+                        className="ps-2"
+                        alt="arrow"
+                      />
+                    </NavLink>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row company-row">
+            <div className="col-lg-12">
+              <div className="row mt-5 align-items-center justify-content-center">
+                <div className="col-lg-6 company-bg">
+                  <div className="company-img">
+                    <img
+                      src="/images/banners/interior-boat.png"
+                      alt="company-img"
+                    />
+
+                    <div className="logo-gray-div">
+                      <img src="/images/icons/image 21.png" alt="logo" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
                   <div className="companies-content">
                     <h6 className="subtitle">
                       Coated Fabrics<span></span>
@@ -456,64 +515,6 @@ const Company = () => {
                         <p>
                           Features a modern and well-laid-out plant for
                           production and storage.
-                        </p>
-                      </div>
-                    </div>
-
-                    <NavLink
-                      to="/"
-                      target="_blank"
-                      className="custom-button border-btn"
-                    >
-                      View More
-                      <img
-                        src="/images/icons/arrow-up-right.png"
-                        className="ps-2"
-                        alt="arrow"
-                      />
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="row company-row">
-            <div className="col-lg-12">
-              <div className="row mt-5 align-items-center justify-content-center">
-                <div className="col-lg-6 company-bg">
-                  <div className="company-img">
-                    <img
-                      src="/images/banners/3d-contemporary-living-room-interior-modern-furniture.png"
-                      alt="company-img"
-                    />
-                    <div className="logo-gray-div">
-                      <img src="/images/icons/image 21.png" alt="logo" />
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
-                  <div className="companies-content">
-                    <h6 className="subtitle">
-                      PVC Vinyl Flooring <span></span>
-                    </h6>
-                    <h2 className="title">Royal Cushion Vinyl Products Ltd.</h2>
-                    <p className="paragraph">
-                      Royal Cushion Vinyl Products Ltd. has two plants spread
-                      across 130 acres of land at Garadia, Halol, Gujarat, for
-                      the manufacturing of vinyl floorings of various types for
-                      different end-users, as well as rigid films. RCVPL serves
-                      customers in over 40 countries worldwide.
-                    </p>
-
-                    <div className="company-points">
-                      <h5>Quality Policy</h5>
-                      <div className="company-point mb-5">
-                        <i className="lni lni-arrow-right"></i>
-                        <p>
-                          To achieve customer satisfaction by providing
-                          international-quality products across all our product
-                          ranges.
                         </p>
                       </div>
                     </div>
