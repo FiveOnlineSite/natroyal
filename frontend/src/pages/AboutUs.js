@@ -132,7 +132,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/white-desk-art-supplies.png"
+                    src="/images/banners/living-room (2).png"
                     alt="company"
                     className="w-100"
                   />

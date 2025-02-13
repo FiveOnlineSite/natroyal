@@ -55,12 +55,12 @@ const Home = () => {
     {
       videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
-      text: "Natroyal Group: Elevate Spaces with Premium Vinyl Flooring",
+      text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/cute-girl-reading-table.png",
-      text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
+      text: "Natroyal Group: Elevate Spaces with Premium Vinyl Flooring",
     },
     {
       // videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
@@ -75,6 +75,11 @@ const Home = () => {
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/living-room-with-nobody-it.png",
+      text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
+    },
+    {
+      // videoUrl: "/videos/1103522677-preview.mp4",
+      image: "/images/banners/bigbannernew2.png",
       text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
     },
   ];
