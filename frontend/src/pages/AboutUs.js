@@ -53,7 +53,7 @@ const AboutUs = () => {
             <div className="col-lg-7 mt-lg-0 mt-5">
               <div className="about-content-img">
                 <img
-                  src="/images/banners/pexels-digitalbuggu-365066.png"
+                  src="/images/banners/interior-design-with-yoga-mat-floor.png"
                   alt="about-content"
                   className="w-100"
                 />
@@ -132,7 +132,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/pexels-digitalbuggu-326862.png"
+                    src="/images/banners/white-desk-art-supplies.png"
                     alt="company"
                     className="w-100"
                   />
@@ -166,7 +166,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/mariia-savchenko-2ncdkwsSFrE-unsplash.png"
+                    src="/images/banners/laptop-table-modern-living-room-interior-design-concept.png"
                     alt="company"
                     className="w-100"
                   />
@@ -199,7 +199,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/leather-540142_1920.png"
+                    src="/images/banners/small-juvenile-bedroom-arrangement.png"
                     alt="company"
                     className="w-100"
                   />
@@ -232,7 +232,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/al-nik-J5XqX-qvEZE-unsplash.png"
+                    src="/images/banners/pexels-mikebirdy-11790201.png"
                     alt="company"
                     className="w-100"
                   />

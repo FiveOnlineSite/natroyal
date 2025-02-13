@@ -345,7 +345,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/pexels-heyho-6489108.png"
+                      src="/images/banners/working-from-home-ergonomic-workstation.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
@@ -393,7 +393,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/pexels-charlotte-may-5825543.png"
+                      src="/images/banners/interior-boat.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
@@ -484,7 +484,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/austin-park-7UqGdTdUin4-unsplash.png"
+                      src="/images/banners/3d-contemporary-living-room-interior-modern-furniture.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
@@ -542,7 +542,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/pexels-moonlightshotz-11139348.png"
+                      src="/images/banners/pexels-kipras-zabeliauskas-1607943-5704261.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
