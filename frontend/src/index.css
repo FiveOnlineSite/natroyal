@@ -1170,8 +1170,8 @@ body {
 
 .whatsapp-icon {
   position: fixed;
-  bottom: 8%;
-  right: 4%;
+  bottom: 30px;
+  right: 30px;
   background-color: var(--whatsapp-bg);
   padding: 10px;
   border-radius: 50%;
