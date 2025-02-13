@@ -623,6 +623,29 @@ body {
   transition: transform 0.2s ease-in-out;
   display: block;
   animation: 1s infinite pulse;
+  position: absolute;
+  top: 50%; /* Adjust the positioning of the pin */
+  left: 50%; /* Adjust the positioning of the pin */
+  transform: translate(-50%, -50%);
+}
+
+.map-pin-container {
+  position: relative;
+}
+
+.map-div {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 30px; /* Adjust position relative to the map pin */
+  background-color: white; /* Background for the map info box */
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.map-pin-container:hover .map-div {
+  display: block;
 }
 
 .map-tabs {

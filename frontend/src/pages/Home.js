@@ -491,7 +491,12 @@ const Home = () => {
                             className="location-div"
                             style={{ position: "absolute" }}
                           >
-                            <div className="map-pin"></div>
+                            <div className="map-pin-container">
+                              <div className="map-pin"></div>
+                              <div className="map-div">
+                                <h6>Maharashtra</h6>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -520,7 +525,12 @@ const Home = () => {
                             className="location-div"
                             style={{ position: "absolute" }}
                           >
-                            <div className="map-pin"></div>
+                            <div className="map-pin-container">
+                              <div className="map-pin"></div>
+                              <div className="map-div">
+                                <h6>Africa</h6>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
