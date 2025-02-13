@@ -74,11 +74,6 @@ const Home = () => {
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
-      image: "/images/banners/living-room-with-nobody-it.png",
-      text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
-    },
-    {
-      // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/bigbannernew2.png",
       text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
     },
