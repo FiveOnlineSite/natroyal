@@ -494,7 +494,7 @@ const Home = () => {
                             <div className="map-pin-container">
                               <div className="map-pin"></div>
                               <div className="map-div">
-                                <h6>Maharashtra</h6>
+                                <h6>Mumbai</h6>
                               </div>
                             </div>
                           </div>
