@@ -53,29 +53,28 @@ const Home = () => {
 
   const bannerData = [
     {
-      videoUrl:
-        "/videos/vecteezy_a-wide-empty-room-with-wooden-floor-and-white-wall_2018264.mov",
-      poster: "/images/banners/pexels-digitalbuggu-218535.png",
+      videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
+      // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Natroyal Group: Elevate Spaces with Premium Vinyl Flooring",
     },
     {
-      videoUrl: "/videos/1103522677-preview.mp4",
-      poster: "/images/banners/l-r-agcTGM582Uo-unsplash.png",
+      // videoUrl: "/videos/1103522677-preview.mp4",
+      image: "/images/banners/cute-girl-reading-table.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
     },
     {
-      videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
-      poster: "/images/banners/elimende-inagella-hO4AGt3czSQ-unsplash.png",
+      // videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
+      image: "/images/banners/table-two-persons-with-rose-leafs (1).png",
       text: "Natroyal Group: Superior Coated Fabrics for All Your Furniture Needs",
     },
     {
-      videoUrl: "/videos/1103522677-preview.mp4",
-      poster: "/images/banners/nikola-johnny-mirkovic-nBD3KFnUm5M-unsplash.png",
+      // videoUrl: "/videos/1103522677-preview.mp4",
+      image: "/images/banners/pexels-ammy-k-106103999-12369543.png",
       text: "Natroyal Group: High-Quality Seating Components for Ultimate Comfort",
     },
     {
-      videoUrl: "/videos/1103522677-preview.mp4",
-      poster: "/images/banners/moonstarious-project-R2Z3xE7nsB8-unsplash.png",
+      // videoUrl: "/videos/1103522677-preview.mp4",
+      image: "/images/banners/living-room-with-nobody-it.png",
       text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
     },
   ];
@@ -110,26 +109,28 @@ const Home = () => {
 
   const productsData = [
     {
-      image: "/images/banners/pexels-heyho-7031828.png",
+      image: "/images/banners/casual-girl-surfing-laptop-home.png",
       title: "Vinly Flooring",
       content:
         "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more.",
     },
     {
-      image: "/images/banners/pexels-fwstudio-33348-129731.png",
+      image:
+        "/images/banners/beautiful-luxury-pillow-sofa-decoration-livingroom-interior-background.png",
       title: "Luxury Vinyl Planks & Tiles (LVT)",
       content:
         "LVT provide a durable, stylish, and low-maintenance flooring option ideal for various sectors like education, healthcare, and retail.",
     },
     {
-      image: "/images/banners/kelly-sikkema-qATevUkntlo-unsplash.png",
+      image:
+        "/images/banners/wooden-chairs-tables-with-flowers-lanterns-top-boat.png",
       title: "Coated Fabrics",
       content:
         "Coated fabrics offer durability, water resistance, and versatility for applications like upholstery and outdoor furniture.",
     },
 
     {
-      image: "/images/banners/alessia-c_jpg-cGNVTBcP7vY-unsplash.png",
+      image: "/images/banners/pexels-mikebirdy-1633602.png",
       title: "Seating Components",
       content:
         "Seating components provide comfort, durability, and support for various furniture applications.",
@@ -228,16 +229,16 @@ const Home = () => {
               <div className="border-box-1"></div>
               <div className="border-box-2"></div>
               <img
-                src="/images/banners/pexels-heyho-7214329.png"
+                src="/images/banners/beautiful-woman-using-laptop.png"
                 alt="about-img"
               />
               <img
-                src="/images/banners/pexels-skylar-kang-6044919.png"
+                src="/images/banners/interior-view-boat.png"
                 alt="about-img"
               />
 
               <img
-                src="/images/banners/pexels-lynxexotics-3954434.png"
+                src="/images/banners/pexels-ammy-k-106103999-9552475.png"
                 alt="about-img"
               />
               <img
