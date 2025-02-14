@@ -393,7 +393,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/3d-contemporary-living-room-interior-modern-furniture.png"
+                      src="/images/banners/jurre-houtkamp-610ZXDQRt0Y-unsplash.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
