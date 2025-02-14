@@ -122,7 +122,8 @@ body {
   left: 0%;
   transform: translate(0%, -50%);
   width: 70%;
-  padding-left: 8%;
+  /* padding-left: 8%; */
+  padding: 0 10%;
   display: block;
   height: auto;
 }
@@ -1462,10 +1463,6 @@ body {
   .poster-image,
   .video-element {
     height: 82vh;
-  }
-
-  .banner-text {
-    top: 3%;
   }
 
   .banner-text h1 {
