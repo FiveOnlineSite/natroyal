@@ -309,6 +309,22 @@ body {
   font-size: 18px;
 }
 
+.fb-logo {
+  color: #415ca0 !important;
+}
+
+.linkedin-logo {
+  color: #0073b1 !important;
+}
+
+.youtube-logo {
+  color: rgb(247 0 0) !important;
+}
+
+.instagram-logo {
+  color: #a010ce !important;
+}
+
 .about-us-section {
   padding: 70px 0;
 }
@@ -1017,6 +1033,10 @@ body {
   padding: 10px;
 }
 
+.mission-div .paragraph {
+  min-height: 85px;
+}
+
 .mission-img {
   padding: 25px 0 30px 0;
   color: var(--dark-gray-font);
@@ -1322,6 +1342,10 @@ body {
 
   .overlay-text {
     width: 70%;
+  }
+
+  .mission-div .paragraph {
+    min-height: 0;
   }
 }
 

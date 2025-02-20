@@ -451,7 +451,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/interior-boat.png"
+                      src="/images/banners/beautiful-embankment-walking-sport-amara-dolce-vita-luxury-hotel-alanya-turkey.png"
                       alt="company-img"
                     />
 
@@ -543,7 +543,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/pexels-kipras-zabeliauskas-1607943-5704261.png"
+                      src="/images/banners/pexels-zandatsu-17455629.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">

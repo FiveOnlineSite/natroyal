@@ -57,25 +57,22 @@ const Home = () => {
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
     },
-    {
-      // videoUrl: "/videos/1103522677-preview.mp4",
-      image: "/images/banners/cute-girl-reading-table.png",
-      text: "Natroyal Group: Elevate Spaces with Premium Vinyl Flooring",
-    },
+
     {
       // videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
-      image: "/images/banners/table-two-persons-with-rose-leafs (1).png",
-      text: "Natroyal Group: Superior Coated Fabrics for All Your Furniture Needs",
+      image:
+        "/images/banners/modern-spacious-room-with-large-panoramic-window.png",
+      text: "Premium Coated Fabrics – Durable, Stylish, and Made to Last!",
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/pexels-ammy-k-106103999-12369543.png",
-      text: "Natroyal Group: High-Quality Seating Components for Ultimate Comfort",
+      text: " Comfort Meets Innovation – Explore Our Premium Seating Components!",
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/bigbannernew2.png",
-      text: "Natroyal Group: Premium Knitted Fabrics for Style and Durability",
+      text: "Where Softness Meets Strength – Premium Knitted Fabrics for Every Need!",
     },
   ];
 
@@ -122,15 +119,14 @@ const Home = () => {
         "LVT provide a durable, stylish, and low-maintenance flooring option ideal for various sectors like education, healthcare, and retail.",
     },
     {
-      image:
-        "/images/banners/wooden-chairs-tables-with-flowers-lanterns-top-boat.png",
+      image: "/images/banners/pexels-mikebirdy-1633602.png",
       title: "Coated Fabrics",
       content:
         "Coated fabrics offer durability, water resistance, and versatility for applications like upholstery and outdoor furniture.",
     },
 
     {
-      image: "/images/banners/pexels-mikebirdy-1633602.png",
+      image: "/images/banners/pexels-kenzero14-20849161.png",
       title: "Seating Components",
       content:
         "Seating components provide comfort, durability, and support for various furniture applications.",
@@ -225,7 +221,7 @@ const Home = () => {
       <section className="about-us-section">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 about-img-div">
+            {/* <div className="col-lg-6 about-img-div">
               <div className="border-box-1"></div>
               <div className="border-box-2"></div>
               <img
@@ -245,8 +241,8 @@ const Home = () => {
                 src="/images/banners/pexels-karolina-grabowska-6276068.png"
                 alt="about-img"
               />
-            </div>
-            <div className="col-lg-6 ps-lg-5 ps-auto mt-lg-0 mt-5">
+            </div> */}
+            <div className="col-lg-10 mt-lg-0 mt-5">
               <h6 className="subtitle">
                 About Us <span></span>
               </h6>
@@ -407,7 +403,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="subdivision-section">
+      {/* <section className="subdivision-section">
         <div className="container">
           <div className="subdivision-div">
             <h6 className="subtitle text-center">
@@ -431,7 +427,7 @@ const Home = () => {
             ></SectionSlider>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="map-section">
         <div className="container">

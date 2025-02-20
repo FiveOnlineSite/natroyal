@@ -232,7 +232,7 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/pexels-mikebirdy-11790201.png"
+                    src="/images/banners/pexels-emmanuel-codden-1502600-18362051.png"
                     alt="company"
                     className="w-100"
                   />

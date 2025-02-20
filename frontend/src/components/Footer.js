@@ -68,7 +68,7 @@ const Footer = () => {
                   to="https://www.facebook.com/NatroyalGroup/"
                   target="_blank"
                 >
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-facebook-f fb-logo"></i>
                 </NavLink>
               </li>
               <li>
@@ -81,7 +81,7 @@ const Footer = () => {
                   to="https://www.linkedin.com/company/natroyal-group"
                   target="_blank"
                 >
-                  <i class="fa-brands fa-linkedin-in"></i>
+                  <i class="fa-brands fa-linkedin-in linkedin-logo"></i>
                 </NavLink>
               </li>
               <li>
@@ -89,12 +89,12 @@ const Footer = () => {
                   to="https://www.youtube.com/@NatroyalGroup"
                   target="_blank"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-youtube youtube-logo"></i>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="https://www.instagram.com/natroyalgroup/?hl=en">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-instagram instagram-logo"></i>
                 </NavLink>
               </li>
             </ul>
