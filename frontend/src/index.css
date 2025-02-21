@@ -1286,7 +1286,7 @@ body {
 .company-point {
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: start;
 }
 
 .company-point i {
