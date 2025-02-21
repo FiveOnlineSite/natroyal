@@ -220,7 +220,7 @@ const Home = () => {
 
       <section className="about-us-section">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row align-items-center justify-content-center">
             {/* <div className="col-lg-6 about-img-div">
               <div className="border-box-1"></div>
               <div className="border-box-2"></div>
