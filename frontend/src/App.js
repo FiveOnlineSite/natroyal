@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/companies" element={<Company />} />
+        <Route path="/our-divisions" element={<Company />} />
       </Routes>
       <FloatingWhatsapp />
     </Router>

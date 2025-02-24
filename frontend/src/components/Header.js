@@ -113,10 +113,10 @@ const Header = () => {
               <li className="nav-item">
                 <NavLink
                   className="nav-link"
-                  to="/companies"
+                  to="/our-divisions"
                   onClick={closeOffcanvas}
                 >
-                  Companies
+                  Our Divisions
                 </NavLink>
               </li>
               <li className="nav-item">

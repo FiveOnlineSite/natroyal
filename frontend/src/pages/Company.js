@@ -10,7 +10,7 @@ const Company = () => {
     title: "Our Divisions",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
-      { label: "Companies", path: null, active: true },
+      { label: "Our Divisions", path: null, active: true },
     ],
   };
   return (
