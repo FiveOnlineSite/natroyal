@@ -6,8 +6,8 @@ import Clients from "../components/Clients";
 
 const Company = () => {
   const bannerData = {
-    bannerImg: "/images/banners/pexels-heyho-6523302.png",
-    title: "Companies",
+    bannerImg: "/images/banners/Residential-banner (2).png",
+    title: "Our Divisions",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
       { label: "Companies", path: null, active: true },
@@ -345,11 +345,11 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/working-from-home-ergonomic-workstation.png"
+                      src="/images/banners/jurre-houtkamp-610ZXDQRt0Y-unsplash.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
-                      <img src="/images/icons/image 20.png" alt="logo" />
+                      <img src="/images/icons/Royal House.png" alt="logo" />
                       {/* <h2>LVT</h2> */}
                     </div>
                   </div>
@@ -393,11 +393,11 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/jurre-houtkamp-610ZXDQRt0Y-unsplash.png"
+                      src="/images/banners/Residential-banner (1).png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
-                      <img src="/images/icons/image 20.png" alt="logo" />
+                      <img src="/images/icons/Royal House.png" alt="logo" />
                     </div>
                   </div>
                 </div>
@@ -451,12 +451,12 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/beautiful-embankment-walking-sport-amara-dolce-vita-luxury-hotel-alanya-turkey.png"
+                      src="/images/banners/pexels-zandatsu-17455629.png"
                       alt="company-img"
                     />
 
                     <div className="logo-gray-div">
-                      <img src="/images/icons/image 21.png" alt="logo" />
+                      <img src="/images/icons/Royal Touch.png" alt="logo" />
                     </div>
                   </div>
                 </div>
@@ -543,11 +543,11 @@ const Company = () => {
                 <div className="col-lg-6 company-bg order-lg-2 order-1">
                   <div className="company-img">
                     <img
-                      src="/images/banners/pexels-zandatsu-17455629.png"
+                      src="/images/banners/Residential-banner (4).png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
-                      <img src="/images/icons/image 22.png" alt="logo" />
+                      <img src="/images/icons/Vijayjyot.png" alt="logo" />
                     </div>
                   </div>
                 </div>
@@ -601,11 +601,11 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/parsa-farjam-Koup40gBe98-unsplash.png"
+                      src="/images/banners/Residential-banner (3).png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
-                      <img src="/images/icons/image 23.png" alt="logo" />
+                      <img src="/images/icons/Royal Knit.png" alt="logo" />
                     </div>
                   </div>
                 </div>

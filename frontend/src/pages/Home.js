@@ -60,13 +60,12 @@ const Home = () => {
 
     {
       // videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
-      image:
-        "/images/banners/modern-spacious-room-with-large-panoramic-window.png",
+      image: "/images/banners/pexels-ammy-k-106103999-12369543.png",
       text: "Premium Coated Fabrics – Durable, Stylish, and Made to Last!",
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
-      image: "/images/banners/pexels-ammy-k-106103999-12369543.png",
+      image: "/images/banners/pexels-markus-winkler-1430818-3683675.png",
       text: " Comfort Meets Innovation – Explore Our Premium Seating Components!",
     },
     {

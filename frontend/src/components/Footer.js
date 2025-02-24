@@ -72,8 +72,8 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="https://x.com/NatroyalGroup" target="_blank">
-                  <i class="fa-brands fa-x-twitter"></i>
+                <NavLink to="https://www.instagram.com/natroyalgroup/?hl=en">
+                  <i class="fa-brands fa-instagram instagram-logo"></i>
                 </NavLink>
               </li>
               <li>
@@ -93,8 +93,8 @@ const Footer = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="https://www.instagram.com/natroyalgroup/?hl=en">
-                  <i class="fa-brands fa-instagram instagram-logo"></i>
+                <NavLink to="https://x.com/NatroyalGroup" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
                 </NavLink>
               </li>
             </ul>

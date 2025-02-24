@@ -22,7 +22,7 @@ const Header = () => {
         <div className="companies">
           <NavLink to="/" className="company-div">
             <img
-              src="/images/icons/image 44.png"
+              src="/images/icons/Royal House.png"
               height={"49.29px"}
               width={"75px"}
               alt="company"
@@ -32,7 +32,7 @@ const Header = () => {
 
           <NavLink to="/" className="company-div">
             <img
-              src="/images/icons/image 45.png"
+              src="/images/icons/Royal Touch.png"
               height={"50px"}
               width={"75px"}
               alt="company"
@@ -42,7 +42,7 @@ const Header = () => {
 
           <NavLink to="/" className="company-div">
             <img
-              src="/images/icons/image 46.png"
+              src="/images/icons/Vijayjyot.png"
               height={"32px"}
               width={"120px"}
               alt="company"
@@ -52,7 +52,7 @@ const Header = () => {
 
           <NavLink to="/" className="company-div">
             <img
-              src="/images/icons/image 47.png"
+              src="/images/icons/Royal Knit.png"
               height={"50px"}
               width={"75px"}
               alt="company"
