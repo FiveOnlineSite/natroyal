@@ -65,7 +65,7 @@ const Home = () => {
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
-      image: "/images/banners/pexels-markus-winkler-1430818-3683675.png",
+      image: "/images/banners/pexels-la-son-211137-4004373.png",
       text: " Comfort Meets Innovation – Explore Our Premium Seating Components!",
     },
     {
@@ -428,7 +428,7 @@ const Home = () => {
         </div>
       </section> */}
 
-      <section className="map-section">
+      {/* <section className="map-section">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
@@ -528,6 +528,101 @@ const Home = () => {
                             </div>
                           </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="map-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <h6 className="subtitle text-center">
+                We Are Set At <span></span>
+              </h6>
+              <h2 className="title new-title">Nationwide & Beyond</h2>
+
+              <p className="paragraph">
+                With a presence in 10+ countries, we are trusted globally for
+                delivering exceptional quality, innovative solutions, and
+                unmatched reliability.
+              </p>
+            </div>
+            <div className="col-lg-7">
+              <div className="map-tabs">
+                <button
+                  className={`tab-link ${
+                    activeTab === "pan-india" ? "active" : ""
+                  }`}
+                  onClick={() => setActiveTab("pan-india")}
+                >
+                  Pan India <i className="lni lni-arrow-angular-top-right"></i>
+                </button>
+                <button
+                  className={`tab-link ${
+                    activeTab === "other-countries" ? "active" : ""
+                  }`}
+                  onClick={() => setActiveTab("other-countries")}
+                >
+                  Other Countries{" "}
+                  <i className="lni lni-arrow-angular-top-right"></i>
+                </button>
+              </div>
+              <div className="tab-content">
+                {activeTab === "pan-india" && (
+                  <div
+                    className={`tab-pane ${
+                      activeTab === "pan-india" ? "show active" : ""
+                    }`}
+                  >
+                    <div className="row px-4">
+                      <div className="single-location mt-5">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Vadodara (Baroda), Gujarat</h5>
+                      </div>
+                      <div className="single-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Mumbai, Maharashtra</h5>
+                      </div>
+                    </div>
+                  </div>
+                )}
+
+                {activeTab === "other-countries" && (
+                  <div
+                    className={`tab-pane ${
+                      activeTab === "other-countries" ? "show active" : ""
+                    }`}
+                  >
+                    <div className="row px-4">
+                      <div className="single-location mt-5">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Europe</h5>
+                      </div>
+                      <div className="single-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>USA</h5>
+                      </div>
+                      <div className="single-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Russia</h5>
+                      </div>
+                      <div className="single-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Middle East</h5>
+                      </div>
+                      <div className="single-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>Africa</h5>
+                      </div>
+                      <div className="single-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5>South East Asia</h5>
                       </div>
                     </div>
                   </div>

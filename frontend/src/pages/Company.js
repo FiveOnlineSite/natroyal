@@ -451,7 +451,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/pexels-zandatsu-17455629.png"
+                      src="/images/banners/Flux_Dev_A_luxurious_marine_boat_sofa_adorned_with_a_plush_whi_0.png"
                       alt="company-img"
                     />
 

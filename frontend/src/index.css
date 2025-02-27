@@ -676,7 +676,8 @@ body {
 }
 
 .map-tabs {
-  width: 80%;
+  width: 100%;
+  display: flex;
 }
 
 .map-tabs button {
@@ -688,7 +689,7 @@ body {
   line-height: 30.43px;
   text-align: left;
   color: var(--dark-gray-font);
-  padding: 25px 0;
+  padding: 25px 20px;
   background-color: transparent;
   border: none;
   width: 100%;
@@ -697,6 +698,24 @@ body {
 .map-tabs .tab-link.active i,
 .map-tabs .tab-link:hover i {
   color: var(--dark-yellow-font);
+}
+
+.map-tabs .tab-link.active {
+  border-bottom: 1px solid var(--black-font);
+}
+
+.single-location {
+  display: flex;
+  align-items: baseline;
+  padding: 10px 20px;
+  /* border-bottom: 1px solid var(--gray-font); */
+  width: 100%;
+}
+
+.single-location i {
+  padding-right: 10px;
+  font-size: 20px;
+  color: var(--gray-font);
 }
 
 .map-tabs i,
@@ -729,10 +748,6 @@ body {
 
 .about-points:hover i {
   color: var(--dark-yellow-font);
-}
-
-.map-tabs button:first-child {
-  border-bottom: 1px solid var(--black-font);
 }
 
 .location {
