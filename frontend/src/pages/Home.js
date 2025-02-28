@@ -554,34 +554,16 @@ const Home = () => {
               </p>
             </div>
             <div className="col-lg-7">
-              <div className="map-tabs">
-                <button
-                  className={`tab-link ${
-                    activeTab === "pan-india" ? "active" : ""
-                  }`}
-                  onClick={() => setActiveTab("pan-india")}
-                >
-                  Pan India <i className="lni lni-arrow-angular-top-right"></i>
-                </button>
-                <button
-                  className={`tab-link ${
-                    activeTab === "other-countries" ? "active" : ""
-                  }`}
-                  onClick={() => setActiveTab("other-countries")}
-                >
-                  Other Countries{" "}
-                  <i className="lni lni-arrow-angular-top-right"></i>
-                </button>
-              </div>
-              <div className="tab-content">
-                {activeTab === "pan-india" && (
-                  <div
-                    className={`tab-pane ${
-                      activeTab === "pan-india" ? "show active" : ""
-                    }`}
-                  >
-                    <div className="row px-4">
-                      <div className="single-location mt-5">
+              <div className="row mt-lg-0 mt-md-5 mt-5">
+                <div className="col-lg-6 col-md-6 col-12">
+                  <div className="map-tabs">
+                    <div className="tab-link d-flex align-items-center justify-content-start">
+                      <h5>Pan India </h5>
+                      <i className="lni lni-arrow-angular-top-right ms-3"></i>
+                    </div>
+
+                    <div className="row">
+                      <div className="single-location">
                         <i class="fa-solid fa-location-dot"></i>
                         <h5>Vadodara (Baroda), Gujarat</h5>
                       </div>
@@ -591,16 +573,16 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                )}
+                </div>
+                <div className="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-5">
+                  <div className="map-tabs">
+                    <div className="tab-link d-flex align-items-center justify-content-start">
+                      <h5>Other Countries</h5>
+                      <i className="lni lni-arrow-angular-top-right ms-3"></i>
+                    </div>
 
-                {activeTab === "other-countries" && (
-                  <div
-                    className={`tab-pane ${
-                      activeTab === "other-countries" ? "show active" : ""
-                    }`}
-                  >
-                    <div className="row px-4">
-                      <div className="single-location mt-5">
+                    <div className="row">
+                      <div className="single-location">
                         <i class="fa-solid fa-location-dot"></i>
                         <h5>Europe</h5>
                       </div>
@@ -626,7 +608,7 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
-                )}
+                </div>
               </div>
             </div>
           </div>

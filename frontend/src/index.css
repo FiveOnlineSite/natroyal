@@ -677,12 +677,11 @@ body {
 
 .map-tabs {
   width: 100%;
-  display: flex;
 }
 
 .map-tabs button {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
   font-size: 24px;
   font-weight: 400;
@@ -713,9 +712,10 @@ body {
 }
 
 .single-location i {
-  padding-right: 10px;
+  padding-right: 20px;
   font-size: 20px;
-  color: var(--gray-font);
+  color: var(--gray-font) !important;
+  background-color: transparent !important;
 }
 
 .map-tabs i,
