@@ -125,7 +125,7 @@ const Home = () => {
     },
 
     {
-      image: "/images/banners/natroyal vidhyjyot chair copy1.png",
+      image: "/images/banners/seating-component.png",
       title: "Seating Components",
       content:
         "Seating components provide comfort, durability, and support for various furniture applications.",
