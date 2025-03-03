@@ -690,10 +690,13 @@ body {
   color: var(--dark-gray-font);
   padding: 25px 20px;
   background-color: transparent;
-  border: none;
+  border-bottom: 0.5px solid var(--gray-font);
   width: 100%;
 }
 
+.map-tabs .tab-link {
+  border-bottom: 0.5px solid var(--gray-font);
+}
 .map-tabs .tab-link.active i,
 .map-tabs .tab-link:hover i {
   color: var(--dark-yellow-font);

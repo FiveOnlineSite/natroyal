@@ -125,7 +125,7 @@ const Home = () => {
     },
 
     {
-      image: "/images/banners/pexels-kenzero14-20849161.png",
+      image: "/images/banners/NR SCD PPT 2024_048 1.png",
       title: "Seating Components",
       content:
         "Seating components provide comfort, durability, and support for various furniture applications.",
@@ -559,10 +559,10 @@ const Home = () => {
                   <div className="map-tabs">
                     <div className="tab-link d-flex align-items-center justify-content-start">
                       <h5>Pan India </h5>
-                      <i className="lni lni-arrow-angular-top-right ms-3"></i>
+                      {/* <i className="lni lni-arrow-angular-top-right ms-3"></i> */}
                     </div>
 
-                    <div className="row">
+                    <div className="row mt-4">
                       <div className="single-location">
                         <i class="fa-solid fa-location-dot"></i>
                         <h5>Vadodara (Baroda), Gujarat</h5>
@@ -578,10 +578,10 @@ const Home = () => {
                   <div className="map-tabs">
                     <div className="tab-link d-flex align-items-center justify-content-start">
                       <h5>Other Countries</h5>
-                      <i className="lni lni-arrow-angular-top-right ms-3"></i>
+                      {/* <i className="lni lni-arrow-angular-top-right ms-3"></i> */}
                     </div>
 
-                    <div className="row">
+                    <div className="row mt-4">
                       <div className="single-location">
                         <i class="fa-solid fa-location-dot"></i>
                         <h5>Europe</h5>
