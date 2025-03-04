@@ -28,9 +28,9 @@ const AboutUs = () => {
               <div className="about-content">
                 <div>
                   <p className="paragraph">
-                    Since 1962, Natroyal Group (formerly Samsons Group) has been
-                    a pioneer in India, specializing in manufacturing,
-                    exporting, and supplying high-quality products, including:
+                    Since 1962, Natroyal Group has been a pioneer in India,
+                    specializing in manufacturing, exporting, and supplying
+                    high-quality products, including:
                   </p>
                 </div>
                 <p className="paragraph">
@@ -45,7 +45,7 @@ const AboutUs = () => {
                   operates from Mumbai, India. Through an extensive network of
                   distributors and retailers, our products are available across
                   India. Furthermore, we proudly export to and enjoy wide
-                  acceptance in Europe, the USA, Russia, the Middle East,
+                  acceptance in Europe, the USA, South America, the Middle East,
                   Africa, and Southeast Asia.
                 </p>
               </div>
