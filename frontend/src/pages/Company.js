@@ -362,11 +362,10 @@ const Company = () => {
                     <h2 className="title">Luxury Vinyl Plank & Tiles (LVT)</h2>
 
                     <p className="paragraph mb-5">
-                      Natroyal Group (formerly Samsons Group) is a pioneer in
-                      India, manufacturing and supplying luxury vinyl planks and
-                      tiles for various industries, including education,
-                      healthcare, residential, hospitality, office/retail, and
-                      transportation sectors.
+                      Natroyal Group is a pioneer in India, manufacturing and
+                      supplying luxury vinyl planks and tiles for various
+                      industries, including education, healthcare, residential,
+                      hospitality, office/retail, and transportation sectors.
                     </p>
 
                     <NavLink
@@ -465,9 +464,7 @@ const Company = () => {
                     <h6 className="subtitle">
                       Coated Fabrics<span></span>
                     </h6>
-                    <h2 className="title">
-                      VinyRoyal Plasticoates Private Limited (VPPL)
-                    </h2>
+                    <h2 className="title">Coated Fabrics</h2>
                     <p className="paragraph">
                       The pioneering entrepreneur of the group founded the
                       flagship company NLC in 1962. It is engaged in the
@@ -556,25 +553,24 @@ const Company = () => {
                     <h6 className="subtitle">
                       Seating Components <span></span>
                     </h6>
-                    <h2 className="title">Vijayjyot</h2>
+                    <h2 className="title">Seating Components</h2>
                     <p className="paragraph">
-                      Vijayjyot Seating Components Division is a leading
-                      manufacturer of components for metro, bus, car, cinema,
-                      and auditorium seats. The product line includes the
-                      fabrication of metal frames (MS and SS), polyurethane (PU)
-                      foam, and upholstery/trim covers. We also manufacture and
-                      supply fully assembled railway seats.
+                      Our Division is a leading manufacturer of components for
+                      metro, bus, car, cinema, and auditorium seats. The product
+                      line includes the fabrication of metal frames (MS and SS),
+                      polyurethane (PU) foam, and upholstery/trim covers. We
+                      also manufacture and supply fully assembled railway seats.
                     </p>
 
                     <p className="paragraph mb-5">
-                      <strong>Our Seating Components Division</strong> provides
-                      a one-stop solution for customers, from design inception
-                      and prototype samples to product development and
-                      commercial supplies. Our facilities include a design
-                      center, tool room, weld shop, and advanced technology such
-                      as multi-axis bending machines, cutting and sewing
-                      machines, and PU machines. The plant is located in Halol,
-                      near Vadodara, in the state of Gujarat, India.
+                      Our Seating Components Division provides a one-stop
+                      solution for customers, from design inception and
+                      prototype samples to product development and commercial
+                      supplies. Our facilities include a design center, tool
+                      room, weld shop, and advanced technology such as
+                      multi-axis bending machines, cutting and sewing machines,
+                      and PU machines. The plant is located in Halol, near
+                      Vadodara, in the state of Gujarat, India.
                     </p>
 
                     <NavLink
@@ -614,37 +610,90 @@ const Company = () => {
                     <h6 className="subtitle">
                       Knit Fabrics <span></span>
                     </h6>
-                    <h2 className="title">Royal Knitting</h2>
+                    <h2 className="title">Knit Fabrics</h2>
                     <p className="paragraph">
-                      Royal Knitting Pvt. Ltd. (RKPL), established in 1983,
-                      initially produced knitted fabrics to meet the in-house
-                      requirements for leathercloth backing for our sister
-                      concerns—National Leathercloth Mfg. Co. and Vinyroyal
-                      Plasticoates Pvt. Ltd. Today, RKPL boasts an installed
-                      capacity of 175 tonnes per month for circular knitted
-                      fabrics and 20 tonnes per month for warp-knitted fabrics.
+                      Natroyal Industries (Knit Fabric Division) is engaged in
+                      the manufacturing and development of industrial knitted
+                      fabrics (Circular Knit & Wrap Knit) made from natural and
+                      man-made fibres. The production and R&D facilities is ISO
+                      9001:2015 and IATF 16949 certified and is based in Halol,
+                      Vadodara in Gujarat State, which is one of the fast
+                      growing industry regions in India.
                     </p>
 
-                    <p className="paragraph">
-                      Currently, only 30% of the capacity is utilized for
-                      supplies to group companies, 50% is supplied to other
-                      local artificial leathercloth manufacturers and for
-                      exports, while the remaining 20% is supplied to OE
-                      customers such as Melba, Faze 3, Reliance, and Shamkeen.
-                      In the OE segment, the fabric is used for back scrim
-                      applications in automotive upholstery.
-                    </p>
+                    <div className="company-points">
+                      <h5>Our Production Facilities / Capacity </h5>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          45 high speed Circular knitting machines (German &
+                          American make)
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          All Circular knitting machines are equipped with
+                          fabric scanners
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          4 High speed Wrap knitting machines of Karl Mayer make
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          3 customised Heat-set machines with dry & wet
+                          processing
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          Steaming on Heat-set machines provides more uniformity
+                          in heat-setting of fabrics
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>
+                          Continuous process on Heat-set machine minimises
+                          defects
+                        </p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>Well established laboratory & testing equipment</p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>Current production capacity is 300 tons per month</p>
+                      </div>
+                      <div className="company-point mb-3">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>Exporting to European and African Countries</p>
+                      </div>
+                    </div>
 
-                    <p className="paragraph mb-5">
-                      The production facility is equipped with 28 circular
-                      knitting machines (Single Jersey, Terry, Interlock) from
-                      Mayer & Cie, 4 from Orizio, 2 from Taifan, and 1 from
-                      Fukuhara. It also houses warp knitting machines from Karl
-                      Mayer, including 2 KS-3 and 1 HKS-3M, along with a raising
-                      machine from Daintipaolo. Future plans include setting up
-                      an in-house dyeing and finishing line.
-                    </p>
+                    <div className="company-points">
+                      <h5>Our USP</h5>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>Roll Length: Upto 10,000 mtrs.</p>
+                      </div>
+                      <div className="company-point">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>Roll Diameter: Upto 1.5 mtrs.</p>
+                      </div>
 
+                      <div className="company-point mb-5">
+                        <i className="lni lni-arrow-right"></i>
+                        <p>Roll Width: Upto 240 cms.</p>
+                      </div>
+                    </div>
                     <NavLink
                       to="/"
                       target="_blank"

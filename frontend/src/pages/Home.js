@@ -250,11 +250,10 @@ const Home = () => {
                 Solution
               </h2>
               <p className="paragraph">
-                Since 1962, Natroyal Group (formerly Samsons Group) has been a
-                leader in manufacturing and exporting Luxury Vinyl Plank & Tile,
-                PVC vinyl flooring, coated fabrics, knitted fabrics, and seating
-                components—earning trust through decades of expertise and
-                innovation.
+                Since 1962, Natroyal Group has been a leader in manufacturing
+                and exporting Luxury Vinyl Plank & Tile, PVC vinyl flooring,
+                coated fabrics, knitted fabrics, and seating components—earning
+                trust through decades of expertise and innovation.
               </p>
 
               <div className="row align-items-center py-4">
@@ -294,10 +293,9 @@ const Home = () => {
             <div className="col-lg-6 offset-lg-2 offset-0">
               <p className="paragraph">
                 We lead in manufacturing and exporting PVC Vinyl Flooring (Royal
-                House), Coated Fabrics (National’s Royal Touch), Heat-Managed
-                Seat Covers (Joyride), Knitted Fabrics (Royal Knit), and Seating
-                Components (Vijayjyot), setting industry standards with quality
-                and innovation.
+                House), Coated Fabrics (National’s Royal Touch), Knitted Fabrics
+                (Royal Knit), and Seating Components (Vijayjyot), setting
+                industry standards with quality and innovation.
               </p>
             </div>
           </div>
@@ -553,9 +551,9 @@ const Home = () => {
                 unmatched reliability.
               </p>
             </div>
-            <div className="col-lg-7">
+            <div className="col-lg-6 offset-lg-1 offset-0">
               <div className="row mt-lg-0 mt-md-5 mt-5">
-                <div className="col-lg-6 col-md-6 col-12">
+                <div className="col-lg-12 col-12">
                   <div className="map-tabs">
                     <div className="tab-link d-flex align-items-center justify-content-start">
                       <h5>Pan India </h5>
@@ -563,18 +561,23 @@ const Home = () => {
                     </div>
 
                     <div className="row mt-4">
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>Vadodara (Baroda), Gujarat</h5>
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>Vadodara (Baroda), Gujarat</h5>
+                        </div>
                       </div>
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>Mumbai, Maharashtra</h5>
+
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>Mumbai, Maharashtra</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-5">
+                <div className="col-lg-12 col-12  mt-5">
                   <div className="map-tabs">
                     <div className="tab-link d-flex align-items-center justify-content-start">
                       <h5>Other Countries</h5>
@@ -582,29 +585,46 @@ const Home = () => {
                     </div>
 
                     <div className="row mt-4">
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>Europe</h5>
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>Europe</h5>
+                        </div>
                       </div>
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>USA</h5>
+
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>USA</h5>
+                        </div>
                       </div>
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>Russia</h5>
+
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>South America</h5>
+                        </div>
                       </div>
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>Middle East</h5>
+
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>Middle East</h5>
+                        </div>
                       </div>
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>Africa</h5>
+
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>Africa</h5>
+                        </div>
                       </div>
-                      <div className="single-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <h5>South East Asia</h5>
+
+                      <div className="col-lg-6 col-6">
+                        <div className="single-location">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <h5>South East Asia</h5>
+                        </div>
                       </div>
                     </div>
                   </div>
