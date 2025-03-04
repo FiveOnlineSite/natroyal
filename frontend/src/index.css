@@ -709,7 +709,7 @@ body {
 .single-location {
   display: flex;
   align-items: baseline;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   /* border-bottom: 1px solid var(--gray-font); */
   width: 100%;
 }
