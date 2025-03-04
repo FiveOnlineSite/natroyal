@@ -711,6 +711,7 @@ body {
   align-items: baseline;
   /* padding: 10px 20px; */
   /* border-bottom: 1px solid var(--gray-font); */
+  padding-bottom: 10px;
   width: 100%;
 }
 
