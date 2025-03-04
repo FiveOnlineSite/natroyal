@@ -106,14 +106,13 @@ const AboutUs = () => {
 
             <div className="col-lg-6 offset-lg-2 offset-0">
               <p className="paragraph">
-                Natroyal Group, formerly known as Samsons Group, has been a
-                pioneer in India since 1962, specializing in the manufacturing
-                and exporting of Luxury Vinyl Plank & Tile, PVC vinyl flooring,
-                coated fabrics, and seating components. With state-of-the-art
-                production facilities near Vadodara, Gujarat, and a corporate
-                office in Mumbai, our products are distributed nationwide and
-                exported to Europe, the USA, Russia, the Middle East, Africa,
-                and Southeast Asia.
+                Natroyal Group has been a pioneer in India since 1962,
+                specializing in the manufacturing and exporting of Luxury Vinyl
+                Plank & Tile, PVC vinyl flooring, coated fabrics, and seating
+                components. With state-of-the-art production facilities near
+                Vadodara, Gujarat, and a corporate office in Mumbai, our
+                products are distributed nationwide and exported to Europe, the
+                USA, South America, the Middle East, Africa, and Southeast Asia.
               </p>
             </div>
           </div>
