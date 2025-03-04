@@ -356,9 +356,9 @@ const Company = () => {
                 </div>
                 <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5 ">
                   <div className="companies-content">
-                    <h6 className="subtitle">
+                    {/* <h6 className="subtitle">
                       Vinyl Plank & Tiles <span></span>
-                    </h6>
+                    </h6> */}
                     <h2 className="title">Luxury Vinyl Plank & Tiles (LVT)</h2>
 
                     <p className="paragraph mb-5">
@@ -402,9 +402,9 @@ const Company = () => {
                 </div>
                 <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5 order-lg-1 order-2">
                   <div className="companies-content">
-                    <h6 className="subtitle">
+                    {/* <h6 className="subtitle">
                       PVC Vinyl Flooring <span></span>
-                    </h6>
+                    </h6> */}
                     <h2 className="title">Royal Cushion Vinyl Products Ltd.</h2>
                     <p className="paragraph">
                       Royal Cushion Vinyl Products Ltd. has two plants spread
@@ -461,9 +461,9 @@ const Company = () => {
                 </div>
                 <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
                   <div className="companies-content">
-                    <h6 className="subtitle">
+                    {/* <h6 className="subtitle">
                       Coated Fabrics<span></span>
-                    </h6>
+                    </h6> */}
                     <h2 className="title">Coated Fabrics</h2>
                     <p className="paragraph">
                       The pioneering entrepreneur of the group founded the
@@ -550,9 +550,9 @@ const Company = () => {
                 </div>
                 <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5 order-lg-1 order-2">
                   <div className="companies-content">
-                    <h6 className="subtitle">
+                    {/* <h6 className="subtitle">
                       Seating Components <span></span>
-                    </h6>
+                    </h6> */}
                     <h2 className="title">Seating Components</h2>
                     <p className="paragraph">
                       Our Division is a leading manufacturer of components for
@@ -607,9 +607,9 @@ const Company = () => {
                 </div>
                 <div className="col-lg-6 ps-lg-5 ps-lg-0 ps-auto pt-lg-0 pt-5">
                   <div className="companies-content">
-                    <h6 className="subtitle">
+                    {/* <h6 className="subtitle">
                       Knit Fabrics <span></span>
-                    </h6>
+                    </h6> */}
                     <h2 className="title">Knit Fabrics</h2>
                     <p className="paragraph">
                       Natroyal Industries (Knit Fabric Division) is engaged in
