@@ -176,12 +176,13 @@ const RoyalKnit = () => {
 
       <section className="about-knit-section">
         <div className="container">
-          <h6 className="subtitle">
-            About Knit Fabric<span></span>
-          </h6>
-          <h2 className="title">About Knit Fabric</h2>
-          <div className="row align-items-center">
+          <div className="row align-items-start">
             <div className="col-lg-6">
+              <h6 className="subtitle">
+                Knit Fabric: Flexible and Comfortable<span></span>
+              </h6>
+              <h2 className="title">About Knit Fabric</h2>
+
               <img
                 src="/images/banners/Roll Image 1.png"
                 alt="about-knit-img"

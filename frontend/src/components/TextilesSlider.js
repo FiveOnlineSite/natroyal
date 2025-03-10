@@ -18,10 +18,17 @@ const TextilesSlider = ({ settings, slides }) => {
                   <div className="row textiles-content">
                     <div className="col-lg-6">
                       <h6>For Lamination</h6>
-                      <p>{slide.lamination_text}</p>
                     </div>
                     <div className="col-lg-6">
+                      <p>{slide.lamination_text}</p>
+                    </div>
+                  </div>
+
+                  <div className="row textiles-content">
+                    <div className="col-lg-6">
                       <h6>For Coating</h6>
+                    </div>
+                    <div className="col-lg-6">
                       <p>{slide.coating_text}</p>
                     </div>
                   </div>
