@@ -275,7 +275,7 @@ const RoyalKnit = () => {
               <h6 className="subtitle text-center">
                 Cutting-Edge Textile Technologies<span></span>
               </h6>
-              <h2 className="title">Advanced Technical Textiles</h2>
+              <h2 className="title text-center">Advanced Technical Textiles</h2>
             </div>
 
             <TextilesSlider settings={textilesSettings} slides={textilesData} />
