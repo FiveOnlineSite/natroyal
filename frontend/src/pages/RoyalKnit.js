@@ -188,7 +188,7 @@ const RoyalKnit = () => {
                 className="w-100"
               />
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 mt-lg-0 mt-4">
               <div className="about-knit-content">
                 <div className="company-points">
                   <h5>Our Production Facilities / Capacity </h5>
