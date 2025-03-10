@@ -609,7 +609,7 @@ const Company = () => {
                       Knit Fabrics <span></span>
                     </h6> */}
                     <h2 className="title">Knit Fabrics</h2>
-                    <p className="paragraph">
+                    <p className="paragraph mb-5">
                       Natroyal Industries (Knit Fabric Division) is engaged in
                       the manufacturing and development of industrial knitted
                       fabrics (Circular Knit & Wrap Knit) made from natural and
@@ -619,9 +619,9 @@ const Company = () => {
                       growing industry regions in India.
                     </p>
 
-                    <p className="paragraph mb-5">
+                    {/* <p className="paragraph mb-5">
                       Exporting to the USA, Europe, and African countries.
-                    </p>
+                    </p> */}
 
                     {/* <div className="company-points">
                       <h5>Our Production Facilities / Capacity </h5>

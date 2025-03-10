@@ -155,6 +155,7 @@ const RoyalHouse = () => {
       },
     ],
   };
+
   return (
     <LandingLayout>
       <section className="landing-banner-section">
