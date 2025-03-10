@@ -405,13 +405,11 @@ const Company = () => {
                     {/* <h6 className="subtitle">
                       PVC Vinyl Flooring <span></span>
                     </h6> */}
-                    <h2 className="title">Royal Cushion Vinyl Products Ltd.</h2>
+                    <h2 className="title">Vinyl Flooring</h2>
                     <p className="paragraph">
-                      Royal Cushion Vinyl Products Ltd. has two plants spread
-                      across 130 acres of land at Garadia, Halol, Gujarat, for
-                      the manufacturing of vinyl floorings of various types for
-                      different end-users, as well as rigid films. RCVPL serves
-                      customers in over 40 countries worldwide.
+                      Natroyal Group manufactures high-quality PVC vinyl
+                      flooring ranging from 0.37mm to 3mm, designed for sectors
+                      such as education, healthcare, residential, and transport.
                     </p>
 
                     <div className="company-points">
@@ -621,7 +619,11 @@ const Company = () => {
                       growing industry regions in India.
                     </p>
 
-                    <div className="company-points">
+                    <p className="paragraph mb-5">
+                      Exporting to the USA, Europe, and African countries.
+                    </p>
+
+                    {/* <div className="company-points">
                       <h5>Our Production Facilities / Capacity </h5>
                       <div className="company-point">
                         <i className="lni lni-arrow-right"></i>
@@ -693,7 +695,7 @@ const Company = () => {
                         <i className="lni lni-arrow-right"></i>
                         <p>Roll Width: Upto 240 cms.</p>
                       </div>
-                    </div>
+                    </div> */}
                     <NavLink
                       to="/"
                       target="_blank"

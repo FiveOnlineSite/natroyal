@@ -7,7 +7,9 @@
   --gray-font: #555555;
   --light-gray-font: #cccccc;
   --off-white-bg: #f9f9f9;
+  --landing-subtitle: #7a7a7a;
   --whatsapp-bg: #6cd54f;
+  --offering-slider-color: #d9d9d9;
 }
 
 /* @font-face {
@@ -101,7 +103,8 @@ body {
   padding-top: 5px;
 }
 
-.home-banner-section {
+.home-banner-section,
+.landing-banner-section {
   padding-bottom: 50px;
 }
 
@@ -591,7 +594,8 @@ body {
   border-radius: 100px;
 } */
 
-.home-banner-section .slick-dots {
+.home-banner-section .slick-dots,
+.landing-banner-section .slick-dots {
   width: 10% !important;
   bottom: 5% !important;
 }
@@ -1320,6 +1324,103 @@ body {
   padding-left: 15px;
 }
 
+/* VINYL FLOORING LANDING */
+
+.landing-navbar .container-fluid {
+  justify-content: space-between;
+}
+
+.vinyl-about-section,
+.what-we-offer-section {
+  padding: 50px 0;
+}
+
+.landing-company {
+  border-left: 1px solid var(--black-font);
+  margin: 10px 0;
+}
+
+.offer-row {
+  position: relative;
+}
+
+.offer-row img {
+  width: auto;
+  height: 75vh;
+  position: relative;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.vinyl-about-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: var(--dark-gray-font);
+  padding: 40px 60px;
+  transform: translate(-10%, -50%);
+}
+
+.gray-subtitle,
+.gray-para {
+  color: var(--landing-subtitle);
+}
+
+.white-title {
+  color: var(--white-font);
+}
+
+.gray-subtitle span {
+  background-color: var(--landing-subtitle);
+}
+
+.what-we-offer-section .subtitle {
+  text-transform: uppercase;
+}
+
+.what-we-offer-section .offer-element {
+  padding-right: 20%;
+}
+
+.what-we-offer-section .slick-prev {
+  left: 85% !important;
+  top: -15% !important;
+}
+
+.what-we-offer-section .slick-next {
+  top: -15% !important;
+}
+
+.offer-image-container img {
+  width: 100%;
+}
+
+.offer-slider-content .offer-color {
+  height: 58px;
+  width: 58px;
+  background-color: var(--offering-slider-color);
+}
+
+.offer-text {
+  padding-left: 20px;
+}
+
+.offer-text h6 {
+  font-family: Euclid Circular B;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -2.5%;
+}
+
+.offer-text p {
+  font-family: Euclid Circular B;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -2.5%;
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);
@@ -1350,6 +1451,26 @@ body {
     right: 0;
     width: 90%;
   }
+
+  .offer-row img img {
+    height: 50vh;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .offer-row img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .vinyl-about-content {
+    position: relative;
+    transform: translate(0);
+    top: 0;
+    left: 0;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -1369,7 +1490,8 @@ body {
     height: 100%;
   }
 
-  .home-banner-section .slick-dots {
+  .home-banner-section .slick-dots,
+  .landing-banner-section .slick-dots {
     width: 15% !important;
   }
 
@@ -1379,6 +1501,10 @@ body {
 
   .mission-div .paragraph {
     min-height: 0;
+  }
+
+  .what-we-offer-section .slick-prev {
+    left: 78% !important;
   }
 }
 
@@ -1572,6 +1698,9 @@ body {
   .company-row {
     padding: 50px 0;
   }
+  .what-we-offer-section .slick-prev {
+    left: 70% !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1591,8 +1720,18 @@ body {
     font-size: 14px;
   }
 
-  .home-banner-section .slick-dots {
+  .home-banner-section .slick-dots,
+  .landing-banner-section .slick-dots {
     width: 42% !important;
+  }
+
+  .what-we-offer-section .slick-next,
+  .what-we-offer-section .slick-prev {
+    top: -7% !important;
+  }
+
+  .what-we-offer-section .offer-element {
+    padding-right: 0;
   }
 }
 

@@ -122,7 +122,40 @@ const AboutUs = () => {
             <a href="#" className="single-company">
               <div className="single-company-img">
                 <img
-                  src="/images/icons/image 44.png"
+                  src="/images/icons/Royal House.png"
+                  height={"100%"}
+                  width={"120px"}
+                  alt="company"
+                />
+              </div>
+              <div className="company-content">
+                <div className="company-thumbnail">
+                  <img
+                    src="/images/banners/laptop-table-modern-living-room-interior-design-concept.png"
+                    alt="company"
+                    className="w-100"
+                  />
+                </div>
+                <div className="company-text">
+                  <h2>Luxury Vinyl Planks & Tiles (LVT)</h2>
+                  <p>
+                    Natroyal Group is a pioneer in India, leading the way in
+                    manufacturing and supplying Luxury Vinyl Plank & Tiles for a
+                    wide range of industries, including education, healthcare,
+                    residential, hospitality, office/retail, and transportation
+                    sectors.
+                  </p>
+
+                  <div className="arrow-div">
+                    <i className="lni lni-arrow-angular-top-right"></i>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" className="single-company">
+              <div className="single-company-img">
+                <img
+                  src="/images/icons/Royal House.png"
                   height={"100%"}
                   width={"120px"}
                   alt="company"
@@ -153,43 +186,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </a>
-            <a href="#" className="single-company">
-              <div className="single-company-img">
-                <img
-                  src="/images/icons/image 44.png"
-                  height={"100%"}
-                  width={"120px"}
-                  alt="company"
-                />
-              </div>
-              <div className="company-content">
-                <div className="company-thumbnail">
-                  <img
-                    src="/images/banners/laptop-table-modern-living-room-interior-design-concept.png"
-                    alt="company"
-                    className="w-100"
-                  />
-                </div>
-                <div className="company-text">
-                  <h2>Luxury Vinyl Planks & Tiles (LVT)</h2>
-                  <p>
-                    Natroyal Group (formerly known as Samsons Group) is a
-                    pioneer in India, leading the way in manufacturing and
-                    supplying Luxury Vinyl Plank & Tiles for a wide range of
-                    industries, including education, healthcare, residential,
-                    hospitality, office/retail, and transportation sectors.
-                  </p>
 
-                  <div className="arrow-div">
-                    <i className="lni lni-arrow-angular-top-right"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
             <a href="#" className="single-company">
               <div className="single-company-img">
                 <img
-                  src="/images/icons/image 45.png"
+                  src="/images/icons/Royal Touch.png"
                   height={"100%"}
                   width={"100px"}
                   alt="company"
@@ -221,7 +222,7 @@ const AboutUs = () => {
             <a href="#" className="single-company">
               <div className="single-company-img">
                 <img
-                  src="/images/icons/image 46.png"
+                  src="/images/icons/Vijayjyot.png"
                   height={"100%"}
                   width={"100px"}
                   alt="company"
@@ -254,7 +255,7 @@ const AboutUs = () => {
             <a href="#" className="single-company">
               <div className="single-company-img">
                 <img
-                  src="/images/icons/image 47.png"
+                  src="/images/icons/Royal Knit.png"
                   height={"100%"}
                   width={"100px"}
                   alt="company"

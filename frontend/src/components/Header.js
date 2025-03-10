@@ -20,7 +20,17 @@ const Header = () => {
         </NavLink>
 
         <div className="companies">
-          <NavLink to="/" className="company-div">
+          <NavLink to="/royal-house" className="company-div">
+            <img
+              src="/images/icons/Royal House.png"
+              height={"49.29px"}
+              width={"75px"}
+              alt="company"
+            />
+            <h6>LVT Flooring</h6>
+          </NavLink>
+
+          <NavLink to="/royal-house" className="company-div">
             <img
               src="/images/icons/Royal House.png"
               height={"49.29px"}
@@ -144,7 +154,23 @@ const Header = () => {
                   onClick={closeOffcanvas}
                 >
                   <img
-                    src="/images/icons/image 44.png"
+                    src="/images/icons/Royal House.png"
+                    height={"49.29px"}
+                    width={"75px"}
+                    alt="company"
+                  />
+                  <h6>LVT Flooring</h6>
+                </NavLink>
+              </li>
+
+              <li className="nav-item">
+                <NavLink
+                  to="/"
+                  className="company-div mobile-company"
+                  onClick={closeOffcanvas}
+                >
+                  <img
+                    src="/images/icons/Royal House.png"
                     height={"49.29px"}
                     width={"75px"}
                     alt="company"
@@ -160,7 +186,7 @@ const Header = () => {
                   onClick={closeOffcanvas}
                 >
                   <img
-                    src="/images/icons/image 45.png"
+                    src="/images/icons/Royal Touch.png"
                     height={"50px"}
                     width={"75px"}
                     alt="company"
@@ -176,7 +202,7 @@ const Header = () => {
                   onClick={closeOffcanvas}
                 >
                   <img
-                    src="/images/icons/image 46.png"
+                    src="/images/icons/Vijayjyot.png"
                     height={"32px"}
                     width={"120px"}
                     alt="company"
@@ -192,7 +218,7 @@ const Header = () => {
                   onClick={closeOffcanvas}
                 >
                   <img
-                    src="/images/icons/image 47.png"
+                    src="/images/icons/Royal Knit.png"
                     height={"50px"}
                     width={"75px"}
                     alt="company"

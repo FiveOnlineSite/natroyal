@@ -53,7 +53,7 @@ const Home = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
+      videoUrl: "/videos/7945422-hd_1920_1080_25fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
     },
@@ -70,7 +70,7 @@ const Home = () => {
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
-      image: "/images/banners/bigbannernew2.png",
+      image: "/images/banners/right wall01.png",
       text: "Where Softness Meets Strength – Premium Knitted Fabrics for Every Need!",
     },
   ];
@@ -131,7 +131,7 @@ const Home = () => {
         "Seating components provide comfort, durability, and support for various furniture applications.",
     },
     {
-      image: "/images/banners/moonstarious-project-KbaSNX-6Vdo-unsplash.png",
+      image: "/images/banners/left wall.png",
       title: "Knit Fabrics",
       content:
         "Knit fabrics offer flexibility, breathability, and softness for a wide range of textile applications.",
