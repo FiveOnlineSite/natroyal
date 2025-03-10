@@ -595,7 +595,7 @@ const Company = () => {
                 <div className="col-lg-6 company-bg">
                   <div className="company-img">
                     <img
-                      src="/images/banners/Residential-banner (3).png"
+                      src="/images/banners/Products For Lamination 1.png"
                       alt="company-img"
                     />
                     <div className="logo-gray-div">
