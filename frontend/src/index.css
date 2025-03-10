@@ -1782,6 +1782,18 @@ body {
     left: 70% !important;
   }
 
+  .advanced-technical-section .textiles-slider {
+    padding: 0 10% 10%;
+  }
+
+  .advanced-technical-section .slick-next {
+    right: 7% !important;
+  }
+
+  .advanced-technical-section .slick-prev {
+    left: 2% !important;
+  }
+
   .textiles-slider-content h4 {
     min-height: 0;
   }
