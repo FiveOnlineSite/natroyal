@@ -1787,11 +1787,11 @@ body {
   }
 
   .advanced-technical-section .slick-next {
-    right: 7% !important;
+    right: 8% !important;
   }
 
   .advanced-technical-section .slick-prev {
-    left: 2% !important;
+    left: 0% !important;
   }
 
   .textiles-slider-content h4 {
