@@ -1829,6 +1829,10 @@ body {
   .what-we-offer-section .offer-element {
     padding-right: 0;
   }
+
+  .textiles-container .textiles-image-container {
+    height: 215px;
+  }
 }
 
 @media screen and (max-width: 380px) {
