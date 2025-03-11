@@ -2,6 +2,7 @@ import React from "react";
 import LandingLayout from "../components/LandingLayout";
 import BannerSlider from "../components/BannerSlider";
 import OffersSection from "../components/OffersSection";
+import { NavLink } from "react-router-dom";
 
 const LVT = () => {
   const PrevArrow = (props) => {
@@ -64,6 +65,41 @@ const LVT = () => {
       text: "Where Softness Meets Strength – Premium Knitted Fabrics for Every Need!",
     },
   ];
+
+  const solutionData = [
+    {
+      icon: "/images/icons/Service Icon.png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+    {
+      icon: "/images/icons/Service Icon (1).png",
+      text: "Unmatched Quality",
+    },
+  ];
   return (
     <LandingLayout>
       <section className="landing-banner-section">
@@ -123,6 +159,143 @@ const LVT = () => {
       </section>
 
       <OffersSection />
+
+      <section className="transform-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <h6 className="subtitle gray-subtitle">
+                <span className="me-3"></span>
+                what we offer
+              </h6>
+              <h2 className="title new-title">
+                We Transform Spaces with Luxury Vinyl Plank & Tile (LVT)
+                Flooring!
+              </h2>
+
+              <div className="d-flex my-5">
+                <NavLink to="/" className="custom-button">
+                  Download Brochure
+                </NavLink>
+              </div>
+            </div>
+            <div className="col-lg-6 offset-lg-1 offset-0">
+              <div className="transform-img-container">
+                <img
+                  src="/images/banners/4096f1007a958ab6ed2859910af7f173.png"
+                  alt="transform-img"
+                  className="w-100"
+                />
+                <div className="transform-text-container">
+                  <h4>Create stunning spaces with high-end vinyl flooring</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="perfect-flooring-section">
+        <div className="container">
+          <div className="col-lg-9">
+            <h6 className="subtitle gray-subtitle">
+              <span className="me-3"></span>
+              LOREM IPSUM
+            </h6>
+            <h2 className="title new-title">
+              Natroyal has the perfect flooring solution for you!
+            </h2>
+          </div>
+
+          <div className="col-lg-12">
+            <div className="row mt-4">
+              {solutionData.map((solution, index) => (
+                <div className="col-lg-3 col-md-4 col-12" key={index}>
+                  <div className="solutions-div">
+                    <img src={solution.icon} alt="solution-icon" />
+                    <h5 className="mt-4">{solution.text}</h5>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="leading-innovator-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5">
+              <img
+                src="/images/banners/unsplash_NFbwes_e-jI.png"
+                alt="leading-innovator-img"
+                className="w-100"
+              />
+            </div>
+            <div className="col-lg-5 mt-lg-0 mt-5">
+              <h6 className="subtitle gray-subtitle">
+                <span className="me-3"></span>
+                who we are
+              </h6>
+              <h2 className="title new-title">
+                Leading Innovators in Quality Flooring!
+              </h2>
+
+              <p className="paragraph gray-para">
+                Natroyal Group (formerly Samsons Group) is a pioneer in India,
+                manufacturing and supplying luxury vinyl planks and tiles for
+                various industries, including education, healthcare,
+                residential, hospitality, office/retail, and transportation
+                sectors.
+              </p>
+            </div>
+            <div className="col-lg-2 mt-lg-0 mt-5">
+              <div className="row">
+                <div className="col-lg-12 col-md-6">
+                  <div className="px-5 py-4 brands-box">
+                    <img
+                      src="/images/icons/Royal Knit.png"
+                      height={"59.29px"}
+                      width={"100px"}
+                      alt="company"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-12 col-md-6">
+                  <div className="px-5 py-4 brands-box">
+                    <img
+                      src="/images/icons/Royal Touch.png"
+                      height={"59.29px"}
+                      width={"100px"}
+                      alt="company"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-12 col-md-6">
+                  <div className="px-5 py-4 brands-box">
+                    <img
+                      src="/images/icons/Royal House.png"
+                      height={"59.29px"}
+                      width={"100px"}
+                      alt="company"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-12 col-md-6">
+                  <div className="px-5 py-4 brands-box">
+                    <img
+                      src="/images/icons/Vijayjyot.png"
+                      height={"59.29px"}
+                      width={"140px"}
+                      alt="company"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </LandingLayout>
   );
 };

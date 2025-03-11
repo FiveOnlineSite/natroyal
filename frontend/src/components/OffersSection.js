@@ -1,5 +1,6 @@
 import React from "react";
 import OfferSlider from "../components/OfferSlider";
+import { NavLink } from "react-router-dom";
 
 const OffersSection = () => {
   const OfferingsPrevArrow = (props) => {
@@ -117,6 +118,11 @@ const OffersSection = () => {
             <h2 className="title new-title">Luxera</h2>
           </div>
           <OfferSlider settings={offersSettings} slides={offersData} />
+        </div>
+        <div className="d-flex my-5 justify-content-center">
+          <NavLink to="/" className="custom-button">
+            Download Brochure
+          </NavLink>
         </div>
       </div>
     </section>

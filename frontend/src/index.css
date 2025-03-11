@@ -1375,7 +1375,9 @@ body {
 }
 
 .what-we-offer-section .subtitle,
-.product-category-section .subtitle {
+.product-category-section .subtitle,
+.transform-section .subtitle,
+.leading-innovator-section .subtitle {
   text-transform: uppercase;
 }
 
@@ -1472,7 +1474,7 @@ body {
 
 .textiles-slider-content {
   padding: 20px 30px;
-  min-height: 267px;
+  min-height: 250px;
 }
 
 .textiles-slider-content h4 {
@@ -1482,7 +1484,7 @@ body {
 }
 
 .textiles-content {
-  margin-top: 25px;
+  margin-top: 15px;
   /* min-height: 150px; */
 }
 
@@ -1515,7 +1517,10 @@ body {
 
 /* LVT */
 
-.product-category-section {
+.product-category-section,
+.transform-section,
+.perfect-flooring-section,
+.leading-innovator-section {
   padding: 50px 0;
 }
 
@@ -1540,6 +1545,44 @@ body {
   position: absolute;
   bottom: 4%;
   left: 13%;
+}
+
+.transform-img-container,
+.transform-img-container img {
+  position: relative;
+}
+
+.transform-text-container {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 227px;
+  height: auto;
+  background-color: var(--white-font);
+  padding: 30px;
+  border: 1px solid var(--black-font);
+}
+
+.transform-text-container h4 {
+  font-family: Euclid Circular B;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 10%;
+  vertical-align: middle;
+}
+
+.solutions-div {
+  padding: 30px;
+  border: 1px solid var(--black-font);
+  margin: 10px;
+}
+
+.brands-box {
+  border: 1px solid var(--black-font);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes smallScale {
@@ -1646,6 +1689,10 @@ body {
 
   .advanced-technical-section .slick-prev {
     left: -3% !important;
+  }
+
+  .transform-text-container {
+    left: -5%;
   }
 }
 
@@ -1781,6 +1828,10 @@ body {
     display: block;
     color: var(--light-gray-font);
   }
+
+  .transform-text-container {
+    left: -3%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1858,6 +1909,10 @@ body {
   .textiles-slider-content h4,
   .textiles-slider-content {
     min-height: 0;
+  }
+
+  .transform-text-container {
+    left: 0;
   }
 }
 
