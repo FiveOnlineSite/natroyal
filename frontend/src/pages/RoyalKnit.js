@@ -74,38 +74,38 @@ const RoyalKnit = () => {
     {
       image: "/images/sliders/leaflet 15_03.png",
       name: "Headliner Fabric",
-      lamination_text: "GSM ranging from 30 to 50",
-      coating_text: "GSM ranging from 30 to 50",
+      text: "Our brushed and flat knit headliner ranges are available in more than 30 colors to complement most modern automotive interiors.",
     },
     {
       image: "/images/sliders/leaflet 15_04.png",
       name: "Circular Knitted Fabrics (Single Jersey & Interlock)",
-      lamination_text: "GSM ranging from 30 to 50",
-      coating_text: "GSM ranging from 40 to 160",
+      lamination_coating: {
+        lamination_text: "GSM ranging from 30 to 50",
+        coating_text: "GSM ranging from 40 to 160",
+      },
     },
     {
-      image: "/images/sliders/leaflet 15_03.png",
+      image: "/images/sliders/main wall 01 (1).png",
       name: "Wrap Knitted Fabric",
-      lamination_text: "GSM ranging from 20 to 70 ",
-      coating_text: "GSM ranging from 90 to 210",
+      lamination_coating: {
+        lamination_text: "GSM ranging from 20 to 70 ",
+        coating_text: "GSM ranging from 90 to 210",
+      },
     },
     {
-      image: "/images/sliders/leaflet 15_04.png",
+      image: "/images/sliders/Products For Lamination (2).png",
       name: "Fire Retardant Fabric",
-      lamination_text: "GSM ranging from 30 to 50",
-      coating_text: "GSM ranging from 30 to 50",
+      text: "These fabrics are engineered to resist ignition and prevent flames from spreading, making them essential for automotive and industrial applications.",
     },
     {
-      image: "/images/sliders/leaflet 15_03.png",
+      image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
       name: "Water Repellent Fabric",
-      lamination_text: "GSM ranging from 30 to 50",
-      coating_text: "GSM ranging from 30 to 50",
+      text: "Innovative fabrics designed for maximum water resistance.",
     },
     {
-      image: "/images/sliders/leaflet 15_04.png",
+      image: "/images/sliders/right wall01 (1).png",
       name: "Anti – Bacterial Fabric",
-      lamination_text: "GSM ranging from 30 to 50",
-      coating_text: "GSM ranging from 30 to 50",
+      text: "Antimicrobial-treated textiles designed for healthcare.",
     },
   ];
 

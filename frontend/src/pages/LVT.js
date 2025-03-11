@@ -1,6 +1,7 @@
 import React from "react";
 import LandingLayout from "../components/LandingLayout";
 import BannerSlider from "../components/BannerSlider";
+import OffersSection from "../components/OffersSection";
 
 const LVT = () => {
   const PrevArrow = (props) => {
@@ -71,6 +72,57 @@ const LVT = () => {
           slides={bannerData}
         ></BannerSlider>
       </section>
+
+      <section className="product-category-section">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <h6 className="subtitle gray-subtitle">
+                <span className="me-3"></span>
+                product category
+              </h6>
+              <h2 className="title new-title">Lorem ipsum</h2>
+
+              <p className="paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Faucibus fringilla dui amet faucibus nam. Erat id laoreet
+                posuere etiam morbi.
+              </p>
+
+              <p className="paragraph">
+                Tempor dolor elementum tellus non ipsum faucibus. Justo, magna
+                mauris posuere auctor justo. Habitant proin aliquet volutpat leo
+                ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc.
+                Faucibus sit odio bibendum lobortis diam.
+              </p>
+            </div>
+            <div className="col-lg-6">
+              <div className="row">
+                <div className="col-lg-6 col-md-6 col-12 px-lg-3 px-md-3 px-auto mt-lg-0 mt-md-0 mt-3">
+                  <div className="category-img-container">
+                    <img
+                      src="/images/banners/Image 19.png"
+                      alt="products-img"
+                    />
+                    <h4>RADIANT</h4>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-12 mt-5 px-lg-3 px-md-3 px-auto">
+                  <div className="category-img-container">
+                    <img
+                      src="/images/banners/Image (20).png"
+                      alt="products-img"
+                    />
+                    <h4>LUXURA</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <OffersSection />
     </LandingLayout>
   );
 };

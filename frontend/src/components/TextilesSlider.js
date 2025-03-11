@@ -14,24 +14,35 @@ const TextilesSlider = ({ settings, slides }) => {
                 </div>
                 <div className="textiles-slider-content">
                   <h4>{slide.name}</h4>
+                  {slide.lamination_coating ? (
+                    <>
+                      <div className="row textiles-content">
+                        <div className="col-lg-6">
+                          <h6>For Lamination</h6>
+                        </div>
+                        <div className="col-lg-6">
+                          <p className="paragraph">
+                            {slide.lamination_coating.lamination_text}
+                          </p>
+                        </div>
+                      </div>
 
-                  <div className="row textiles-content">
-                    <div className="col-lg-6">
-                      <h6>For Lamination</h6>
+                      <div className="row textiles-content">
+                        <div className="col-lg-6">
+                          <h6>For Coating</h6>
+                        </div>
+                        <div className="col-lg-6">
+                          <p className="paragraph">
+                            {slide.lamination_coating.coating_text}
+                          </p>
+                        </div>
+                      </div>
+                    </>
+                  ) : (
+                    <div className="row textiles-content textiles-text">
+                      <p className="paragraph">{slide.text}</p>
                     </div>
-                    <div className="col-lg-6">
-                      <p>{slide.lamination_text}</p>
-                    </div>
-                  </div>
-
-                  <div className="row textiles-content">
-                    <div className="col-lg-6">
-                      <h6>For Coating</h6>
-                    </div>
-                    <div className="col-lg-6">
-                      <p>{slide.coating_text}</p>
-                    </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>
