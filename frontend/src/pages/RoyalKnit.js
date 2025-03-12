@@ -182,7 +182,7 @@ const RoyalKnit = () => {
                 Knit Fabric – Where Flexibility Meets Comfort<span></span>
               </h6>
               <h2 className="title">About Knit Fabric</h2>
-              <p className="paragraph mb-5">
+              <p className="paragraph">
                 Natroyal Industries (Knit Fabric Division) is engaged in the
                 manufacturing and development of industrial knitted fabrics
                 (Circular Knit & Wrap Knit) made from natural and man-made

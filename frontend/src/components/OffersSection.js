@@ -230,8 +230,7 @@ const OffersSection = () => {
       <div className="container">
         <div className="col-lg-8">
           <h6 className="subtitle gray-subtitle">
-            <span className="me-3"></span>
-            what we offer
+            What We Offer <span></span>
           </h6>
           <h2 className="title new-title">
             Innovative Luxury Vinyl Plank & Tile Solutions for Modern Spaces
@@ -252,7 +251,11 @@ const OffersSection = () => {
           <OfferSlider settings={offersSettings} slides={luxeraData} />
         </div>
         <div className="d-flex my-5 justify-content-center">
-          <NavLink to="/" className="custom-button">
+          <NavLink
+            to="/docs/LVT-Brochure.pdf"
+            target="_blank"
+            className="custom-button"
+          >
             Download Brochure
           </NavLink>
         </div>

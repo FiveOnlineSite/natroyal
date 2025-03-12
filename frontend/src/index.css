@@ -1375,13 +1375,13 @@ body {
   background-color: var(--landing-subtitle);
 }
 
-.what-we-offer-section .subtitle,
+/* .what-we-offer-section .subtitle,
 .product-category-section .subtitle,
 .transform-section .subtitle,
 .leading-innovator-section .subtitle,
 .videos-section .subtitle {
   text-transform: uppercase;
-}
+} */
 
 .what-we-offer-section .offer-element {
   padding-right: 20%;
@@ -1607,6 +1607,19 @@ body {
   padding: 0 8%;
 }
 
+.videos-section .slick-prev,
+.videos-section .slick-next {
+  filter: invert(1);
+}
+
+.videos-section .slick-prev {
+  left: -3% !important;
+}
+
+.videos-section .slick-next {
+  right: 2% !important;
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);
@@ -1656,6 +1669,10 @@ body {
 
   .solutions-div h5 {
     min-height: 72px;
+  }
+
+  .videos-section .slick-next {
+    right: 0% !important;
   }
 }
 
@@ -1964,9 +1981,9 @@ body {
     min-height: 0;
   }
 
-  .videos-section .video-slide-container {
+  /* .videos-section .video-slide-container {
     padding: 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 500px) {

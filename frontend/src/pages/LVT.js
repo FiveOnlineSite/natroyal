@@ -171,8 +171,8 @@ const LVT = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <h6 className="subtitle gray-subtitle">
-                <span className="me-3"></span>
                 Stylish & Durable Flooring
+                <span></span>
               </h6>
               <h2 className="title new-title">
                 About Luxury Vinyl Plank & Tile
@@ -219,8 +219,8 @@ const LVT = () => {
           <div className="row">
             <div className="col-lg-5">
               <h6 className="subtitle gray-subtitle">
-                <span className="me-3"></span>
-                what we offer
+                What We Offer
+                <span></span>
               </h6>
               <h2 className="title new-title">
                 We Transform Spaces with Luxury Vinyl Plank & Tile (LVT)
@@ -228,7 +228,11 @@ const LVT = () => {
               </h2>
 
               <div className="d-flex my-5">
-                <NavLink to="/" className="custom-button">
+                <NavLink
+                  to="/docs/LVT-Brochure.pdf"
+                  target="_blank"
+                  className="custom-button"
+                >
                   Download Brochure
                 </NavLink>
               </div>
@@ -253,8 +257,8 @@ const LVT = () => {
         <div className="container">
           <div className="col-lg-9">
             <h6 className="subtitle gray-subtitle">
-              <span className="me-3"></span>
-              LOREM IPSUM
+              Lorem Ipsum
+              <span></span>
             </h6>
             <h2 className="title new-title">
               Natroyal has the perfect flooring solution for you!
@@ -833,8 +837,8 @@ const LVT = () => {
             </div>
             <div className="col-lg-5 mt-lg-0 mt-5">
               <h6 className="subtitle gray-subtitle">
-                <span className="me-3"></span>
-                who we are
+                Who We Are
+                <span></span>
               </h6>
               <h2 className="title new-title">
                 Leading Innovators in Quality Flooring!
@@ -898,8 +902,7 @@ const LVT = () => {
       <section className="videos-section">
         <div className="container">
           <h6 className="subtitle gray-subtitle">
-            <span className="me-3"></span>
-            Memorable Moments, Unforgettable Experiences
+            Memorable Moments, Unforgettable Experiences <span></span>
           </h6>
           <h2 className="title new-title">Events</h2>
           <VideosSlider settings={videosSettings} slides={videosData} />
