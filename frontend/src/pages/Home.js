@@ -564,14 +564,14 @@ const Home = () => {
                     <div className="row mt-4">
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>Vadodara (Baroda), Gujarat</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>Mumbai, Maharashtra</h5>
                         </div>
                       </div>
@@ -588,42 +588,42 @@ const Home = () => {
                     <div className="row mt-4">
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>Europe</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>USA</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>South America</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>Middle East</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>Africa</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
-                          <i class="fa-solid fa-location-dot"></i>
+                          <i className="fa-solid fa-location-dot"></i>
                           <h5>South East Asia</h5>
                         </div>
                       </div>

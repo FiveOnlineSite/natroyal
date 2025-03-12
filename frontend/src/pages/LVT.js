@@ -264,7 +264,7 @@ const LVT = () => {
               {/* {solutionData.map((solution, index) => ( */}
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="61"
@@ -303,7 +303,7 @@ const LVT = () => {
               </div>
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       width="112"
                       height="63"
@@ -347,7 +347,7 @@ const LVT = () => {
 
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="61"
@@ -386,7 +386,7 @@ const LVT = () => {
               </div>
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       width="56"
                       height="73"
@@ -407,7 +407,7 @@ const LVT = () => {
 
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       width="70"
                       height="71"
@@ -439,7 +439,7 @@ const LVT = () => {
               </div>
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       width="70"
                       height="71"
@@ -482,7 +482,7 @@ const LVT = () => {
               </div>
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       width="70"
                       height="71"
@@ -593,7 +593,7 @@ const LVT = () => {
               </div>
               <div className="col-lg-3 col-md-4 col-12">
                 <div className="solutions-div">
-                  <div class="sc_icons_icon sc_icon_type_svg">
+                  <div className="sc_icons_icon sc_icon_type_svg">
                     <svg
                       width="71"
                       height="71"
