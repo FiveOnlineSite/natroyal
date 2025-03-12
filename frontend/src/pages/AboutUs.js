@@ -97,14 +97,14 @@ const AboutUs = () => {
       <section className="companies-section" id="company">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-12">
+            <div className="col-lg-4">
               <h6 className="subtitle">
                 Pioneers in Flooring & Textiles<span></span>
               </h6>
               <h2 className="title new-title">Our Companies</h2>
             </div>
 
-            {/* <div className="col-lg-6 offset-lg-2 offset-0">
+            <div className="col-lg-6 offset-lg-2 offset-0">
               <p className="paragraph">
                 Natroyal Group has been a pioneer in India since 1962,
                 specializing in the manufacturing and exporting of Luxury Vinyl
@@ -114,7 +114,7 @@ const AboutUs = () => {
                 products are distributed nationwide and exported to Europe, the
                 USA, South America, the Middle East, Africa, and Southeast Asia.
               </p>
-            </div> */}
+            </div>
           </div>
         </div>
         <div className="row">
@@ -131,20 +131,20 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/laptop-table-modern-living-room-interior-design-concept.png"
+                    src="/images/banners/63e3a12fc187c70f011a62d15d0de6fe 1.png"
                     alt="company"
                     className="w-100"
                   />
                 </div>
                 <div className="company-text">
                   <h2>Luxury Vinyl Planks & Tiles (LVT)</h2>
-                  <p>
+                  {/* <p>
                     Natroyal Group is a pioneer in India, leading the way in
                     manufacturing and supplying Luxury Vinyl Plank & Tiles for a
                     wide range of industries, including education, healthcare,
                     residential, hospitality, office/retail, and transportation
                     sectors.
-                  </p>
+                  </p> */}
 
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
@@ -171,14 +171,14 @@ const AboutUs = () => {
                 </div>
                 <div className="company-text">
                   <h2>Vinyl Flooring</h2>
-                  <p>
+                  {/* <p>
                     Natroyal Group manufactures high-quality PVC vinyl flooring
                     ranging from 0.37mm to 3mm, designed for sectors such as
                     education, healthcare, residential, and transport. Under the
                     brand 'Nuplank,' we have introduced India's first Luxury
                     Vinyl Plank & Tile (LVT) in 1.5mm and 2mm thicknesses,
                     available in a 6-inch x 36-inch size.
-                  </p>
+                  </p> */}
 
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
@@ -199,19 +199,19 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/small-juvenile-bedroom-arrangement.png"
+                    src="/images/banners/elegant-yacht-interior-with-white-leather-seats-view-sea_28914-81310 1.png"
                     alt="company"
                     className="w-100"
                   />
                 </div>
                 <div className="company-text">
                   <h2>Coated Fabrics</h2>
-                  <p>
+                  {/* <p>
                     We manufacture coated fabrics (artificial leather, PVC/PU
                     vinyl) in thicknesses ranging from 0.7mm to 2mm, widely used
                     in home and office furnishings, automotive interiors,
                     fashion accessories, footwear, and medical applications.
-                  </p>
+                  </p> */}
 
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
@@ -239,13 +239,13 @@ const AboutUs = () => {
                 </div>
                 <div className="company-text">
                   <h2>Seating Components</h2>
-                  <p>
+                  {/* <p>
                     The Seating Component Division produces frame fabrication,
                     trim covers, and polyurethane foam for various seating
                     needs, including automotive, cinema, auditorium, metro, bus,
                     truck, and railway seats, such as driver seats and chair car
                     seats.
-                  </p>
+                  </p> */}
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
                   </div>
@@ -264,19 +264,19 @@ const AboutUs = () => {
               <div className="company-content">
                 <div className="company-thumbnail">
                   <img
-                    src="/images/banners/vitalijs-barilo-azMZaQCUyV8-unsplash.png"
+                    src="/images/banners/Products For Coating 1.png"
                     alt="company"
                     className="w-100"
                   />
                 </div>
                 <div className="company-text">
                   <h2>Knit Fabrics</h2>
-                  <p>
+                  {/* <p>
                     We manufacture technical textile circular and warp-knit
                     fabrics, which are key ingredients in making leather
                     cloth/coated fabrics and backing fabrics for automotive
                     upholstery, utilizing foaming technology.
-                  </p>
+                  </p> */}
                   <div className="arrow-div">
                     <i className="lni lni-arrow-angular-top-right"></i>
                   </div>

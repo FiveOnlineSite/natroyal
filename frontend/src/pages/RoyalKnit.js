@@ -77,7 +77,7 @@ const RoyalKnit = () => {
       text: "Our brushed and flat knit headliner ranges are available in more than 30 colors to complement most modern automotive interiors.",
     },
     {
-      image: "/images/sliders/leaflet 15_04.png",
+      image: "/images/sliders/leaflet 15_03.png",
       name: "Circular Knitted Fabrics (Single Jersey & Interlock)",
       lamination_coating: {
         lamination_text: "GSM ranging from 30 to 50",
@@ -85,8 +85,8 @@ const RoyalKnit = () => {
       },
     },
     {
-      image: "/images/sliders/main wall 01 (1).png",
-      name: "Wrap Knitted Fabric",
+      image: "/images/sliders/leaflet 15_04.png",
+      name: "Warp Knitted Fabric",
       lamination_coating: {
         lamination_text: "GSM ranging from 20 to 70 ",
         coating_text: "GSM ranging from 90 to 210",
@@ -103,7 +103,7 @@ const RoyalKnit = () => {
       text: "Innovative fabrics designed for maximum water resistance.",
     },
     {
-      image: "/images/sliders/right wall01 (1).png",
+      image: "/images/sliders/Products For Coating 2.png",
       name: "Anti – Bacterial Fabric",
       text: "Antimicrobial-treated textiles designed for healthcare.",
     },
@@ -176,15 +176,32 @@ const RoyalKnit = () => {
 
       <section className="about-knit-section">
         <div className="container">
-          <div className="row align-items-start">
-            <div className="col-lg-6">
+          <div className="row align-items-start justify-content-center">
+            <div className="col-lg-10 mt-lg-0 mt-4">
               <h6 className="subtitle">
                 Knit Fabric – Where Flexibility Meets Comfort<span></span>
               </h6>
               <h2 className="title">About Knit Fabric</h2>
+              <p className="paragraph mb-5">
+                Natroyal Industries (Knit Fabric Division) is engaged in the
+                manufacturing and development of industrial knitted fabrics
+                (Circular Knit & Wrap Knit) made from natural and man-made
+                fibres. The production and R&D facilities is ISO 9001:2015 and
+                IATF 16949 certified and is based in Halol, Vadodara in Gujarat
+                State, which is one of the fast growing industry regions in
+                India.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="production-section">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
               <img
-                src="/images/banners/Roll Image 1.png"
+                src="/images/banners/Products For Lamination 2.png"
                 alt="about-knit-img"
                 className="w-100"
               />
@@ -245,7 +262,17 @@ const RoyalKnit = () => {
                     <p>Exporting to the USA, Europe, and African countries</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section className="usp-section">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 mt-lg-0 mt-4 order-lg-1 order-2">
+              <div className="about-knit-content">
                 <div className="company-points">
                   <h5>Our USP</h5>
                   <div className="company-point">
@@ -263,6 +290,14 @@ const RoyalKnit = () => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div className="col-lg-6 order-lg-2 order-1">
+              <img
+                src="/images/banners/Roll Image[1][1].jpg"
+                alt="about-knit-img"
+                className="w-100"
+              />
             </div>
           </div>
         </div>

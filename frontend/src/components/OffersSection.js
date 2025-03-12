@@ -238,14 +238,14 @@ const OffersSection = () => {
           </h2>
         </div>
 
-        <div className="row">
+        <div className="row radiant-row ">
           <div className="col-lg-6">
             <h2 className="title new-title">Radiant - 1.5mm</h2>
           </div>
           <OfferSlider settings={offersSettings} slides={radiantData} />
         </div>
 
-        <div className="row mt-5">
+        <div className="row mt-5 luxera-row">
           <div className="col-lg-6">
             <h2 className="title new-title">Luxera - 2mm</h2>
           </div>

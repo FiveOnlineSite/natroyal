@@ -985,9 +985,10 @@ body {
 
 .company-content .company-text {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 50%;
+  top: 50%;
   width: 100%;
+  transform: translate(-50%, -50%);
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1025,7 +1026,7 @@ body {
 
 .company-content:hover .company-text h2 {
   /* color: var(--gray-font); */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   line-height: 40px;
   font-weight: 700;
 }
@@ -1377,7 +1378,8 @@ body {
 .what-we-offer-section .subtitle,
 .product-category-section .subtitle,
 .transform-section .subtitle,
-.leading-innovator-section .subtitle {
+.leading-innovator-section .subtitle,
+.videos-section .subtitle {
   text-transform: uppercase;
 }
 
@@ -1386,7 +1388,7 @@ body {
 }
 
 .what-we-offer-section .slick-prev {
-  left: 85% !important;
+  left: 87% !important;
   top: -15% !important;
 }
 
@@ -1429,7 +1431,9 @@ body {
 /* ROYAL KNIT FABRIC */
 
 .about-knit-section,
-.advanced-technical-section {
+.advanced-technical-section,
+.usp-section,
+.production-section {
   padding: 50px 0;
 }
 
@@ -1701,7 +1705,7 @@ body {
   }
 
   .what-we-offer-section .slick-prev {
-    left: 78% !important;
+    left: 83% !important;
   }
 
   .textiles-content h6 {
@@ -1859,6 +1863,10 @@ body {
   .transform-text-container {
     left: -3%;
   }
+
+  .what-we-offer-section .slick-prev {
+    left: 80% !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1917,8 +1925,18 @@ body {
   .company-row {
     padding: 50px 0;
   }
+
+  .what-we-offer-section .slick-prev,
+  .what-we-offer-section .slick-next {
+    top: -2% !important;
+  }
+
   .what-we-offer-section .slick-prev {
-    left: 70% !important;
+    left: 2% !important;
+  }
+
+  .what-we-offer-section .slick-next {
+    right: 80% !important;
   }
 
   .advanced-technical-section .textiles-slider {
@@ -1973,10 +1991,10 @@ body {
     width: 42% !important;
   }
 
-  .what-we-offer-section .slick-next,
+  /* .what-we-offer-section .slick-next,
   .what-we-offer-section .slick-prev {
     top: -7% !important;
-  }
+  } */
 
   .what-we-offer-section .offer-element {
     padding-right: 0;

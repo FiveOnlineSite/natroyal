@@ -6,7 +6,7 @@ const OfferSlider = ({ settings, slides }) => {
     <Slider {...settings}>
       {slides.map((slide, index) => (
         <div className="what-we-offer-slider">
-          <div className="row">
+          <div className="row mt-lg-0 mt-md-0 mt-5">
             <div key={index} className="offer-element">
               <div className="offer-image-container">
                 <img src={slide.image} alt="product" />

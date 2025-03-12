@@ -4,6 +4,8 @@ import BannerSlider from "../components/BannerSlider";
 import OffersSection from "../components/OffersSection";
 import { NavLink } from "react-router-dom";
 import VideosSlider from "../components/VideosSlider";
+import ConnectSection from "../components/ConnectSection";
+import Clients from "../components/Clients";
 
 const LVT = () => {
   const PrevArrow = (props) => {
@@ -881,7 +883,7 @@ const LVT = () => {
                   <div className="px-5 py-4 brands-box">
                     <img
                       src="/images/icons/Vijayjyot.png"
-                      height={"59.29px"}
+                      height={"40.29px"}
                       width={"140px"}
                       alt="company"
                     />
@@ -897,12 +899,16 @@ const LVT = () => {
         <div className="container">
           <h6 className="subtitle gray-subtitle">
             <span className="me-3"></span>
-            who we are
+            Memorable Moments, Unforgettable Experiences
           </h6>
-          <h2 className="title new-title">Videos</h2>
+          <h2 className="title new-title">Events</h2>
           <VideosSlider settings={videosSettings} slides={videosData} />
         </div>
       </section>
+
+      <ConnectSection />
+
+      <Clients />
     </LandingLayout>
   );
 };

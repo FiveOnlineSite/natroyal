@@ -7,7 +7,7 @@ const Clients = () => {
     arrows: false,
     infinite: true, // Enables infinite scrolling
     speed: 3000, // Duration of one complete slide transition in ms
-    slidesToShow: 7, // Number of slides visible
+    slidesToShow: 5, // Number of slides visible
     autoplay: true, // Enables autoplay
     autoplaySpeed: 0, // Sets the delay between autoplay transitions (0 for continuous)
     pauseOnHover: false, // Prevents stopping on hover
@@ -20,7 +20,7 @@ const Clients = () => {
       {
         breakpoint: 821,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 3,
           swipeToSlide: true,
         },
       },
@@ -36,75 +36,29 @@ const Clients = () => {
 
   const clientsData = [
     {
-      image: "/images/clients/image 4.png",
+      image: "/images/clients/aaymv3vju 1.png",
       height: "50.93px",
       width: "170px",
     },
     {
-      image: "/images/clients/image 5.png",
+      image: "/images/clients/download (1) 1.png",
+      height: "65.93px",
+      width: "100%",
+    },
+    {
+      image: "/images/clients/download (2) 1.png",
+      height: "50.93px",
+      width: "170px",
+    },
+    {
+      image: "/images/clients/download (12) 1.png",
       height: "50.93px",
       width: "100%",
     },
     {
-      image: "/images/clients/image 6.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 7.png",
-      height: "50.93px",
+      image: "/images/clients/Titagarh_Wagons_Logo.svg.png",
+      height: "60.93px",
       width: "100%",
-    },
-    {
-      image: "/images/clients/image 8.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 9.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 10.png",
-      height: "50.93px",
-      width: "170px",
-    },
-
-    {
-      image: "/images/clients/image 4.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 5.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 6.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 7.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 8.png",
-      height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/image 9.png",
-      height: "50.93px",
-      width: "170px",
-    },
-    {
-      image: "/images/clients/image 10.png",
-      height: "50.93px",
-      width: "170px",
     },
   ];
 

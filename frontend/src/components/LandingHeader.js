@@ -32,7 +32,7 @@ const Header = () => {
                 <img
                   src="/images/icons/Royal House.png"
                   height={"75px"}
-                  width={"100px"}
+                  width={"120px"}
                   alt="company"
                 />
               </NavLink>
@@ -42,7 +42,7 @@ const Header = () => {
                 <img
                   src="/images/icons/Royal House.png"
                   height={"75px"}
-                  width={"100px"}
+                  width={"120px"}
                   alt="company"
                 />
               </NavLink>
@@ -52,7 +52,7 @@ const Header = () => {
                 <img
                   src="/images/icons/Royal House.png"
                   height={"75px"}
-                  width={"100px"}
+                  width={"120px"}
                   alt="company"
                 />
               </NavLink>
@@ -62,7 +62,7 @@ const Header = () => {
                 <img
                   src="/images/icons/Royal Touch.png"
                   height={"50px"}
-                  width={"75px"}
+                  width={"90px"}
                   alt="company"
                 />
               </NavLink>
@@ -84,7 +84,7 @@ const Header = () => {
                 <img
                   src="/images/icons/Royal Knit.png"
                   height={"50px"}
-                  width={"75px"}
+                  width={"90px"}
                   alt="company"
                 />
               </NavLink>
