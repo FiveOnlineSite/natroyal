@@ -9,10 +9,12 @@ const OfferSlider = ({ settings, slides }) => {
           <div className="row">
             <div key={index} className="offer-element">
               <div className="offer-image-container">
-                <img src={slide.image} alt="product" className="h-100" />
+                <img src={slide.image} alt="product" />
               </div>
-              <div className="offer-slider-content d-flex">
-                <div className="offer-color"></div>
+              <div className="offer-slider-content d-flex mt-4">
+                <div className="qr-img-div">
+                  <img src={slide.qr} alt="qr-img" />
+                </div>
                 <div className="offer-text">
                   <h6>{slide.name}</h6>
                   <p>{slide.type}</p>
