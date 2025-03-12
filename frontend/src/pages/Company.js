@@ -557,7 +557,7 @@ const Company = () => {
                       metro, bus, car, cinema, and auditorium seats. The product
                       line includes the fabrication of metal frames (MS and SS),
                       polyurethane (PU) foam, and upholstery/trim covers. We
-                      also manufacture and supply fully assembled railway seats.
+                      also manufacture and supply fully assembled seats.
                     </p>
 
                     <p className="paragraph mb-5">

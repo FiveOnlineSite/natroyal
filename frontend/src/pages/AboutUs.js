@@ -97,14 +97,14 @@ const AboutUs = () => {
       <section className="companies-section" id="company">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-4">
+            <div className="col-lg-12">
               <h6 className="subtitle">
                 Pioneers in Flooring & Textiles<span></span>
               </h6>
               <h2 className="title new-title">Our Companies</h2>
             </div>
 
-            <div className="col-lg-6 offset-lg-2 offset-0">
+            {/* <div className="col-lg-6 offset-lg-2 offset-0">
               <p className="paragraph">
                 Natroyal Group has been a pioneer in India since 1962,
                 specializing in the manufacturing and exporting of Luxury Vinyl
@@ -114,7 +114,7 @@ const AboutUs = () => {
                 products are distributed nationwide and exported to Europe, the
                 USA, South America, the Middle East, Africa, and Southeast Asia.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row">

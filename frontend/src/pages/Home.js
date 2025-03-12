@@ -284,21 +284,21 @@ const Home = () => {
       <section className="products-section">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-4">
+            <div className="col-lg-12">
               <h6 className="subtitle">
                 Innovative Manufacturing <span></span>
               </h6>
               <h2 className="title new-title">Product Verticals</h2>
             </div>
 
-            <div className="col-lg-6 offset-lg-2 offset-0">
+            {/* <div className="col-lg-6 offset-lg-2 offset-0">
               <p className="paragraph">
                 We lead in manufacturing and exporting PVC Vinyl Flooring (Royal
                 House), Coated Fabrics (National’s Royal Touch), Knitted Fabrics
                 (Royal Knit), and Seating Components (Vijayjyot), setting
                 industry standards with quality and innovation.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="row products-row mt-4">
