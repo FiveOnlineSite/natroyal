@@ -567,8 +567,10 @@ const Company = () => {
                       supplies. Our facilities include a design center, tool
                       room, weld shop, and advanced technology such as
                       multi-axis bending machines, cutting and sewing machines,
-                      and PU machines. The plant is located in Halol, near
-                      Vadodara, in the state of Gujarat, India.
+                      and PU machines. We comply with the latest EN standards
+                      for components (Frames, Trims, and PU). The plant is
+                      located in Halol, near Vadodara, in the state of Gujarat,
+                      India.
                     </p>
 
                     <NavLink
