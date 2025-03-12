@@ -1522,7 +1522,8 @@ body {
 .product-category-section,
 .transform-section,
 .perfect-flooring-section,
-.leading-innovator-section {
+.leading-innovator-section,
+.videos-section {
   padding: 50px 0;
 }
 
@@ -1596,6 +1597,10 @@ body {
 
 .solutions-div h5 {
   min-height: 50px;
+}
+
+.videos-section .video-slide-container {
+  padding: 0 8%;
 }
 
 @keyframes smallScale {
@@ -1710,6 +1715,11 @@ body {
 
   .transform-text-container {
     left: -5%;
+  }
+
+  .play-button-div {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -1934,6 +1944,10 @@ body {
 
   .solutions-div h5 {
     min-height: 0;
+  }
+
+  .videos-section .video-slide-container {
+    padding: 0;
   }
 }
 

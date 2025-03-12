@@ -135,23 +135,23 @@ const LVT = () => {
   const videosData = [
     {
       video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/image-20.png",
+      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
     },
     {
       video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/image-20.png",
+      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
     },
     {
       video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/image-20.png",
+      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
     },
     {
       video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/image-20.png",
+      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
     },
     {
       video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/image-20.png",
+      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
     },
   ];
 
