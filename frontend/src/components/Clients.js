@@ -101,6 +101,11 @@ const Clients = () => {
       height: "50.93px",
       width: "100%",
     },
+    {
+      image: "/images/clients/Titagarh_Wagons_Logo.svg.png",
+      height: "60.93px",
+      width: "100%",
+    },
   ];
 
   return (
