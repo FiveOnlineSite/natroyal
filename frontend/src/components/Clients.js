@@ -36,28 +36,69 @@ const Clients = () => {
 
   const clientsData = [
     {
+      image: "/images/clients/image 4.png",
+      // image: "/images/clients/aaymv3vju 1.png",
+      height: "50.93px",
+      width: "170px",
+    },
+    {
+      image: "/images/clients/image 5.png",
+      height: "50.93px",
+      // image: "/images/clients/download (1) 1.png",
+      height: "65.93px",
+      width: "100%",
+    },
+    {
+      image: "/images/clients/image 6.png",
+      // image: "/images/clients/download (2) 1.png",
+      height: "50.93px",
+      width: "170px",
+    },
+    {
+      image: "/images/clients/image 7.png",
+      height: "50.93px",
+      width: "100%",
+    },
+
+    {
+      image: "/images/clients/image 8.png",
+      // image: "/images/clients/download (12) 1.png",
+      height: "50.93px",
+      width: "100%",
+    },
+    {
+      image: "/images/clients/image 9.png",
+      height: "50.93px",
+      width: "170px",
+    },
+    {
+      image: "/images/clients/image 10.png",
+      height: "50.93px",
+      width: "170px",
+    },
+    {
+      // image: "/images/clients/image 4.png",
       image: "/images/clients/aaymv3vju 1.png",
       height: "50.93px",
       width: "170px",
     },
     {
+      // image: "/images/clients/image 5.png",
+      // height: "50.93px",
       image: "/images/clients/download (1) 1.png",
       height: "65.93px",
       width: "100%",
     },
     {
+      // image: "/images/clients/image 6.png",
       image: "/images/clients/download (2) 1.png",
       height: "50.93px",
       width: "170px",
     },
     {
+      // image: "/images/clients/image 8.png",
       image: "/images/clients/download (12) 1.png",
       height: "50.93px",
-      width: "100%",
-    },
-    {
-      image: "/images/clients/Titagarh_Wagons_Logo.svg.png",
-      height: "60.93px",
       width: "100%",
     },
   ];
