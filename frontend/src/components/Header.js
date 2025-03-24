@@ -30,7 +30,7 @@ const Header = () => {
             <h6>LVT Flooring</h6>
           </NavLink>
 
-          <NavLink to="/royal-house" className="company-div">
+          <NavLink to="/vinyl-flooring" className="company-div">
             <img
               src="/images/icons/Royal House.png"
               height={"49.29px"}
