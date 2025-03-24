@@ -2041,6 +2041,24 @@ body {
   .textiles-container .textiles-image-container {
     height: 215px;
   }
+
+  .navbar-brand img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .company-div img {
+    height: 40px;
+    width: 60px;
+  }
+
+  .navbar-toggler img {
+    height: 18px;
+  }
+
+  .navbar-toggler h6 {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 380px) {
