@@ -171,7 +171,22 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/lvt"
+                  className="company-div mobile-company"
+                  onClick={closeOffcanvas}
+                >
+                  <img
+                    src="/images/icons/image 44.png"
+                    height={"49.29px"}
+                    width={"75px"}
+                    alt="company"
+                  />
+                  <h6>LVT Flooring</h6>
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/vinyl-flooring"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >
@@ -219,7 +234,7 @@ const Header = () => {
 
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/royal-knit"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >

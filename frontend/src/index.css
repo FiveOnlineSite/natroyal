@@ -1641,6 +1641,14 @@ body {
   padding-left: 30px;
 }
 
+.vinyl-flooring-section a {
+  text-decoration: none;
+}
+
+.vinyl-flooring-section a h5 {
+  color: var(--black-font);
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);

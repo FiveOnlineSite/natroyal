@@ -165,7 +165,7 @@ const Header = () => {
 
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/vinyl-flooring"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >
