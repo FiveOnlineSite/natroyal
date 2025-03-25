@@ -5,6 +5,7 @@ import ConnectSection from "../components/ConnectSection";
 import Clients from "../components/Clients";
 import TextilesSlider from "../components/TextilesSlider";
 import { NavLink } from "react-router-dom";
+import Layout from "../components/Layout";
 
 const RoyalKnit = () => {
   const PrevArrow = (props) => {
@@ -147,7 +148,7 @@ const RoyalKnit = () => {
   };
 
   return (
-    <LandingLayout>
+    <Layout>
       <section className="landing-banner-section">
         <div className="slide-container">
           <div className="poster-container">
@@ -321,7 +322,7 @@ const RoyalKnit = () => {
       <ConnectSection />
 
       <Clients />
-    </LandingLayout>
+    </Layout>
   );
 };
 

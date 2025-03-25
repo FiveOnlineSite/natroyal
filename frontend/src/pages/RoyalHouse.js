@@ -2,6 +2,7 @@ import React from "react";
 import LandingLayout from "../components/LandingLayout";
 import BannerSlider from "../components/BannerSlider";
 import OffersSection from "../components/OffersSection";
+import Layout from "../components/Layout";
 
 const RoyalHouse = () => {
   const PrevArrow = (props) => {
@@ -66,7 +67,7 @@ const RoyalHouse = () => {
   ];
 
   return (
-    <LandingLayout>
+    <Layout>
       <section className="landing-banner-section">
         <BannerSlider
           settings={bannerSettings}
@@ -107,7 +108,7 @@ const RoyalHouse = () => {
       </section>
 
       <OffersSection />
-    </LandingLayout>
+    </Layout>
   );
 };
 

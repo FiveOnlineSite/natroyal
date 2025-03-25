@@ -3,6 +3,7 @@ import LandingLayout from "../components/LandingLayout";
 import BannerSlider from "../components/BannerSlider";
 import Clients from "../components/Clients";
 import ConnectSection from "../components/ConnectSection";
+import Layout from "../components/Layout";
 
 const SeatingComponents = () => {
   const PrevArrow = (props) => {
@@ -72,7 +73,7 @@ const SeatingComponents = () => {
   ];
 
   return (
-    <LandingLayout>
+    <Layout>
       <section className="landing-banner-section">
         <BannerSlider
           settings={bannerSettings}
@@ -184,7 +185,7 @@ const SeatingComponents = () => {
       <Clients />
 
       <ConnectSection />
-    </LandingLayout>
+    </Layout>
   );
 };
 

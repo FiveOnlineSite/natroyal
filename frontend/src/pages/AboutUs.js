@@ -52,7 +52,7 @@ const AboutUs = () => {
             </div>
             <div className="col-lg-7 mt-lg-0 mt-5">
               <div className="about-content-img">
-                <img
+                {/* <img
                   src="/images/banners/interior-design-with-yoga-mat-floor.png"
                   alt="about-content"
                   className="w-100"
@@ -87,7 +87,18 @@ const AboutUs = () => {
                   <p>
                     Awards <br /> Winning
                   </p>
-                </div>
+                </div> */}
+
+                <iframe
+                  width="100%"
+                  height="500px"
+                  src="https://www.youtube.com/embed/ngbVMDCpe78?autoplay=1&mute=1&loop=1&playlist=ngbVMDCpe78"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>

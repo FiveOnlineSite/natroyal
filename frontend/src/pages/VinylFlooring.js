@@ -3,6 +3,7 @@ import LandingLayout from "../components/LandingLayout";
 import BannerSlider from "../components/BannerSlider";
 import Clients from "../components/Clients";
 import ConnectSection from "../components/ConnectSection";
+import Layout from "../components/Layout";
 
 const VinylFlooring = () => {
   const PrevArrow = (props) => {
@@ -44,7 +45,7 @@ const VinylFlooring = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/8566376-uhd_3840_2160_30fps.mp4",
+      videoUrl: "/videos/7945422-hd_1920_1080_25fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Elegant. Durable. Water-Resistant. Transform Your Space with Premium Vinyl Flooring!",
     },
@@ -66,7 +67,7 @@ const VinylFlooring = () => {
     },
   ];
   return (
-    <LandingLayout>
+    <Layout>
       <section className="landing-banner-section">
         <BannerSlider
           settings={bannerSettings}
@@ -255,7 +256,7 @@ const VinylFlooring = () => {
       <Clients />
 
       <ConnectSection />
-    </LandingLayout>
+    </Layout>
   );
 };
 
