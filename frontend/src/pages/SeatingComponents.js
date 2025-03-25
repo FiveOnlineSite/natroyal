@@ -43,9 +43,14 @@ const SeatingComponents = () => {
   };
 
   const bannerData = [
+    // {
+    //   videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
+    //   // poster: "/images/banners/pexels-digitalbuggu-218535.png",
+    //   text: "Your Trusted Partner for Innovative and End-to-End Seating Solutions",
+    // },
     {
-      videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
-      // poster: "/images/banners/pexels-digitalbuggu-218535.png",
+      // videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
+      image: "/images/banners/915ef78d-373e-4a98-a10e-b0d0287e6f98.jpg",
       text: "Your Trusted Partner for Innovative and End-to-End Seating Solutions",
     },
 
