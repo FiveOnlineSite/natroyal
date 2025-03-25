@@ -87,10 +87,7 @@ const SeatingComponents = () => {
             </div>
             <div className="col-lg-6">
               <div className="seating-content">
-                <h2 className="title new-title">
-                  From Design to Delivery for Metro, Bus, Car, Cinema, and
-                  Auditorium Seats
-                </h2>
+                <h2 className="title new-title">Seats - Design to Delivery.</h2>
 
                 <p className="paragraph gray-para">
                   Seating components division is leading components manufacturer
