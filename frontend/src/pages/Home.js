@@ -108,34 +108,34 @@ const Home = () => {
     {
       image: "/images/banners/casual-girl-surfing-laptop-home.png",
       title: "Vinly Flooring",
-      content:
-        "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more.",
+      // content:
+      //   "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more.",
     },
     {
       image:
         "/images/banners/beautiful-luxury-pillow-sofa-decoration-livingroom-interior-background.png",
       title: "Luxury Vinyl Planks & Tiles (LVT)",
-      content:
-        "LVT provide a durable, stylish, and low-maintenance flooring option ideal for various sectors like education, healthcare, and retail.",
+      // content:
+      //   "LVT provide a durable, stylish, and low-maintenance flooring option ideal for various sectors like education, healthcare, and retail.",
     },
     {
       image: "/images/banners/pexels-mikebirdy-1633602.png",
       title: "Coated Fabrics",
-      content:
-        "Coated fabrics offer durability, water resistance, and versatility for applications like upholstery and outdoor furniture.",
+      // content:
+      //   "Coated fabrics offer durability, water resistance, and versatility for applications like upholstery and outdoor furniture.",
     },
 
     {
       image: "/images/banners/seating-component.png",
       title: "Seating Components",
-      content:
-        "Seating components provide comfort, durability, and support for various furniture applications.",
+      // content:
+      //   "Seating components provide comfort, durability, and support for various furniture applications.",
     },
     {
       image: "/images/banners/left wall.png",
       title: "Knit Fabrics",
-      content:
-        "Knit fabrics offer flexibility, breathability, and softness for a wide range of textile applications.",
+      // content:
+      //   "Knit fabrics offer flexibility, breathability, and softness for a wide range of textile applications.",
     },
   ];
 
@@ -565,14 +565,14 @@ const Home = () => {
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
                           <i className="fa-solid fa-location-dot"></i>
-                          <h5>Vadodara (Baroda), Gujarat</h5>
+                          <h5>Mumbai, Maharashtra</h5>
                         </div>
                       </div>
 
                       <div className="col-lg-6 col-6">
                         <div className="single-location">
                           <i className="fa-solid fa-location-dot"></i>
-                          <h5>Mumbai, Maharashtra</h5>
+                          <h5>Vadodara (Baroda), Gujarat</h5>
                         </div>
                       </div>
                     </div>

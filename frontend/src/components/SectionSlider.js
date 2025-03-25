@@ -22,7 +22,7 @@ const SectionSlider = ({
                     <img src="/images/icons/arrow-up-right.png" />
                   </div>
                 </div>
-                <p>{slide.content}</p>
+                {/* <p>{slide.content}</p> */}
               </a>
             </div>
           </div>
