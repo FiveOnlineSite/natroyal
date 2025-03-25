@@ -43,7 +43,7 @@ const RoyalHouse = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
+      videoUrl: "/videos/8566376-uhd_3840_2160_30fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
     },

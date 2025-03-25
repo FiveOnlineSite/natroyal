@@ -47,7 +47,7 @@ const LVT = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/1475160_People_Family_3840x2160.mp4",
+      videoUrl: "/videos/16641601-uhd_3840_2160_30fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Timeless Beauty. Lasting Durability. Luxury Vinyl Plank & Tile Flooring!",
     },
@@ -119,13 +119,13 @@ const LVT = () => {
       {
         breakpoint: 950,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
 
       {
-        breakpoint: 500,
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -179,11 +179,18 @@ const LVT = () => {
               </h2>
 
               <p className="paragraph">
-                Royal House also proudly announces the launch of PVC Planks also
-                known as LVT (Luxury Vinyl Tile) under the Brand Name of
-                “Nuplank”. As a practice of pioneering high range products, we
-                are the first company to produce this in India. It is available
-                in 1.5mm and 2.0mm thickness and size of 6 inch x 36 inch
+                LUXURA and RADIANT are the ultimate solutions for those seeking
+                both beauty and practicality. Perfectly engineered to replicate
+                the richness of Hardwood, Marble and Stone, our LVT ranges in 2
+                mm and 1.5 mm deliver exceptional performance, even in
+                challenging environments.
+              </p>
+
+              <p className="paragraph">
+                Upgrade your home or business with the timeless appeal of LUXURA
+                and RADIANT. With easy installation, unmatched durability and a
+                range of stunning designs, it's the flooring choice that
+                combines style and practicality like never before.
               </p>
             </div>
             <div className="col-lg-6">

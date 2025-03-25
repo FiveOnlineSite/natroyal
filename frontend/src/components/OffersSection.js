@@ -246,7 +246,7 @@ const OffersSection = () => {
 
         <div className="row mt-5 luxera-row">
           <div className="col-lg-6">
-            <h2 className="title new-title">Luxera - 2mm</h2>
+            <h2 className="title new-title">Luxura - 2mm</h2>
           </div>
           <OfferSlider settings={offersSettings} slides={luxeraData} />
         </div>

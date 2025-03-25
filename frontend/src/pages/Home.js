@@ -54,7 +54,7 @@ const Home = () => {
 
   const bannerData = [
     {
-      videoUrl: "/videos/7945422-hd_1920_1080_25fps.mp4",
+      videoUrl: "/videos/8566376-uhd_3840_2160_30fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
     },
