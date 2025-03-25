@@ -9,6 +9,7 @@ import RoyalHouse from "./pages/RoyalHouse";
 import LVT from "./pages/LVT";
 import VinylFlooring from "./pages/VinylFlooring";
 import RoyalKnit from "./pages/RoyalKnit";
+import SeatingComponents from "./pages/SeatingComponents";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/lvt" element={<LVT />} />
         <Route path="/vinyl-flooring" element={<VinylFlooring />} />
         <Route path="/royal-knit" element={<RoyalKnit />} />
+        <Route path="/seating-components" element={<SeatingComponents />} />
       </Routes>
       <FloatingWhatsapp />
     </Router>

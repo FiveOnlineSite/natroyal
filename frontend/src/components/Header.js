@@ -50,7 +50,7 @@ const Header = () => {
             <h6>Coated Fabrics</h6>
           </NavLink>
 
-          <NavLink to="/" className="company-div">
+          <NavLink to="/seating-components" className="company-div">
             <img
               src="/images/icons/Vijayjyot.png"
               height={"32px"}
@@ -197,7 +197,7 @@ const Header = () => {
 
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/seating-components"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >

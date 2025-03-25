@@ -1649,6 +1649,22 @@ body {
   color: var(--black-font);
 }
 
+/* SEATING COMPONENTS */
+
+.seating-components-section,
+.seating-application-section {
+  padding: 50px 0;
+}
+
+.seating-application-section h4 {
+  font-family: Euclid Circular B;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 25px;
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);

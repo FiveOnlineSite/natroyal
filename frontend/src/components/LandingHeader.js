@@ -23,12 +23,8 @@ const Header = () => {
           </NavLink>
 
           <div className="landing-company d-flex">
-            {location.pathname.includes(
-              "/vinyl-flooring",
-              "/lvt",
-              "/royal-house"
-            ) && (
-              <NavLink to="/royal-house" className="company-div">
+            {location.pathname.includes("/vinyl-flooring", "/lvt") && (
+              <NavLink to="/vinyl-flooring" className="company-div">
                 <img
                   src="/images/icons/Royal House.png"
                   height={"75px"}
@@ -38,7 +34,7 @@ const Header = () => {
               </NavLink>
             )}
             {location.pathname.includes("/lvt") && (
-              <NavLink to="/royal-house" className="company-div">
+              <NavLink to="/lvt" className="company-div">
                 <img
                   src="/images/icons/Royal House.png"
                   height={"75px"}
@@ -47,16 +43,7 @@ const Header = () => {
                 />
               </NavLink>
             )}
-            {location.pathname.includes("/royal-house") && (
-              <NavLink to="/royal-house" className="company-div">
-                <img
-                  src="/images/icons/Royal House.png"
-                  height={"75px"}
-                  width={"120px"}
-                  alt="company"
-                />
-              </NavLink>
-            )}
+
             {location.pathname.includes("/royal-touch") && (
               <NavLink to="/" className="company-div">
                 <img
@@ -68,8 +55,8 @@ const Header = () => {
               </NavLink>
             )}
 
-            {location.pathname.includes("/vijayjyot") && (
-              <NavLink to="/" className="company-div">
+            {location.pathname.includes("/seating-components") && (
+              <NavLink to="/seating-components" className="company-div">
                 <img
                   src="/images/icons/Vijayjyot.png"
                   height={"32px"}
@@ -80,7 +67,7 @@ const Header = () => {
             )}
 
             {location.pathname.includes("/royal-knit") && (
-              <NavLink to="/" className="company-div">
+              <NavLink to="/royal-knit" className="company-div">
                 <img
                   src="/images/icons/Royal Knit.png"
                   height={"50px"}
@@ -218,7 +205,7 @@ const Header = () => {
 
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/seating-components"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >
