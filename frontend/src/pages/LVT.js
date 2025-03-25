@@ -510,7 +510,7 @@ const LVT = () => {
 
       <section className="leading-innovator-section">
         <div className="container">
-          <div className="row">
+          <div className="row align-items-center">
             <div className="col-lg-5">
               <img
                 src="/images/banners/unsplash_NFbwes_e-jI.png"
