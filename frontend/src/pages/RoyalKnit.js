@@ -78,7 +78,7 @@ const RoyalKnit = () => {
     },
     {
       image: "/images/sliders/leaflet 15_03.png",
-      name: "Circular Knitted Fabrics (Single Jersey & Interlock)",
+      name: "Circular Knitted Fabric (Single Jersey & Interlock)",
       lamination_coating: {
         lamination_text: "GSM ranging from 30 to 50",
         coating_text: "GSM ranging from 40 to 160",

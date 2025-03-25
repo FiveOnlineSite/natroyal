@@ -46,7 +46,7 @@ const VinylFlooring = () => {
     {
       videoUrl: "/videos/8566376-uhd_3840_2160_30fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
-      text: "Luxury Vinyl Planks & Tiles (LVT) Crafted to Perfection.",
+      text: "Elegant. Durable. Water-Resistant. Transform Your Space with Premium Vinyl Flooring!",
     },
 
     {

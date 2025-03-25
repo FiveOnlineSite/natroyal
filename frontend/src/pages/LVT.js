@@ -842,7 +842,7 @@ const LVT = () => {
                 className="w-100"
               />
             </div>
-            <div className="col-lg-5 mt-lg-0 mt-5">
+            <div className="col-lg-6 offset-lg-1 mt-lg-0 mt-5">
               <h6 className="subtitle gray-subtitle">
                 Who We Are
                 <span></span>
@@ -858,7 +858,7 @@ const LVT = () => {
                 office/retail, and transportation sectors.
               </p>
             </div>
-            <div className="col-lg-2 mt-lg-0 mt-5">
+            {/* <div className="col-lg-2 mt-lg-0 mt-5">
               <div className="row">
                 <div className="col-lg-12 col-md-6">
                   <div className="px-5 py-4 brands-box">
@@ -901,7 +901,7 @@ const LVT = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
