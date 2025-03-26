@@ -82,7 +82,7 @@ const RoyalKnit = () => {
       name: "Circular Knitted Fabric (Single Jersey & Interlock)",
       lamination_coating: {
         lamination_text: "GSM ranging from 30 to 50",
-        coating_text: "GSM ranging from 40 to 160",
+        coating_text: "GSM ranging from 40 to 300",
       },
     },
     {
@@ -106,7 +106,17 @@ const RoyalKnit = () => {
     {
       image: "/images/sliders/Products For Coating 2.png",
       name: "Anti – Bacterial Fabric",
-      text: "Antimicrobial-treated textiles designed for healthcare.",
+      text: "Antimicrobial-treated textiles designed for healthcare and automotive.",
+    },
+    {
+      image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
+      name: "Recycled Fabric",
+      text: "Innovative fabrics designed for maximum water resistance.",
+    },
+    {
+      image: "/images/sliders/Products For Coating 2.png",
+      name: "High Tenacity Fabric",
+      text: "Antimicrobial-treated textiles designed for healthcare and automotive.",
     },
   ];
 
@@ -260,7 +270,9 @@ const RoyalKnit = () => {
                   </div>
                   <div className="company-point mb-3">
                     <i className="lni lni-arrow-right"></i>
-                    <p>Exporting to the USA, Europe, and African countries</p>
+                    <p>
+                      Exporting to the USA, Europe, African and Asian countries
+                    </p>
                   </div>
                 </div>
               </div>

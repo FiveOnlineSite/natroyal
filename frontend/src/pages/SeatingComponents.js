@@ -4,6 +4,7 @@ import BannerSlider from "../components/BannerSlider";
 import Clients from "../components/Clients";
 import ConnectSection from "../components/ConnectSection";
 import Layout from "../components/Layout";
+import { NavLink } from "react-router-dom";
 
 const SeatingComponents = () => {
   const PrevArrow = (props) => {
@@ -74,11 +75,37 @@ const SeatingComponents = () => {
 
   return (
     <Layout>
-      <section className="landing-banner-section">
+      {/* <section className="landing-banner-section">
         <BannerSlider
           settings={bannerSettings}
           slides={bannerData}
         ></BannerSlider>
+      </section> */}
+
+      <section className="landing-banner-section">
+        <div className="slide-container">
+          <div className="poster-container">
+            <img
+              src="/images/banners/915ef78d-373e-4a98-a10e-b0d0287e6f98.jpg"
+              alt="Poster"
+              className="poster-image"
+            />
+
+            {/* Common Banner Content - Placed inside the same container */}
+            <div className="banner-text">
+              <h1 className="banner-title">
+                {" "}
+                Your Trusted Partner for Innovative and End-to-End Seating
+                Solutions
+              </h1>
+              <div className="d-flex">
+                <NavLink to="/contact-us" className="custom-button">
+                  Get Started
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="seating-components-section">

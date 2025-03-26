@@ -161,11 +161,38 @@ const LVT = () => {
   return (
     <Layout>
       <section className="landing-banner-section">
+        <div className="slide-container">
+          <div className="poster-container">
+            <video
+              src="/videos/16641601-uhd_3840_2160_30fps.mp4"
+              loop
+              autoPlay
+              mute
+              className="poster-image"
+            />
+
+            {/* Common Banner Content - Placed inside the same container */}
+            <div className="banner-text">
+              <h1 className="banner-title">
+                {" "}
+                Timeless Beauty. Lasting Durability. Luxury Vinyl Plank & Tile
+                Flooring!
+              </h1>
+              <div className="d-flex">
+                <NavLink to="/contact-us" className="custom-button">
+                  Get Started
+                </NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="landing-banner-section">
         <BannerSlider
           settings={bannerSettings}
           slides={bannerData}
         ></BannerSlider>
-      </section>
+      </section> */}
 
       <section className="product-category-section">
         <div className="container">

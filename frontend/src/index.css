@@ -1652,7 +1652,8 @@ body {
 /* SEATING COMPONENTS */
 
 .seating-components-section,
-.seating-application-section {
+.seating-application-section,
+.applications-section {
   padding: 50px 0;
 }
 
@@ -1665,6 +1666,22 @@ body {
   margin-top: 25px;
 }
 
+.application-tabs li a {
+  font-family: Euclid Circular B;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+
+.application-tabs {
+  list-style: none;
+}
+
+.application-tabs .dropdown .dropdown-menu li a {
+  padding: 6px 10px;
+}
 @keyframes smallScale {
   0% {
     transform: scale(1);
