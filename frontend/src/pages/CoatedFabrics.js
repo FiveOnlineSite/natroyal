@@ -285,7 +285,7 @@ const CoatedFabrics = () => {
             </div>
             <div className="col-lg-6">
               <div className="single-application">
-                <img src="/images/coated-fabrics/furnishing-1.jpg" />{" "}
+                <img src="/images/coated-fabrics/Footwear-Coated-Fabrics.jpg" />{" "}
                 <div className="application-content">
                   <h5>Footwear</h5>
                   <p className="application-para">

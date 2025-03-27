@@ -1681,6 +1681,7 @@ body {
 
 .application-tabs {
   list-style: none;
+  margin: 0;
 }
 
 .application-tabs .dropdown .dropdown-menu li a {
@@ -1721,6 +1722,7 @@ body {
 .modal.modal-bottom-slide.show .modal-dialog {
   transform: translateY(0);
   width: 100%;
+  max-width: 100%;
 }
 
 .full-width-modal {
