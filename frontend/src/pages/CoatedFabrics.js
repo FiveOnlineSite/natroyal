@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
 import { NavLink } from "react-router-dom";
+import Clients from "../components/Clients";
+import ConnectSection from "../components/ConnectSection";
 
 const CoatedFabrics = () => {
   return (
@@ -472,6 +474,10 @@ const CoatedFabrics = () => {
           </div>
         </div>
       </section>
+
+      <Clients />
+
+      <ConnectSection />
     </Layout>
   );
 };
