@@ -2279,11 +2279,11 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .poster-image,
+  /* .poster-image,
   .video-element,
   .poster-container {
     height: 82vh;
-  }
+  } */
 
   .banner-text h1 {
     margin-bottom: 20px;
