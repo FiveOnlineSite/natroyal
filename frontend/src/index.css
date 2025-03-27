@@ -2074,7 +2074,7 @@ body {
   }
 
   .application-overlay .application-border a {
-    top: 50%;
+    top: 48%;
     left: 43%;
   }
 }
@@ -2129,6 +2129,10 @@ body {
   .play-button-div {
     width: 60px;
     height: 60px;
+  }
+
+  .application-tabs li a {
+    padding: 20px;
   }
 }
 
@@ -2276,7 +2280,8 @@ body {
 
 @media screen and (max-width: 600px) {
   .poster-image,
-  .video-element {
+  .video-element,
+  .poster-container {
     height: 82vh;
   }
 
@@ -2378,8 +2383,8 @@ body {
   }
 
   .application-overlay .application-border a {
-    top: 50%;
-    left: 40%;
+    top: 45%;
+    left: 34%;
   }
 }
 
