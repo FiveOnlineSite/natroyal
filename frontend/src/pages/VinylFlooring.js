@@ -5,6 +5,8 @@ import Clients from "../components/Clients";
 import ConnectSection from "../components/ConnectSection";
 import Layout from "../components/Layout";
 import { NavLink } from "react-router-dom";
+import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js";
+import ApplicationsModal from "../components/ApplicationsModal";
 
 const VinylFlooring = () => {
   const PrevArrow = (props) => {
@@ -67,6 +69,12 @@ const VinylFlooring = () => {
       text: "Where Softness Meets Strength – Premium Knitted Fabrics for Every Need!",
     },
   ];
+
+  const applicationContent = [
+    { category: "Education", items: ["Moonwalk", "Accord", "Mirakle"] },
+    { category: "Healthcare", items: ["Moonwalk", "Accord", "Mirakle"] },
+    { category: "Wet Areas", items: ["Aqua RS"] },
+  ];
   return (
     <Layout>
       {/* <section className="landing-banner-section">
@@ -107,10 +115,10 @@ const VinylFlooring = () => {
       <section className="applications-section">
         <div className="container">
           <div className="row">
-            <ul class="application-tabs d-lg-flex align-items-center justify-content-evenly d-none">
-              <li class="nav-item dropdown">
+            <ul className="application-tabs d-lg-flex align-items-center justify-content-center d-none">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -118,69 +126,69 @@ const VinylFlooring = () => {
                 >
                   Education
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Moonwalk
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Accord
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mirakle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Symphony
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Star Trek
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Star
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Elegant
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dazzle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Nuplank
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Tiger
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Avengers
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -188,70 +196,70 @@ const VinylFlooring = () => {
                 >
                   Health Care
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Moonwalk
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Accord
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mirakle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Wally
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Star Trek
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Orbit
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Star
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dazzle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Nuplank
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Tiger
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Avengers
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -259,17 +267,17 @@ const VinylFlooring = () => {
                 >
                   Wet Areas
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Aqua RS
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -277,75 +285,75 @@ const VinylFlooring = () => {
                 >
                   Residential
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Star
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Moonwalk
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Accord
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Majesty Pro
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Opera
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Elegant
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dazzle
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Classic
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Nuplank
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mirakle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Majesty
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Printed Flooring
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -353,105 +361,105 @@ const VinylFlooring = () => {
                 >
                   Offices/Retail
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Moonwalk
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Accord
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mirakle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Symphony
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Star Trek
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Orbit
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Suprema RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Standard RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Aqua RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Star
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Elegant
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Dazzle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Nuplank
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Majesty Pro
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Majesty
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Classic
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Tiger
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Avengers
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -459,84 +467,84 @@ const VinylFlooring = () => {
                 >
                   Hospitality
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Moonwalk
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Accord
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Mirakle
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Tuff
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Symphony
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Star Trek
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Sonata
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Suprema RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Standard RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Aqua RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Eco Plus V
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Royal Star
                     </a>
                   </li>
 
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Tiger
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Avengers
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -544,32 +552,32 @@ const VinylFlooring = () => {
                 >
                   Transport
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Sonata
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Suprema RS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Eco Plus V
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Gripper
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  className="nav-link dropdown-toggle"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
@@ -577,9 +585,9 @@ const VinylFlooring = () => {
                 >
                   Sports
                 </a>
-                <ul class="dropdown-menu">
+                <ul className="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a className="dropdown-item" href="#">
                       Avengers
                     </a>
                   </li>
@@ -587,7 +595,9 @@ const VinylFlooring = () => {
               </li>
             </ul>
 
-            <div className="applications-accordians d-lg-none d-block"></div>
+            <div className="applications-accordions">
+              <ApplicationsModal />
+            </div>
           </div>
         </div>
       </section>

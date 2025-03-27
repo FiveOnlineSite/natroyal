@@ -108,6 +108,31 @@ const SeatingComponents = () => {
         </div>
       </section>
 
+      <section className="applications-section">
+        <div className="container">
+          <div className="row">
+            <ul className="application-tabs d-flex align-items-center justify-content-center">
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#">
+                  Railway/Metro
+                </a>
+              </li>
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#">
+                  Bus
+                </a>
+              </li>
+
+              <li className="nav-item dropdown">
+                <a className="nav-link" href="#">
+                  Cinema
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section className="seating-components-section">
         <div className="container">
           <div className="row align-items-start justify-content-center">

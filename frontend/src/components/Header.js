@@ -40,7 +40,7 @@ const Header = () => {
             <h6>Vinyl Flooring</h6>
           </NavLink>
 
-          <NavLink to="/" className="company-div">
+          <NavLink to="/coated-fabrics" className="company-div">
             <img
               src="/images/icons/Royal Touch.png"
               height={"50px"}
@@ -60,7 +60,7 @@ const Header = () => {
             <h6>Seating Components</h6>
           </NavLink>
 
-          <NavLink to="/royal-knit" className="company-div">
+          <NavLink to="/knit-fabrics" className="company-div">
             <img
               src="/images/icons/Royal Knit.png"
               height={"50px"}
@@ -181,7 +181,7 @@ const Header = () => {
 
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/coated-fabrics"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >
@@ -213,7 +213,7 @@ const Header = () => {
 
               <li className="nav-item">
                 <NavLink
-                  to="/royal-knit"
+                  to="/knit-fabrics"
                   className="company-div mobile-company"
                   onClick={closeOffcanvas}
                 >
