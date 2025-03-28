@@ -5,7 +5,7 @@ import Clients from "../components/Clients";
 
 const AboutUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/pexels-heyho-6436826.png",
+    bannerImg: "/images/banners/collage.png",
     title: "About Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },
