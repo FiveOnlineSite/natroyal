@@ -223,7 +223,7 @@ const RoyalKnit = () => {
               <div className="about-knit-content">
                 <div className="company-points">
                   <h5>
-                    <span className="yellow-title"> Our Production</span>{" "}
+                    <span className="yellow-title"> Our </span> Production
                     Facilities / Capacity{" "}
                   </h5>
                   <div className="company-point">

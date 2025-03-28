@@ -146,7 +146,7 @@ const SeatingComponents = () => {
             <div className="col-lg-6">
               <div className="seating-content">
                 <h2 className="title new-title">
-                  <span className="yellow-title"> Seats - Design </span>to
+                  <span className="yellow-title"> Seats - </span> Design to
                   Delivery.
                 </h2>
 

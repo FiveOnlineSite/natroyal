@@ -248,9 +248,7 @@ const Home = () => {
               </h6>
               <h2 className="title">
                 {" "}
-                <span className="yellow-title">
-                  Natroyal Group: Leaders in
-                </span>{" "}
+                <span className="yellow-title">Natroyal Group:</span> Leaders in
                 Flooring, Fabrics, and Seating Solution
               </h2>
               <p className="paragraph">

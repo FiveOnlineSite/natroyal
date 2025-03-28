@@ -375,10 +375,7 @@ const CoatedFabrics = () => {
             <div className="col-lg-8">
               <h2 className="title new-title white-title">
                 {" "}
-                <span className="yellow-title">
-                  {" "}
-                  Features of Automotive
-                </span>{" "}
+                <span className="yellow-title"> Features of</span> Automotive
                 Leatherette/Coated Fabrics
               </h2>
             </div>

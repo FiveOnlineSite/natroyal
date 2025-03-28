@@ -233,10 +233,8 @@ const OffersSection = () => {
             What We Offer <span></span>
           </h6>
           <h2 className="title new-title">
-            <span className="yellow-title">
-              Innovative Luxury Vinyl Plank &
-            </span>{" "}
-            Tile Solutions for Modern Spaces
+            <span className="yellow-title">Innovative</span> Luxury Vinyl Plank
+            & Tile Solutions for Modern Spaces
           </h2>
         </div>
 

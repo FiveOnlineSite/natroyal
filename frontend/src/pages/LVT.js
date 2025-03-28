@@ -203,8 +203,8 @@ const LVT = () => {
                 <span></span>
               </h6>
               <h2 className="title new-title">
-                <span className="yellow-title">About Luxury Vinyl</span> {""}
-                Plank & Tile
+                <span className="yellow-title">About </span> {""}
+                Luxury Vinyl Plank & Tile
               </h2>
 
               <p className="paragraph">
@@ -261,11 +261,9 @@ const LVT = () => {
                 <span></span>
               </h6>
               <h2 className="title new-title">
-                <span className="yellow-title">
-                  We Transform Spaces with Luxury
-                </span>{" "}
+                <span className="yellow-title">We Transform Spaces with</span>{" "}
                 {""}
-                Vinyl Plank & Tile (LVT) Flooring!
+                Luxury Vinyl Plank & Tile (LVT) Flooring!
               </h2>
 
               <p className="paragraph">
