@@ -9,7 +9,10 @@ const LocateUs = () => {
           <h6 className="subtitle text-center">
             Find Us Here <span></span>
           </h6>
-          <h2 className="title new-title">Locate Us</h2>
+          <h2 className="title new-title">
+            {" "}
+            <span className="yellow-title">Locate</span> Us
+          </h2>
 
           <p className="paragraph">
             Visit us at our location for personalized assistance and to explore

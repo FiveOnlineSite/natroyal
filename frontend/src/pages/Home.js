@@ -247,8 +247,11 @@ const Home = () => {
                 About Us <span></span>
               </h6>
               <h2 className="title">
-                Natroyal Group: Leaders in Flooring, Fabrics, and Seating
-                Solution
+                {" "}
+                <span className="yellow-title">
+                  Natroyal Group: Leaders in
+                </span>{" "}
+                Flooring, Fabrics, and Seating Solution
               </h2>
               <p className="paragraph">
                 Since 1962, Natroyal Group has been a leader in manufacturing
@@ -288,7 +291,9 @@ const Home = () => {
               <h6 className="subtitle">
                 Innovative Manufacturing <span></span>
               </h6>
-              <h2 className="title new-title">Product Verticals</h2>
+              <h2 className="title new-title">
+                <span className="yellow-title">Product</span> Verticals
+              </h2>
             </div>
 
             {/* <div className="col-lg-6 offset-lg-2 offset-0">
@@ -544,7 +549,9 @@ const Home = () => {
               <h6 className="subtitle text-center">
                 We Are Set At <span></span>
               </h6>
-              <h2 className="title new-title">Nationwide & Beyond</h2>
+              <h2 className="title new-title">
+                <span className="yellow-title">Nationwide</span> & Beyond
+              </h2>
 
               <p className="paragraph">
                 With a presence in 10+ countries, we are trusted globally for

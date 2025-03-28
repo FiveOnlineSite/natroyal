@@ -359,7 +359,10 @@ const Company = () => {
                     {/* <h6 className="subtitle">
                       Vinyl Plank & Tiles <span></span>
                     </h6> */}
-                    <h2 className="title">Luxury Vinyl Plank & Tiles (LVT)</h2>
+                    <h2 className="title">
+                      <span className="yellow-title">Luxury Vinyl Plank</span> &
+                      Tiles (LVT)
+                    </h2>
 
                     <p className="paragraph mb-5">
                       Natroyal Group is a pioneer in India, manufacturing and
@@ -405,7 +408,9 @@ const Company = () => {
                     {/* <h6 className="subtitle">
                       PVC Vinyl Flooring <span></span>
                     </h6> */}
-                    <h2 className="title">Vinyl Flooring</h2>
+                    <h2 className="title">
+                      <span className="yellow-title">Vinyl</span> Flooring
+                    </h2>
                     <p className="paragraph">
                       Natroyal Group manufactures high-quality PVC vinyl
                       flooring ranging from 0.37mm to 3mm, designed for sectors
@@ -462,7 +467,9 @@ const Company = () => {
                     {/* <h6 className="subtitle">
                       Coated Fabrics<span></span>
                     </h6> */}
-                    <h2 className="title">Coated Fabrics</h2>
+                    <h2 className="title">
+                      <span className="yellow-title">Coated</span> Fabrics
+                    </h2>
                     <p className="paragraph">
                       The pioneering entrepreneur of the group founded the
                       flagship company NLC in 1962. It is engaged in the
@@ -551,7 +558,9 @@ const Company = () => {
                     {/* <h6 className="subtitle">
                       Seating Components <span></span>
                     </h6> */}
-                    <h2 className="title">Seating Components</h2>
+                    <h2 className="title">
+                      <span className="yellow-title">Seating</span> Components
+                    </h2>
                     <p className="paragraph">
                       Our Division is a leading manufacturer of components for
                       metro, bus, car, cinema, and auditorium seats. The product
@@ -610,7 +619,9 @@ const Company = () => {
                     {/* <h6 className="subtitle">
                       Knit Fabrics <span></span>
                     </h6> */}
-                    <h2 className="title">Knit Fabrics</h2>
+                    <h2 className="title">
+                      <span className="yellow-title">Knit</span> Fabrics
+                    </h2>
                     <p className="paragraph mb-5">
                       Natroyal Industries (Knit Fabric Division) is engaged in
                       the manufacturing and development of industrial knitted

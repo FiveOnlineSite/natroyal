@@ -192,7 +192,9 @@ const RoyalKnit = () => {
               <h6 className="subtitle">
                 Knit Fabric – Where Flexibility Meets Comfort<span></span>
               </h6>
-              <h2 className="title">About Knit Fabric</h2>
+              <h2 className="title">
+                <span className="yellow-title"> About</span> Knit Fabric
+              </h2>
               <p className="paragraph">
                 Natroyal Industries (Knit Fabric Division) is engaged in the
                 manufacturing and development of industrial knitted fabrics
@@ -220,7 +222,10 @@ const RoyalKnit = () => {
             <div className="col-lg-6 mt-lg-0 mt-4">
               <div className="about-knit-content">
                 <div className="company-points">
-                  <h5>Our Production Facilities / Capacity </h5>
+                  <h5>
+                    <span className="yellow-title"> Our Production</span>{" "}
+                    Facilities / Capacity{" "}
+                  </h5>
                   <div className="company-point">
                     <i className="lni lni-arrow-right"></i>
                     <p>
@@ -287,7 +292,9 @@ const RoyalKnit = () => {
             <div className="col-lg-6 mt-lg-0 mt-4 order-lg-1 order-2">
               <div className="about-knit-content">
                 <div className="company-points">
-                  <h5>Our USP</h5>
+                  <h5>
+                    <span className="yellow-title"> Our</span> USP
+                  </h5>
                   <div className="company-point">
                     <i className="lni lni-arrow-right"></i>
                     <p>Roll Length: Upto 10,000 mtrs.</p>
@@ -323,7 +330,10 @@ const RoyalKnit = () => {
               <h6 className="subtitle text-center">
                 Cutting-Edge Textile Technologies<span></span>
               </h6>
-              <h2 className="title text-center">Advanced Technical Textiles</h2>
+              <h2 className="title text-center">
+                <span className="yellow-title"> Advanced</span> Technical
+                Textiles
+              </h2>
             </div>
 
             <TextilesSlider settings={textilesSettings} slides={textilesData} />

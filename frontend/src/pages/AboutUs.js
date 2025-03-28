@@ -112,7 +112,9 @@ const AboutUs = () => {
               <h6 className="subtitle">
                 Pioneers in Flooring & Textiles<span></span>
               </h6>
-              <h2 className="title new-title">Our Companies</h2>
+              <h2 className="title new-title">
+                <span className="yellow-title">Our</span> Companies
+              </h2>
             </div>
 
             <div className="col-lg-6 offset-lg-2 offset-0">
@@ -305,7 +307,9 @@ const AboutUs = () => {
               <h6 className="subtitle text-center">
                 Excellence & Sustainability <span></span>
               </h6>
-              <h2 className="title new-title">Our Mission</h2>
+              <h2 className="title new-title">
+                <span className="yellow-title">Our</span> Mission
+              </h2>
 
               <p className="paragraph">
                 To deliver high-quality, innovative solutions that meet our
@@ -356,7 +360,9 @@ const AboutUs = () => {
               <h6 className="subtitle text-center">
                 Global Leadership <span></span>
               </h6>
-              <h2 className="title new-title">Our Vision</h2>
+              <h2 className="title new-title">
+                <span className="yellow-title">Our</span> Vision
+              </h2>
 
               <p className="paragraph">
                 To be a global leader in Luxury Vinyl Plank & Tile, PVC vinyl

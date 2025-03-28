@@ -117,7 +117,9 @@ const Clients = () => {
               <h6 className="subtitle">
                 Trusted by Industry Leaders <span></span>
               </h6>
-              <h2 className="title new-title">Our Clients</h2>
+              <h2 className="title new-title">
+                <span className="yellow-title">Our</span> {""} Clients
+              </h2>
             </div>
 
             <div className="col-lg-6">

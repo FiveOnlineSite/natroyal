@@ -57,7 +57,8 @@ const CoatedFabrics = () => {
           <div className="row">
             <div className="col-lg-4">
               <h2 className="title new-title">
-                The Art of Royal Touch Leatherette
+                <span className="yellow-title"> The Art of</span> Royal Touch
+                Leatherette
               </h2>
             </div>
 
@@ -89,7 +90,10 @@ const CoatedFabrics = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
-              <h2 className="title new-title">Key Milestones</h2>
+              <h2 className="title new-title">
+                {" "}
+                <span className="yellow-title">Key</span> Milestones
+              </h2>
 
               <div className="milestones-content">
                 <ul>
@@ -185,7 +189,8 @@ const CoatedFabrics = () => {
       <section className="application-section">
         <div className="container">
           <h2 className="title new-title text-center">
-            We manufacture, supply and export
+            <span className="yellow-title"> We manufacture,</span> supply and
+            export
           </h2>
           <div className="row applications-row mt-5">
             <div className="col-lg-6 col-12">
@@ -369,7 +374,12 @@ const CoatedFabrics = () => {
           <div className="row">
             <div className="col-lg-8">
               <h2 className="title new-title white-title">
-                Features of Automotive Leatherette/Coated Fabrics
+                {" "}
+                <span className="yellow-title">
+                  {" "}
+                  Features of Automotive
+                </span>{" "}
+                Leatherette/Coated Fabrics
               </h2>
             </div>
           </div>
@@ -464,7 +474,11 @@ const CoatedFabrics = () => {
 
       <section className="business-section">
         <div className="container">
-          <h2 className="title new-title">We are a export-ready business</h2>
+          <h2 className="title new-title">
+            {" "}
+            <span className="yellow-title"> We are a </span>export-ready
+            business
+          </h2>
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-4">
               <div className="business-points">

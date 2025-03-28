@@ -605,7 +605,10 @@ const VinylFlooring = () => {
       <section className="vinyl-flooring-section">
         <div className="container">
           <div className="row">
-            <h2 className="title new-title text-center">Vinyl Flooring</h2>
+            <h2 className="title new-title text-center">
+              <span className="yellow-title">Vinyl</span>
+              {""} Flooring
+            </h2>
 
             <p className="paragraph gray-para text-center">
               Lorem Ipsum es simplemente el texto de relleno de las imprentas y

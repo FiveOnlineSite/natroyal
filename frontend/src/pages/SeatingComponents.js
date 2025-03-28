@@ -145,7 +145,10 @@ const SeatingComponents = () => {
             </div>
             <div className="col-lg-6">
               <div className="seating-content">
-                <h2 className="title new-title">Seats - Design to Delivery.</h2>
+                <h2 className="title new-title">
+                  <span className="yellow-title"> Seats - Design </span>to
+                  Delivery.
+                </h2>
 
                 <p className="paragraph gray-para">
                   Our seating components division is a leading manufacturer of
@@ -175,7 +178,9 @@ const SeatingComponents = () => {
       <section className="seating-application-section">
         <div className="container">
           <div className="row">
-            <h2 className="title new-title">Applications</h2>
+            <h2 className="title new-title">
+              <span className="yellow-title"> Applications </span>
+            </h2>
           </div>
 
           <div className="row">
