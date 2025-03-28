@@ -137,24 +137,20 @@ const LVT = () => {
 
   const videosData = [
     {
-      video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
+      video: "https://www.youtube.com/embed/_EVp4RgnJgA",
+      thumbnail: "/images/lvt/maxresdefault.jpg",
     },
     {
-      video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
+      video: "https://www.youtube.com/embed/dCXXL92mLgw",
+      thumbnail: "/images/lvt/maxresdefault.jpg",
     },
     {
-      video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
+      video: "https://www.youtube.com/embed/_EVp4RgnJgA",
+      thumbnail: "/images/lvt/maxresdefault.jpg",
     },
     {
-      video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
-    },
-    {
-      video: "/videos/1475160_People_Family_3840x2160.mp4",
-      thumbnail: "/images/banners/pexels-charlotte-may-5825543.png",
+      video: "https://www.youtube.com/embed/dCXXL92mLgw",
+      thumbnail: "/images/lvt/maxresdefault.jpg",
     },
   ];
 

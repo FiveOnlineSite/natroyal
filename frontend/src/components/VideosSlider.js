@@ -7,7 +7,13 @@ const VideosSlider = ({ settings, slides }) => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   const handlePlay = (videoUrl) => {
-    setSelectedVideo(videoUrl);
+    // Convert YouTube link to embeddable format
+    const videoId = videoUrl.split("youtu.be/")[1]?.split("?")[0]; // Extract video ID
+    const embedUrl = videoId
+      ? `https://www.youtube.com/embed/${videoId}`
+      : videoUrl;
+
+    setSelectedVideo(embedUrl);
     setShowModal(true);
   };
 
@@ -56,12 +62,17 @@ const VideosSlider = ({ settings, slides }) => {
             &times;
           </button> */}
           {selectedVideo && (
-            <video
+            <iframe
+              width="560"
+              height="400"
               src={selectedVideo}
-              controls
-              autoPlay
               className="video-modal w-100"
-            />
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           )}
         </Modal.Body>
       </Modal>

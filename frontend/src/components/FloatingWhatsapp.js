@@ -1,20 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const FloatingWhatsapp = () => {
-  const phoneNumber = "1234567890";
-  const message = "Hello!";
+  const phoneNumber = "918828889962";
+  const message = "Hi!";
   return (
     <div>
-      <a
-        href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-          message
-        )}`}
+      <NavLink
+        to={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
         target="_blank"
         rel="noopener noreffer"
         className="whatsapp-icon"
       >
         <i class="fa-brands fa-whatsapp"></i>
-      </a>
+      </NavLink>
     </div>
   );
 };

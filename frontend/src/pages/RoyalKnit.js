@@ -111,12 +111,12 @@ const RoyalKnit = () => {
     {
       image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
       name: "Recycled Fabric",
-      text: "Innovative fabrics designed for maximum water resistance.",
+      text: " Made from 100% recycled PET bottles. Meets global certification standards for quality, safety, and performance.",
     },
     {
       image: "/images/sliders/Products For Coating 2.png",
       name: "High Tenacity Fabric",
-      text: "Antimicrobial-treated textiles designed for healthcare and automotive.",
+      text: "Developed for special applications like automotive & footwear.",
     },
   ];
 
@@ -337,6 +337,53 @@ const RoyalKnit = () => {
             </div>
 
             <TextilesSlider settings={textilesSettings} slides={textilesData} />
+          </div>
+        </div>
+      </section>
+
+      <section className="knit-application-section">
+        <div className="container">
+          <div className="row">
+            <div className="custom-col">
+              <div className="knit-application-div">
+                <div className="knit-img-div">
+                  <img src="/images/icons/car.png" alt="icons" />
+                </div>
+                <h6>Automotive Industry</h6>
+              </div>
+            </div>
+            <div className="custom-col">
+              <div className="knit-application-div">
+                <div className="knit-img-div">
+                  <img src="/images/icons/layers.png" alt="icons" />
+                </div>
+                <h6>Coating and Lamination</h6>
+              </div>
+            </div>
+            <div className="custom-col">
+              <div className="knit-application-div">
+                <div className="knit-img-div">
+                  <img src="/images/icons/first-aid-kit.png" alt="icons" />
+                </div>
+                <h6>Health Care</h6>
+              </div>
+            </div>
+            <div className="custom-col">
+              <div className="knit-application-div">
+                <div className="knit-img-div">
+                  <img src="/images/icons/hanger.png" alt="icons" />
+                </div>
+                <h6>Protective Clothing</h6>
+              </div>
+            </div>
+            <div className="custom-col">
+              <div className="knit-application-div">
+                <div className="knit-img-div">
+                  <img src="/images/icons/shoe.png" alt="icons" />
+                </div>
+                <h6>Footwear Industry</h6>
+              </div>
+            </div>
           </div>
         </div>
       </section>

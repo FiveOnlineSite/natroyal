@@ -33,6 +33,7 @@ const ApplicationsModal = () => {
                 aria-label="Close"
               ></button>
             </div>
+
             <div className="modal-body">
               {/* Individual Accordions (No Nested Structure) */}
               <div className="accordion" id="applicationsAccordion">
