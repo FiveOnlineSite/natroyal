@@ -357,7 +357,7 @@ const RoyalKnit = () => {
                 <div className="knit-img-div">
                   <img src="/images/icons/layers.png" alt="icons" />
                 </div>
-                <h6>Coating and Lamination</h6>
+                <h6>Coating & Lamination</h6>
               </div>
             </div>
             <div className="custom-col">
