@@ -2338,11 +2338,6 @@ body {
   .what-we-offer-section .slick-prev {
     left: 80% !important;
   }
-
-  .custom-col {
-    flex: 0 0 48%; /* 2 items per row */
-    max-width: 48%;
-  }
 }
 
 @media screen and (max-width: 600px) {
@@ -2456,6 +2451,11 @@ body {
   .application-overlay .application-border a {
     top: 45%;
     left: 34%;
+  }
+
+  .custom-col {
+    flex: 0 0 48%; /* 2 items per row */
+    max-width: 48%;
   }
 }
 
