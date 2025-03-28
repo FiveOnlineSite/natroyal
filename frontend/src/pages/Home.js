@@ -107,7 +107,8 @@ const Home = () => {
   const productsData = [
     {
       image: "/images/banners/casual-girl-surfing-laptop-home.png",
-      title: "Vinly Flooring",
+      title: "Vinyl Flooring",
+      link: "/vinyl-flooring",
       // content:
       //   "Our PVC Vinyl Flooring offers durability for sectors like Education, Healthcare, Retail, and more.",
     },
@@ -115,12 +116,14 @@ const Home = () => {
       image:
         "/images/banners/beautiful-luxury-pillow-sofa-decoration-livingroom-interior-background.png",
       title: "Luxury Vinyl Planks & Tiles (LVT)",
+      link: "/lvt-flooring",
       // content:
       //   "LVT provide a durable, stylish, and low-maintenance flooring option ideal for various sectors like education, healthcare, and retail.",
     },
     {
       image: "/images/banners/pexels-mikebirdy-1633602.png",
       title: "Coated Fabrics",
+      link: "/coated-fabrics",
       // content:
       //   "Coated fabrics offer durability, water resistance, and versatility for applications like upholstery and outdoor furniture.",
     },
@@ -128,12 +131,14 @@ const Home = () => {
     {
       image: "/images/banners/seating-component.png",
       title: "Seating Components",
+      link: "/seating-components",
       // content:
       //   "Seating components provide comfort, durability, and support for various furniture applications.",
     },
     {
       image: "/images/banners/left wall.png",
       title: "Knit Fabrics",
+      link: "/knit-fabrics",
       // content:
       //   "Knit fabrics offer flexibility, breathability, and softness for a wide range of textile applications.",
     },

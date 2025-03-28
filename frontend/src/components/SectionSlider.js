@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
 
 const SectionSlider = ({
@@ -15,7 +16,7 @@ const SectionSlider = ({
           <div key={index} className="element">
             <div className="image-container">
               <img src={slide.image} alt="product" className="product-image" />
-              <a href="#" className="overlay-text">
+              <NavLink to={slide.link} className="overlay-text">
                 <div className="overlay-title">
                   <h6>{slide.title}</h6>
                   <div>
@@ -23,7 +24,7 @@ const SectionSlider = ({
                   </div>
                 </div>
                 {/* <p>{slide.content}</p> */}
-              </a>
+              </NavLink>
             </div>
           </div>
         ))}

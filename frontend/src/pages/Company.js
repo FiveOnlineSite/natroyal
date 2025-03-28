@@ -372,7 +372,7 @@ const Company = () => {
                     </p>
 
                     <NavLink
-                      to="/"
+                      to="/lvt-flooring"
                       target="_blank"
                       className="custom-button border-btn"
                     >
@@ -430,7 +430,7 @@ const Company = () => {
                     </div>
 
                     <NavLink
-                      to="/"
+                      to="/vinyl-flooring"
                       target="_blank"
                       className="custom-button border-btn"
                     >
@@ -522,7 +522,7 @@ const Company = () => {
                     </div>
 
                     <NavLink
-                      to="/"
+                      to="/coated-fabrics"
                       target="_blank"
                       className="custom-button border-btn"
                     >
@@ -583,7 +583,7 @@ const Company = () => {
                     </p>
 
                     <NavLink
-                      to="/"
+                      to="/seating-components"
                       target="_blank"
                       className="custom-button border-btn"
                     >
@@ -710,7 +710,7 @@ const Company = () => {
                       </div>
                     </div> */}
                     <NavLink
-                      to="/"
+                      to="/knit-fabrics"
                       target="_blank"
                       className="custom-button border-btn"
                     >

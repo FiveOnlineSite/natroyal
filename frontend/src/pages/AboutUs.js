@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Banner from "../components/Banner";
 import Clients from "../components/Clients";
+import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
   const bannerData = {
@@ -132,7 +133,7 @@ const AboutUs = () => {
         </div>
         <div className="row">
           <div className="companies-div">
-            <a href="#" className="single-company">
+            <NavLink to="/lvt-flooring" className="single-company">
               <div className="single-company-img">
                 <img
                   src="/images/icons/Royal House.png"
@@ -164,8 +165,8 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="#" className="single-company">
+            </NavLink>
+            <NavLink to="/vinyl-flooring" className="single-company">
               <div className="single-company-img">
                 <img
                   src="/images/icons/Royal House.png"
@@ -198,9 +199,9 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </NavLink>
 
-            <a href="#" className="single-company">
+            <NavLink to="/coated-fabrics" className="single-company">
               <div className="single-company-img">
                 <img
                   src="/images/icons/Royal Touch.png"
@@ -231,8 +232,8 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="#" className="single-company">
+            </NavLink>
+            <NavLink to="/seating-components" className="single-company">
               <div className="single-company-img">
                 <img
                   src="/images/icons/Vijayjyot.png"
@@ -264,8 +265,8 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </a>
-            <a href="#" className="single-company">
+            </NavLink>
+            <NavLink to="/knit-fabrics" className="single-company">
               <div className="single-company-img">
                 <img
                   src="/images/icons/Royal Knit.png"
@@ -295,7 +296,7 @@ const AboutUs = () => {
                   </div>
                 </div>
               </div>
-            </a>
+            </NavLink>
           </div>
         </div>
       </section>

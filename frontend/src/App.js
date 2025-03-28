@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/our-divisions" element={<Company />} />
         <Route path="/royal-house" element={<RoyalHouse />} />
-        <Route path="/lvt" element={<LVT />} />
+        <Route path="/lvt-flooring" element={<LVT />} />
         <Route path="/vinyl-flooring" element={<VinylFlooring />} />
         <Route path="/knit-fabrics" element={<RoyalKnit />} />
         <Route path="/seating-components" element={<SeatingComponents />} />
