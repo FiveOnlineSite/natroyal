@@ -1869,7 +1869,7 @@ body {
 
 .single-application .application-content {
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 20px;
   opacity: 1;
   transition: all 0.6s ease;
@@ -1878,7 +1878,7 @@ body {
 
 .single-application .application-content h5 {
   color: var(--white-font);
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 600;
   text-transform: uppercase;

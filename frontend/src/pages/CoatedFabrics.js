@@ -11,7 +11,7 @@ const CoatedFabrics = () => {
         <div className="slide-container">
           <div className="poster-container">
             <img
-              src="/images/banners/Brown_and_White_For_Men_Fashion_Facebook_Post_1.webp"
+              src="/images/coated-fabrics/Royal-Touch-Coated-Fabrics.jpg"
               alt="Poster"
               className="poster-image"
             />
@@ -204,11 +204,11 @@ const CoatedFabrics = () => {
                   <div className="application-content">
                     <h5>Residential & Contract Furnishing</h5>
 
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       Natroyal has been a pioneer in the business of supplying
                       performance-based coated fabrics for the home, office &
                       contract furnishing.
-                    </p>
+                    </p> */}
                   </div>
 
                   <div className="application-overlay">
@@ -225,11 +225,11 @@ const CoatedFabrics = () => {
                   <img src="/images/coated-fabrics/Car Seats 2.jpg" />{" "}
                   <div className="application-content">
                     <h5>Automotive</h5>
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       Natroyal leads in performance-coated fabrics for cars,
                       buses, and motorcycles. We are India's first to develop
                       phase-change material for heat management.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
@@ -245,11 +245,11 @@ const CoatedFabrics = () => {
                   <img src="/images/coated-fabrics/bike.jpg" />{" "}
                   <div className="application-content">
                     <h5>Two Wheelers</h5>
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       Natroyal offers innovative two-wheeler seat covers,
                       including heat-management and stylish options like Seat
                       Tops, Bamboo Tops, and Emboss Tops in various prints.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
@@ -265,12 +265,12 @@ const CoatedFabrics = () => {
                   <img src="/images/coated-fabrics/marine-1.jpg" />{" "}
                   <div className="application-content">
                     <h5>Marine & Recreational Vehicles</h5>
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       Our coated fabrics for the marine industry have been
                       designed based on extensive research, for them to easily
                       endure the harsh conditions present on both commercial as
                       well as recreational vessels.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
@@ -287,11 +287,11 @@ const CoatedFabrics = () => {
                   <img src="/images/coated-fabrics/Healthcare 2.jpg" />{" "}
                   <div className="application-content">
                     <h5>Healthcare</h5>
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       We pioneered SITRA, Intertek, and Valtris UK-certified
                       healthcare products in India, including washable aprons,
                       curtains, and pillow covers, reducing medical waste.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
@@ -307,12 +307,12 @@ const CoatedFabrics = () => {
                   <img src="/images/coated-fabrics/Footwear-Coated-Fabrics.jpg" />{" "}
                   <div className="application-content">
                     <h5>Footwear</h5>
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       With a special range of coated fabrics that have been
                       meticulously designed to fulfill the distinct requirements
                       of the footwear industry, Natroyal has emerged as a
                       leading brand in the market for all our footwear products.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
@@ -329,13 +329,13 @@ const CoatedFabrics = () => {
                   <div className="application-content">
                     <h5>Fashion – Apparel, Belts & Bags</h5>
 
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       Coated fabrics possess a variety of functional qualities,
                       making them the ideal material for fashion products.
                       Natroyal provides best-in-class coated fabrics for a wide
                       range of fashion accessories including apparel, belts &
                       bags.
-                    </p>
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">
@@ -351,11 +351,31 @@ const CoatedFabrics = () => {
                   <img src="/images/coated-fabrics/Tractor.jpg" />{" "}
                   <div className="application-content">
                     <h5>Tractor</h5>
-                    <p className="application-para">
+                    {/* <p className="application-para">
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s.
-                    </p>
+                    </p> */}
+                  </div>
+                  <div className="application-overlay">
+                    <div className="application-border">
+                      <NavLink>View More</NavLink>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            </div>
+            <div className="col-lg-6">
+              <NavLink to="#">
+                <div className="single-application">
+                  <img src="/images/coated-fabrics/Truck Header.jpg" />{" "}
+                  <div className="application-content">
+                    <h5>Truck</h5>
+                    {/* <p className="application-para">
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry. Lorem Ipsum has been the industry's
+                      standard dummy text ever since the 1500s.
+                    </p> */}
                   </div>
                   <div className="application-overlay">
                     <div className="application-border">

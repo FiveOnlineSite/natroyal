@@ -85,10 +85,13 @@ const SeatingComponents = () => {
       <section className="landing-banner-section">
         <div className="slide-container">
           <div className="poster-container">
-            <img
-              src="/images/banners/915ef78d-373e-4a98-a10e-b0d0287e6f98.jpg"
+            <video
+              src="/videos/WhatsApp Video 2025-03-28 at 16.22.51.mp4"
               alt="Poster"
               className="poster-image"
+              loop
+              muted
+              autoPlay
             />
 
             {/* Common Banner Content - Placed inside the same container */}
