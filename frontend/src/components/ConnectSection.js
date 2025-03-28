@@ -28,7 +28,7 @@ const ConnectSection = () => {
                 Connect with Us <span></span>
               </h6>
               <h2 className="title new-title">
-                <span className="yellow-title">Get In</span> Touch
+                <span className="yellow-title">Get </span>In Touch
               </h2>
               <p className="paragraph">
                 We’d love to hear from you! Get in touch with us for any
