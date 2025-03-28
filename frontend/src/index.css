@@ -1666,13 +1666,13 @@ body {
 /* SEATING COMPONENTS */
 
 .seating-components-section,
-.seating-application-section,
-.applications-section {
+.seating-application-section {
   padding: 50px 0;
 }
 
 .applications-section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px 0;
 }
 
 .seating-application-section h4 {
@@ -1686,7 +1686,7 @@ body {
 
 .application-tabs li a {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: bottom;
