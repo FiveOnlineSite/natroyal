@@ -217,7 +217,7 @@ const CoatedFabrics = () => {
             <div className="col-lg-6">
               <NavLink to="#">
                 <div className="single-application">
-                  <img src="/images/coated-fabrics/automotive-1.jpg" />{" "}
+                  <img src="/images/coated-fabrics/Car Seats 2.jpg" />{" "}
                   <div className="application-content">
                     <h5>Automotive</h5>
                     <p className="application-para">
@@ -279,7 +279,7 @@ const CoatedFabrics = () => {
             <div className="col-lg-6">
               <NavLink to="#">
                 <div className="single-application">
-                  <img src="/images/coated-fabrics/upholstry.jpg" />{" "}
+                  <img src="/images/coated-fabrics/Healthcare 2.jpg" />{" "}
                   <div className="application-content">
                     <h5>Healthcare</h5>
                     <p className="application-para">

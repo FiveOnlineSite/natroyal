@@ -148,21 +148,23 @@ const SeatingComponents = () => {
                 <h2 className="title new-title">Seats - Design to Delivery.</h2>
 
                 <p className="paragraph gray-para">
-                  Seating components division is leading components manufacturer
-                  for Metro, Bus, Car, Cinema and Auditorium seats. The product
-                  line includes fabrication of Metal Frames (MS and SS),
-                  Polyurethane (PU) Foam and Upholstery / Trim Covers. We also
-                  manufacture and supply fully assembled Railway seats.
+                  Our seating components division is a leading manufacturer of
+                  components for metro, bus, car, cinema, and auditorium seats.
+                  The product line includes the fabrication of metal frames (MS
+                  and SS), polyurethane (PU) foam, and upholstery/trim covers.
+                  We also manufacture and supply fully assembled seats.
                 </p>
 
                 <p className="paragraph gray-para">
-                  Our seating components division provides one-stop solution to
-                  customers from design inception, proto-type sample, product
-                  development to commercial supplies. Facilities include Design
-                  center, Tool room, Weld shop with advanced technology like
-                  Multi Axis Bending Machine, Cutting & Sewing Machines and PU
-                  Machines. The plant is located in Halol, near Vadodara in
-                  state of Gujarat, INDIA.
+                  Our seating components division provides a one-stop solution
+                  for customers, from design inception and prototype samples to
+                  product development and commercial supplies. Our facilities
+                  include a design centre, tool room, weld shop, and advanced
+                  technology such as multi-axis bending machines, cutting and
+                  sewing machines, and PU machines. We comply with the latest EN
+                  standards for components (Frames, Trims, and PU). The plant is
+                  located in Halol, near Vadodara, in the state of Gujarat,
+                  India.
                 </p>
               </div>
             </div>
@@ -184,13 +186,14 @@ const SeatingComponents = () => {
                   alt="seating-application"
                 />
 
-                <h4>Railway\Metro</h4>
+                <h4>Railway/Metro</h4>
 
                 <p className="paragraph gray-para mt-4">
-                  Natroyal Industries Pvt Ltd has been supplying performance
-                  based coated fabrics to the automotive (4 wheelers and well as
-                  2 wheelers), bus and mass transport industry for the last 4
-                  decades.
+                  We specialize in manufacturing and supplying for the railways
+                  and metro seat segment. Offering complete solutions from
+                  design and proto sample development to testing, tooling, and
+                  production. Our end-to-end capabilities ensure precision,
+                  quality, and reliability at every stage.
                 </p>
               </div>
             </div>
@@ -205,10 +208,13 @@ const SeatingComponents = () => {
                 <h4>Cinema</h4>
 
                 <p className="paragraph gray-para mt-4">
-                  Natroyal Industries Pvt Ltd has been supplying performance
-                  based coated fabrics to the automotive (4 wheelers and well as
-                  2 wheelers), bus and mass transport industry for the last 4
-                  decades.
+                  We specialize in manufacturing and supplying for the assembled
+                  seat segment, catering to cinema and auditorium seating. From
+                  design and prototyping to testing, tooling, and production, we
+                  deliver end-to-end solutions. Our high-quality materials and
+                  precision engineering ensure durability and comfort. Trusted
+                  by industry leaders for seamless integration and on-time
+                  delivery.
                 </p>
               </div>
             </div>
@@ -216,17 +222,18 @@ const SeatingComponents = () => {
             <div className="col-lg-4 mt-lg-0 mt-5">
               <div>
                 <img
-                  src="/images/seating/interior-public-bus-transport.png"
+                  src="/images/seating/Bus.jpg"
+                  className="w-100"
                   alt="seating-application"
                 />
 
                 <h4>Bus</h4>
 
                 <p className="paragraph gray-para mt-4">
-                  Natroyal Industries Pvt Ltd has been supplying performance
-                  based coated fabrics to the automotive (4 wheelers and well as
-                  2 wheelers), bus and mass transport industry for the last 4
-                  decades.
+                  We manufacture and supply seating solutions for the commercial
+                  vehicle and bus segment. Delivering complete solutions from
+                  design to production. Our expertise ensures superior comfort,
+                  durability, and performance.
                 </p>
               </div>
             </div>

@@ -203,7 +203,8 @@ const LVT = () => {
                 <span></span>
               </h6>
               <h2 className="title new-title">
-                About Luxury Vinyl Plank & Tile
+                <span className="yellow-title">About Luxury Vinyl</span> {""}
+                Plank & Tile
               </h2>
 
               <p className="paragraph">
@@ -260,8 +261,11 @@ const LVT = () => {
                 <span></span>
               </h6>
               <h2 className="title new-title">
-                We Transform Spaces with Luxury Vinyl Plank & Tile (LVT)
-                Flooring!
+                <span className="yellow-title">
+                  We Transform Spaces with Luxury
+                </span>{" "}
+                {""}
+                Vinyl Plank & Tile (LVT) Flooring!
               </h2>
 
               <p className="paragraph">
@@ -281,7 +285,7 @@ const LVT = () => {
             <div className="col-lg-6 offset-lg-1 offset-0">
               <div className="transform-img-container">
                 <img
-                  src="/images/banners/4096f1007a958ab6ed2859910af7f173.png"
+                  src="/images/lvt/LVT 1.jpg"
                   alt="transform-img"
                   className="w-100"
                 />
@@ -302,7 +306,9 @@ const LVT = () => {
               <span></span>
             </h6> */}
             <h2 className="title new-title">
-              Natroyal has the perfect flooring solution for you!
+              <span className="yellow-title">Natroyal has the perfect</span>{" "}
+              {""}
+              flooring solution for you!
             </h2>
           </div>
 
@@ -540,7 +546,7 @@ const LVT = () => {
           <div className="row align-items-center">
             <div className="col-lg-5">
               <img
-                src="/images/banners/unsplash_NFbwes_e-jI.png"
+                src="/images/lvt/LVT.jpg"
                 alt="leading-innovator-img"
                 className="w-100"
               />
@@ -551,7 +557,9 @@ const LVT = () => {
                 <span></span>
               </h6>
               <h2 className="title new-title">
-                Leading Innovators in Quality Flooring!
+                {" "}
+                <span className="yellow-title">Leading Innovators</span> {""}
+                in Quality Flooring!
               </h2>
 
               <p className="paragraph gray-para">
@@ -614,7 +622,10 @@ const LVT = () => {
           <h6 className="subtitle gray-subtitle">
             Memorable Moments, Unforgettable Experiences <span></span>
           </h6>
-          <h2 className="title new-title">Events</h2>
+          <h2 className="title new-title">
+            {" "}
+            <span className="yellow-title">Events</span>{" "}
+          </h2>
           <VideosSlider settings={videosSettings} slides={videosData} />
         </div>
       </section>

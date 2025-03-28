@@ -112,6 +112,10 @@ body {
   height: 84vh;
 }
 
+.video-container {
+  height: 100%;
+}
+
 .poster-image,
 .video-element {
   width: 100%;
@@ -1362,6 +1366,12 @@ body {
   transform: translate(-10%, -50%);
 }
 
+.vinyl-flooring-row img {
+  border-radius: 20px;
+  height: 350px;
+  object-fit: cover;
+}
+
 .gray-subtitle,
 .gray-para {
   color: var(--landing-subtitle);
@@ -1369,6 +1379,10 @@ body {
 
 .white-title {
   color: var(--white-font);
+}
+
+.yellow-title {
+  color: var(--dark-yellow-font);
 }
 
 .gray-subtitle span {
@@ -1712,6 +1726,11 @@ body {
   display: none;
   position: relative;
   bottom: -100%;
+}
+
+.seating-application-section img {
+  height: 339px;
+  object-fit: cover;
 }
 
 .modal.modal-bottom-slide .modal-dialog {
@@ -2281,11 +2300,15 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  /* .poster-image,
+  .poster-image,
   .video-element,
   .poster-container {
     height: 82vh;
-  } */
+  }
+
+  .video-container {
+    height: 100%;
+  }
 
   .banner-text h1 {
     margin-bottom: 20px;

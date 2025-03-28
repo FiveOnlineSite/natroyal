@@ -21,7 +21,7 @@ const VideosSlider = ({ settings, slides }) => {
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="video-slide-container">
-            <div className="poster-container">
+            <div className="poster-container video-container">
               <img
                 src={slide.thumbnail}
                 alt="thumbnail"

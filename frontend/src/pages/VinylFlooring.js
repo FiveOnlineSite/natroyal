@@ -614,7 +614,7 @@ const VinylFlooring = () => {
             </p>
           </div>
 
-          <div className="row mt-3">
+          <div className="row mt-3 vinyl-flooring-row">
             <div className="col-lg-6 mt-5 px-3">
               <img
                 src="/images/vinyl/Mask group (11).png"
@@ -678,7 +678,7 @@ const VinylFlooring = () => {
             </div>
             <div className="col-lg-6 mt-5 px-3">
               <img
-                src="/images/vinyl/Mask group (13).png"
+                src="/images/vinyl/Residential Vinyl.jpg"
                 alt="vinyl"
                 className="w-100"
               />
@@ -698,7 +698,7 @@ const VinylFlooring = () => {
             </div>
             <div className="col-lg-6 mt-5 px-3">
               <img
-                src="/images/vinyl/Mask group (14).png"
+                src="/images/vinyl/Office Vinyl.jpg"
                 alt="vinyl"
                 className="w-100"
               />
@@ -718,7 +718,7 @@ const VinylFlooring = () => {
             </div>
             <div className="col-lg-6 mt-5 px-3">
               <img
-                src="/images/vinyl/Mask group (15).png"
+                src="/images/vinyl/Hospitality Vinyl.jpg"
                 alt="vinyl"
                 className="w-100"
               />
@@ -738,7 +738,7 @@ const VinylFlooring = () => {
             </div>{" "}
             <div className="col-lg-6 mt-5 px-3">
               <img
-                src="/images/vinyl/Mask group (17).png"
+                src="/images/vinyl/Transport Vinyl.jpg"
                 alt="vinyl"
                 className="w-100"
               />

@@ -233,20 +233,29 @@ const OffersSection = () => {
             What We Offer <span></span>
           </h6>
           <h2 className="title new-title">
-            Innovative Luxury Vinyl Plank & Tile Solutions for Modern Spaces
+            <span className="yellow-title">
+              Innovative Luxury Vinyl Plank &
+            </span>{" "}
+            Tile Solutions for Modern Spaces
           </h2>
         </div>
 
         <div className="row radiant-row ">
           <div className="col-lg-6">
-            <h2 className="title new-title">Radiant - 1.5mm</h2>
+            <h2 className="title new-title">
+              <span className="yellow-title">Radiant</span> - 1.5mm
+            </h2>
           </div>
           <OfferSlider settings={offersSettings} slides={radiantData} />
         </div>
 
         <div className="row mt-5 luxera-row">
           <div className="col-lg-6">
-            <h2 className="title new-title">Luxura - 2mm</h2>
+            <h2 className="title new-title">
+              {" "}
+              <span className="yellow-title">Luxura</span>
+              {""} - 2mm
+            </h2>
           </div>
           <OfferSlider settings={offersSettings} slides={luxeraData} />
         </div>
