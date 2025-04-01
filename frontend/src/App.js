@@ -11,6 +11,8 @@ import VinylFlooring from "./pages/VinylFlooring";
 import RoyalKnit from "./pages/RoyalKnit";
 import SeatingComponents from "./pages/SeatingComponents";
 import CoatedFabrics from "./pages/CoatedFabrics";
+import AboutCoated from "./pages/AboutCoated";
+import Laboratory from "./pages/Laboratory";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path="/knit-fabrics" element={<RoyalKnit />} />
         <Route path="/seating-components" element={<SeatingComponents />} />
         <Route path="/coated-fabrics" element={<CoatedFabrics />} />
+        <Route path="/about-coated" element={<AboutCoated />} />
+        <Route path="/laboratory-tested" element={<Laboratory />} />
       </Routes>
       <FloatingWhatsapp />
     </Router>

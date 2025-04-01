@@ -1799,7 +1799,8 @@ body {
 /* COATED FABRICS */
 
 .about-coated-section,
-.key-milestones-section {
+.key-milestones-section,
+.laboratory-gallery-section {
   padding: 50px 0;
 }
 
@@ -2018,6 +2019,11 @@ body {
 
 .business-points img {
   padding-left: 5px;
+}
+
+.laboratory-gallery-section img {
+  height: 300px;
+  object-fit: contain;
 }
 
 @keyframes smallScale {
