@@ -31,6 +31,25 @@ const Laboratory = () => {
         </div>
       </section>
 
+      <section className="applications-section">
+        <div className="container">
+          <div className="row">
+            <ul className="application-tabs d-flex align-items-center justify-content-center">
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/about-coated">
+                  About
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/laboratory-tested">
+                  Laboratory Tested
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section className="about-knit-section">
         <div className="container">
           <div className="row align-items-start justify-content-center">
@@ -89,14 +108,14 @@ const Laboratory = () => {
               />
             </div>
             <div className="row">
-              <div className="col-lg-6 mt-lg-0 mt-3">
+              <div className="col-lg-2 mt-lg-0 mt-3">
                 <img
                   src="/images/laboratory/img10.jpg"
                   alt="laboratory-img"
                   className="w-100"
                 />
               </div>
-              <div className="col-lg-6 mt-lg-0 mt-3">
+              <div className="col-lg-4 mt-lg-0 mt-3">
                 <img
                   src="/images/laboratory/img8.jpg"
                   alt="laboratory-img"

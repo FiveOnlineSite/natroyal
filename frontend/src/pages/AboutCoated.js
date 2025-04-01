@@ -31,6 +31,25 @@ const AboutCoated = () => {
         </div>
       </section>
 
+      <section className="applications-section">
+        <div className="container">
+          <div className="row">
+            <ul className="application-tabs d-flex align-items-center justify-content-center">
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/about-coated">
+                  About
+                </NavLink>
+              </li>
+              <li className="nav-item dropdown">
+                <NavLink className="nav-link" to="/laboratory-tested">
+                  Laboratory Tested
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section className="about-coated-section">
         <div className="container">
           <div className="row">
