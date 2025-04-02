@@ -2026,6 +2026,14 @@ body {
   object-fit: contain;
 }
 
+.application-tabs .nav-link {
+  padding-bottom: 10px;
+}
+
+.application-tabs .nav-link.active {
+  border-bottom: 2px solid var(--dark-yellow-font);
+}
+
 @keyframes smallScale {
   0% {
     transform: scale(1);

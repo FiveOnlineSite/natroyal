@@ -36,7 +36,7 @@ const AboutCoated = () => {
           <div className="row">
             <ul className="application-tabs d-flex align-items-center justify-content-center">
               <li className="nav-item dropdown">
-                <NavLink className="nav-link" to="/about-coated">
+                <NavLink className="nav-link active" to="/about-coated">
                   About
                 </NavLink>
               </li>
