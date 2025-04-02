@@ -109,7 +109,7 @@ const LVT = () => {
     dots: false,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -142,15 +142,7 @@ const LVT = () => {
     },
     {
       video: "https://www.youtube.com/embed/dCXXL92mLgw",
-      thumbnail: "/images/lvt/maxresdefault.jpg",
-    },
-    {
-      video: "https://www.youtube.com/embed/_EVp4RgnJgA",
-      thumbnail: "/images/lvt/maxresdefault.jpg",
-    },
-    {
-      video: "https://www.youtube.com/embed/dCXXL92mLgw",
-      thumbnail: "/images/lvt/maxresdefault.jpg",
+      thumbnail: "/images/lvt/dCXXL92mLgw-HD.jpg",
     },
   ];
 
@@ -174,11 +166,11 @@ const LVT = () => {
                 Timeless Beauty. Lasting Durability. Luxury Vinyl Plank & Tile
                 Flooring!
               </h1>
-              <div className="d-flex">
+              {/* <div className="d-flex">
                 <NavLink to="/contact-us" className="custom-button">
                   Get Started
                 </NavLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

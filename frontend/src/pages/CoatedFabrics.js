@@ -23,11 +23,11 @@ const CoatedFabrics = () => {
                 We are India’s leading manufacturers & exporters of Specifically
                 Engineered Coated Fabrics
               </h1>
-              <div className="d-flex">
+              {/* <div className="d-flex">
                 <NavLink to="/contact-us" className="custom-button">
                   Get Started
                 </NavLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -234,7 +234,7 @@ const CoatedFabrics = () => {
             <div className="col-lg-6">
               <NavLink to="#">
                 <div className="single-application">
-                  <img src="/images/coated-fabrics/Truck Header.jpg" />{" "}
+                  <img src="/images/coated-fabrics/Truck.jpg" />{" "}
                   <div className="application-content">
                     <h5>Truck</h5>
                     {/* <p className="application-para">
@@ -259,7 +259,7 @@ const CoatedFabrics = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <h2 className="title new-title white-title">
+              <h2 className="title new-title">
                 {" "}
                 <span className="yellow-title"> Features of</span> Automotive
                 Leatherette/Coated Fabrics
@@ -365,26 +365,42 @@ const CoatedFabrics = () => {
           <div className="row">
             <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-4">
               <div className="business-points">
+                <img
+                  src="/images/icons/Group 869 1.png"
+                  alt="icons"
+                  className="mb-3"
+                />
                 <h5>Star rated export</h5>{" "}
-                <img src="/images/icons/Group 869 1.png" alt="icons" />
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-4">
               <div className="business-points">
+                <img
+                  src="/images/icons/Group 868 1.png"
+                  alt="icons"
+                  className="mb-3"
+                />
                 <h5>3-4 Weeks time</h5>{" "}
-                <img src="/images/icons/Group 868 1.png" alt="icons" />
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-4">
               <div className="business-points">
+                <img
+                  src="/images/icons/Group 867 1.png"
+                  alt="icons"
+                  className="mb-3"
+                />
                 <h5>60+ Years of legacy</h5>{" "}
-                <img src="/images/icons/Group 867 1.png" alt="icons" />
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12 mt-lg-0 mt-4">
               <div className="business-points">
+                <img
+                  src="/images/icons/Group 866 1.png"
+                  alt="icons"
+                  className="mb-3"
+                />
                 <h5>International quality</h5>{" "}
-                <img src="/images/icons/Group 866 1.png" alt="icons" />
               </div>
             </div>
           </div>

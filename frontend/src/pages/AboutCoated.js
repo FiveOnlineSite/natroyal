@@ -183,6 +183,51 @@ const AboutCoated = () => {
           </div>
         </div>
       </section>
+
+      <section className="about-gallery-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 mt-lg-0 mt-4">
+              <img
+                src="/images/coated-fabrics/leather_page-0001 1 (1).png"
+                alt="laboratory-img"
+                className="w-100"
+              />
+            </div>
+            <div className="col-lg-4 mt-lg-0 mt-3">
+              <img
+                src="/images/coated-fabrics/leather_page-0002 1.png"
+                alt="laboratory-img"
+                className="w-100"
+              />
+            </div>
+            <div className="col-lg-4 mt-lg-0 mt-3">
+              <img
+                src="/images/coated-fabrics/leather_page-0004 2.png"
+                alt="laboratory-img"
+                className="w-100"
+              />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-2 mt-lg-5 mt-3">
+              <img
+                src="/images/coated-fabrics/leather_page-0003 1.png"
+                alt="laboratory-img"
+                className="w-100"
+              />
+            </div>
+            <div className="col-lg-4 mt-lg-5 mt-3">
+              <img
+                src="/images/coated-fabrics/leather_page-0005 1.png"
+                alt="laboratory-img"
+                className="w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 };

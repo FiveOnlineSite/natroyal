@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 const AboutUs = () => {
   const bannerData = {
-    bannerImg: "/images/banners/collage.png",
+    bannerImg: "/images/banners/Slide 16_9 - 1.png",
     title: "About Us",
     breadcrumbs: [
       { label: "Home", path: "/", active: false },

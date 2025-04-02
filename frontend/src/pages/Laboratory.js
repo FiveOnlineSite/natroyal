@@ -88,40 +88,40 @@ const Laboratory = () => {
           <div className="row">
             <div className="col-lg-4 mt-lg-0 mt-4">
               <img
-                src="/images/laboratory/img7.jpg"
+                src="/images/laboratory/img7 1.png"
                 alt="laboratory-img"
                 className="w-100"
               />
             </div>
             <div className="col-lg-4 mt-lg-0 mt-3">
               <img
-                src="/images/laboratory/img9.jpg"
+                src="/images/laboratory/img9 1.png"
                 alt="laboratory-img"
                 className="w-100"
               />
             </div>
             <div className="col-lg-4 mt-lg-0 mt-3">
               <img
-                src="/images/laboratory/img12.jpg"
+                src="/images/laboratory/img8 1.png"
                 alt="laboratory-img"
                 className="w-100"
               />
             </div>
-            <div className="row">
-              <div className="col-lg-2 mt-lg-0 mt-3">
-                <img
-                  src="/images/laboratory/img10.jpg"
-                  alt="laboratory-img"
-                  className="w-100"
-                />
-              </div>
-              <div className="col-lg-4 mt-lg-0 mt-3">
-                <img
-                  src="/images/laboratory/img8.jpg"
-                  alt="laboratory-img"
-                  className="w-100"
-                />
-              </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-2 mt-lg-5 mt-3">
+              <img
+                src="/images/laboratory/img10 1.png"
+                alt="laboratory-img"
+                className="w-100"
+              />
+            </div>
+            <div className="col-lg-4 mt-lg-5 mt-3">
+              <img
+                src="/images/laboratory/img12 1.png"
+                alt="laboratory-img"
+                className="w-100"
+              />
             </div>
           </div>
         </div>

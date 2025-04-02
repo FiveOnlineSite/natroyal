@@ -1983,7 +1983,7 @@ body {
 
 .features-section {
   padding: 50px 0 50px 0;
-  background-color: var(--dark-gray-font);
+  background-color: var(--light-yellow-font);
 }
 
 .features-div {
@@ -1995,12 +1995,16 @@ body {
 }
 
 .features-div h6 {
-  color: var(--white-font);
+  color: var(--black-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0%;
   margin-top: 10px;
+}
+
+.features-div img {
+  filter: invert(1);
 }
 
 .business-section {
@@ -2009,9 +2013,10 @@ body {
 
 .business-points {
   padding: 15px;
-  border: 1px solid var(--light-gray-font);
+  /* border: 1px solid var(--light-gray-font); */
   border-radius: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   min-height: 100px;
@@ -2022,7 +2027,13 @@ body {
 }
 
 .laboratory-gallery-section img {
-  height: 300px;
+  /* height: 300px; */
+  object-fit: contain;
+  height: 195px;
+}
+
+.about-gallery-section img {
+  height: 250px;
   object-fit: contain;
 }
 
@@ -2032,6 +2043,10 @@ body {
 
 .application-tabs .nav-link.active {
   border-bottom: 2px solid var(--dark-yellow-font);
+}
+
+.landing-banner-section video {
+  filter: brightness(0.6);
 }
 
 @keyframes smallScale {

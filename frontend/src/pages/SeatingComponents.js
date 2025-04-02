@@ -101,11 +101,11 @@ const SeatingComponents = () => {
                 Your Trusted Partner for Innovative and End-to-End Seating
                 Solutions
               </h1>
-              <div className="d-flex">
+              {/* <div className="d-flex">
                 <NavLink to="/contact-us" className="custom-button">
                   Get Started
                 </NavLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

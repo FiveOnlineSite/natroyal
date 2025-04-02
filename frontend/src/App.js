@@ -13,6 +13,8 @@ import SeatingComponents from "./pages/SeatingComponents";
 import CoatedFabrics from "./pages/CoatedFabrics";
 import AboutCoated from "./pages/AboutCoated";
 import Laboratory from "./pages/Laboratory";
+import Applications from "./pages/VinylApplications";
+import VinylApplications from "./pages/VinylApplications";
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
         <Route path="/coated-fabrics" element={<CoatedFabrics />} />
         <Route path="/about-coated" element={<AboutCoated />} />
         <Route path="/laboratory-tested" element={<Laboratory />} />
+        <Route path="/vinyl-applications" element={<VinylApplications />} />
       </Routes>
       <FloatingWhatsapp />
     </Router>

@@ -108,6 +108,16 @@ const OffersSection = () => {
     },
   ];
 
+  const sortedLuxeraSlides = luxeraData.sort((a, b) => {
+    const [prefixA, suffixA] = a.type.split(" ").map(Number);
+    const [prefixB, suffixB] = b.type.split(" ").map(Number);
+
+    if (prefixA !== prefixB) {
+      return prefixA - prefixB; // Sort by the first part
+    }
+    return suffixA - suffixB; // Sort by the second part
+  });
+
   const radiantData = [
     {
       image: "/images/planks/rad/Acacia 150 014.JPG",
@@ -195,6 +205,16 @@ const OffersSection = () => {
     },
   ];
 
+  const sortedRadiantSlides = radiantData.sort((a, b) => {
+    const [prefixA, suffixA] = a.type.split(" ").map(Number);
+    const [prefixB, suffixB] = b.type.split(" ").map(Number);
+
+    if (prefixA !== prefixB) {
+      return prefixA - prefixB; // Sort by the first part
+    }
+    return suffixA - suffixB; // Sort by the second part
+  });
+
   const offersSettings = {
     dots: false,
     nextArrow: <OfferingsNextArrow />,
@@ -244,7 +264,7 @@ const OffersSection = () => {
               <span className="yellow-title">Radiant</span> - 1.5mm
             </h2>
           </div>
-          <OfferSlider settings={offersSettings} slides={radiantData} />
+          <OfferSlider settings={offersSettings} slides={sortedRadiantSlides} />
         </div>
 
         <div className="row mt-5 luxera-row">
@@ -255,7 +275,7 @@ const OffersSection = () => {
               {""} - 2mm
             </h2>
           </div>
-          <OfferSlider settings={offersSettings} slides={luxeraData} />
+          <OfferSlider settings={offersSettings} slides={sortedLuxeraSlides} />
         </div>
         <div className="d-flex my-5 justify-content-center">
           <NavLink

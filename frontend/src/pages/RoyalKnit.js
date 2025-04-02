@@ -73,7 +73,7 @@ const RoyalKnit = () => {
 
   const textilesData = [
     {
-      image: "/images/sliders/leaflet 15_03.png",
+      image: "/images/sliders/PHOTO-2025-03-31-15-34-22.jpeg",
       name: "Headliner Fabric",
       text: "Our brushed and flat knit headliner ranges are available in more than 30 colors to complement most modern automotive interiors.",
     },
@@ -114,7 +114,7 @@ const RoyalKnit = () => {
       text: " Made from 100% recycled PET bottles. Meets global certification standards for quality, safety, and performance.",
     },
     {
-      image: "/images/sliders/Products For Coating 2.png",
+      image: "/images/sliders/Products For Lamination (2).png",
       name: "High Tenacity Fabric",
       text: "Developed for special applications like automotive & footwear.",
     },
@@ -175,11 +175,11 @@ const RoyalKnit = () => {
                 Where Softness Meets Strength – Premium Knitted Fabrics for
                 Every Need!
               </h1>
-              <div className="d-flex">
+              {/* <div className="d-flex">
                 <NavLink to="/contact-us" className="custom-button">
                   Get Started
                 </NavLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
