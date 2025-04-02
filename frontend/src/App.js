@@ -33,7 +33,8 @@ function App() {
         <Route path="/coated-fabrics" element={<CoatedFabrics />} />
         <Route path="/about-coated" element={<AboutCoated />} />
         <Route path="/laboratory-tested" element={<Laboratory />} />
-        <Route path="/vinyl-applications" element={<VinylApplications />} />
+        {/* <Route path="/vinyl-applications" element={<VinylApplications />} /> */}
+        <Route path="/:category" element={<VinylApplications />} />
       </Routes>
       <FloatingWhatsapp />
     </Router>

@@ -619,165 +619,184 @@ const VinylFlooring = () => {
 
           <div className="row mt-3 vinyl-flooring-row">
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Education.png"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/image 59.png" alt="vinyl-icons" />
+              <NavLink to="/education">
+                <img
+                  src="/images/vinyl/Education.png"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/image 59.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Education</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our Education Vinyl Flooring sparks creativity and focus,
+                      with vibrant colors that inspire both students and
+                      facilitators, fostering a dynamic and engaging
+                      learning environment.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Education</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our Education Vinyl Flooring sparks creativity and focus,
-                    with vibrant colors that inspire both students and
-                    facilitators, fostering a dynamic and engaging
-                    learning environment.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Healthcare.png"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/image 62.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/Healthcare.png"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/image 62.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Health Care</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our flooring creates a healthy environment, enhancing
+                      patient healing. Designed for bare feet and wet areas, it
+                      provides comfort and safety for patients and caregivers.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Health Care</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our flooring creates a healthy environment, enhancing
-                    patient healing. Designed for bare feet and wet areas, it
-                    provides comfort and safety for patients and caregivers.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/wet-area-banner.png"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/wet-floor.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/wet-area-banner.png"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/wet-floor.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Wet Areas</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our Healthcare Vinyl Flooring ensures safety and hygiene
+                      in wet areas, promoting healing and comfort for
+                      patients and caregivers.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Wet Areas</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our Healthcare Vinyl Flooring ensures safety and hygiene in
-                    wet areas, promoting healing and comfort for
-                    patients and caregivers.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Residential Vinyl.jpg"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/residential.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/Residential Vinyl.jpg"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img
+                      src="/images/icons/residential.png"
+                      alt="vinyl-icons"
+                    />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Residential</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our premium vinyl floor coverings offer diverse designs,
+                      from wood to geometric patterns. Easy to maintain and
+                      install, they're perfect for effortless interior updates.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Residential</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our premium vinyl floor coverings offer diverse designs,
-                    from wood to geometric patterns. Easy to maintain and
-                    install, they're perfect for effortless interior updates.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Office Vinyl.jpg"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/workspace.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/Office Vinyl.jpg"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/workspace.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Offices / Retail</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our premium flooring combines aesthetics with
+                      practicality, meeting design demands. It also delivers
+                      high-performance durability.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Offices / Retail</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our premium flooring combines aesthetics with practicality,
-                    meeting design demands. It also delivers
-                    high-performance durability.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Hospitality Vinyl.jpg"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/hospital.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/Hospitality Vinyl.jpg"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/hospital.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Hospitality</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our flooring combines aesthetics and practicality for
+                      offices, retail, and hospitality. Meeting design demands
+                      and high-performance requirements.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Hospitality</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our flooring combines aesthetics and practicality for
-                    offices, retail, and hospitality. Meeting design demands and
-                    high-performance requirements.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>{" "}
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Transport Vinyl.jpg"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/truck.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/Transport Vinyl.jpg"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/truck.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Transport</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our transport vinyl flooring ensures safety and comfort
+                      for passengers. Offering international-standard options
+                      like Gripper and Suprema RS.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Transport</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our transport vinyl flooring ensures safety and comfort for
-                    passengers. Offering international-standard options like
-                    Gripper and Suprema RS.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <img
-                src="/images/vinyl/Avenger-Banner.jpg"
-                alt="vinyl"
-                className="w-100"
-              />
-              <div className="vinyl-detail-div d-flex align-items-start mt-3">
-                <div className="vinyl-img-div">
-                  <img src="/images/icons/sports.png" alt="vinyl-icons" />
+              <NavLink to="/healthcare">
+                <img
+                  src="/images/vinyl/Avenger-Banner.jpg"
+                  alt="vinyl"
+                  className="w-100"
+                />
+                <div className="vinyl-detail-div d-flex align-items-start mt-3">
+                  <div className="vinyl-img-div">
+                    <img src="/images/icons/sports.png" alt="vinyl-icons" />
+                  </div>
+                  <div className="vinyl-content">
+                    <h5>Sports</h5>
+                    <p className="paragraph gray-para mt-3">
+                      Our sports vinyl flooring ensures safety and performance
+                      for athletes. Offering international-standard options like
+                      Champion, Turbo, and Sprint.
+                    </p>
+                  </div>
                 </div>
-                <div className="vinyl-content">
-                  <h5>Sports</h5>
-                  <p className="paragraph gray-para mt-3">
-                    Our sports vinyl flooring ensures safety and performance for
-                    athletes. Offering international-standard options like
-                    Champion, Turbo, and Sprint.
-                  </p>
-                </div>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>
