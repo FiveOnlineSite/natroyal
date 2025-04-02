@@ -98,7 +98,7 @@ const BannerSlider = ({ settings, slides }) => {
             <div className="banner-text">
               <h1 className="banner-title">{slide.text}</h1>
               <div className="d-flex">
-                <NavLink to="/contact-us" className="custom-button">
+                <NavLink to={slide.url} className="custom-button">
                   Get Started
                 </NavLink>
               </div>

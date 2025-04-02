@@ -57,22 +57,26 @@ const Home = () => {
       videoUrl: "/videos/8566376-uhd_3840_2160_30fps.mp4",
       // poster: "/images/banners/pexels-digitalbuggu-218535.png",
       text: "Exquisite Luxury Vinyl Planks & Tiles for Every Space",
+      url: "/vinyl-flooring",
     },
 
     {
       // videoUrl: "/videos/vecteezy_large-room-in-tropical-style_2018008.mov",
       image: "/images/banners/pexels-ammy-k-106103999-12369543.png",
       text: "Premium Coated Fabrics – Durable, Stylish, and Made to Last!",
+      url: "/coated-fabrics",
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/pexels-la-son-211137-4004373.png",
       text: " Comfort Meets Innovation – Explore Our Premium Seating Components!",
+      url: "/seating-components",
     },
     {
       // videoUrl: "/videos/1103522677-preview.mp4",
       image: "/images/banners/right wall01.png",
       text: "Where Softness Meets Strength – Premium Knitted Fabrics for Every Need!",
+      url: "knit-fabrics",
     },
   ];
 
