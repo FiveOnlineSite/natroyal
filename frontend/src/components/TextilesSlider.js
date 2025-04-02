@@ -43,6 +43,16 @@ const TextilesSlider = ({ settings, slides }) => {
                       <p className="paragraph">{slide.text}</p>
                     </div>
                   )}
+
+                  <div className="tags-div">
+                    {slide.tags.map((tag, i) => (
+                      <div className="single-tag">
+                        <h6 key={i} className="tag">
+                          {tag}
+                        </h6>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

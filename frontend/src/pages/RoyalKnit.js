@@ -76,6 +76,12 @@ const RoyalKnit = () => {
       image: "/images/sliders/PHOTO-2025-03-31-15-34-22.jpeg",
       name: "Headliner Fabric",
       text: "Our brushed and flat knit headliner ranges are available in more than 30 colors to complement most modern automotive interiors.",
+      tags: [
+        "More than 30 colors",
+        "Low VOC",
+        "Flame Retardant Properties",
+        "OE Grade",
+      ],
     },
     {
       image: "/images/sliders/leaflet 15_03.png",
@@ -84,6 +90,11 @@ const RoyalKnit = () => {
         lamination_text: "GSM ranging from 30 to 50",
         coating_text: "GSM ranging from 40 to 300",
       },
+      tags: [
+        "Excellent Stretch & Recovery",
+        "Seamless Comfort",
+        "Versatile Structures",
+      ],
     },
     {
       image: "/images/sliders/leaflet 15_04.png",
@@ -92,31 +103,45 @@ const RoyalKnit = () => {
         lamination_text: "GSM ranging from 20 to 70 ",
         coating_text: "GSM ranging from 90 to 210",
       },
+      tags: ["Dimensional Stability", "High Tensile Strength", "Upto 3 bar"],
     },
     {
       image: "/images/sliders/Products For Lamination (2).png",
       name: "Fire Retardant Fabric",
       text: "These fabrics are engineered to resist ignition and prevent flames from spreading, making them essential for automotive and industrial applications.",
+      tags: [
+        "Fire Compliance",
+        "FMVSS 302",
+        "Automotive & Mass Transport Norms",
+      ],
     },
     {
       image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
       name: "Water Repellent Fabric",
       text: "Innovative fabrics designed for maximum water resistance.",
+      tags: [
+        "Resistance to rains & spills",
+        "Maintains Softness & Flexibility ",
+        "Ideal for Automotive & Marine Use",
+      ],
     },
     {
       image: "/images/sliders/Products For Coating 2.png",
       name: "Anti – Bacterial Fabric",
       text: "Antimicrobial-treated textiles designed for healthcare and automotive.",
+      tags: ["Prevents Mold and Mildew Growth", "Medical & Healthcare Use"],
     },
     {
       image: "/images/sliders/hydrophobic-fabric-500x500 1.png",
       name: "Recycled Fabric",
       text: " Made from 100% recycled PET bottles. Meets global certification standards for quality, safety, and performance.",
+      tags: ["Reduces Lower Carbon Footprint", "100% Recycled"],
     },
     {
       image: "/images/sliders/Products For Lamination (2).png",
       name: "High Tenacity Fabric",
       text: "Developed for special applications like automotive & footwear.",
+      tags: ["Superior Tensile", "High Tear Resistance"],
     },
   ];
 

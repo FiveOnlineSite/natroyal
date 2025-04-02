@@ -10,6 +10,7 @@
   --landing-subtitle: #7a7a7a;
   --whatsapp-bg: #6cd54f;
   --offering-slider-color: #d9d9d9;
+  --lighter-gray: #e7e7e7;
 }
 
 /* @font-face {
@@ -1496,7 +1497,7 @@ body {
 
 .textiles-slider-content {
   padding: 20px 30px;
-  min-height: 250px;
+  min-height: 340px;
 }
 
 .textiles-slider-content h4 {
@@ -1569,6 +1570,20 @@ body {
   line-height: 26px;
   margin-top: 20px;
   text-align: start;
+}
+
+.single-tag {
+  background-color: var(--lighter-gray);
+  margin: 8px 5px 0px;
+  display: inline-flex;
+  width: auto;
+  border-left: 2px solid var(--dark-yellow-font);
+  padding: 5px;
+}
+
+.single-tag h6 {
+  font-size: 12px;
+  margin-bottom: 0;
 }
 
 /* LVT */
@@ -2093,7 +2108,7 @@ body {
   }
 
   .textiles-slider-content {
-    min-height: 290px;
+    min-height: 380px;
   }
 
   .solutions-div h5 {
@@ -2162,6 +2177,10 @@ body {
   .application-overlay .application-border a {
     top: 48%;
     left: 43%;
+  }
+
+  .textiles-slider-content {
+    min-height: 384px;
   }
 }
 
