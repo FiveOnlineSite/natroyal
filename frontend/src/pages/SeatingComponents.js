@@ -188,7 +188,7 @@ const SeatingComponents = () => {
 
           <div className="row">
             <div className="col-lg-4 mt-lg-0 mt-5">
-              <div>
+              <NavLink to="/seating-components/railway-metro">
                 <img
                   src="/images/seating/inside-train-wagon-with-blurred-background.png"
                   alt="seating-application"
@@ -203,11 +203,11 @@ const SeatingComponents = () => {
                   production. Our end-to-end capabilities ensure precision,
                   quality, and reliability at every stage.
                 </p>
-              </div>
+              </NavLink>
             </div>
 
             <div className="col-lg-4 mt-lg-0 mt-5">
-              <div>
+              <NavLink to="/seating-components/cinema">
                 <img
                   src="/images/seating/cinema-seats-still-life.png"
                   alt="seating-application"
@@ -224,11 +224,11 @@ const SeatingComponents = () => {
                   by industry leaders for seamless integration and on-time
                   delivery.
                 </p>
-              </div>
+              </NavLink>
             </div>
 
             <div className="col-lg-4 mt-lg-0 mt-5">
-              <div>
+              <NavLink to="/seating-components/bus">
                 <img
                   src="/images/seating/Bus.jpg"
                   className="w-100"
@@ -243,7 +243,7 @@ const SeatingComponents = () => {
                   design to production. Our expertise ensures superior comfort,
                   durability, and performance.
                 </p>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>

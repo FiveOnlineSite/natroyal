@@ -1,14 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import LandingLayout from "../components/LandingLayout";
 import BannerSlider from "../components/BannerSlider";
 import Clients from "../components/Clients";
 import ConnectSection from "../components/ConnectSection";
 import Layout from "../components/Layout";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import bootstrap from "bootstrap/dist/js/bootstrap.bundle.min.js";
 import ApplicationsModal from "../components/ApplicationsModal";
 
 const VinylFlooring = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top on route change
+  }, [location]); // Dependency on location ensures it runs whenever the route changes
+
   const PrevArrow = (props) => {
     const { onClick } = props;
     return (
@@ -619,7 +625,7 @@ const VinylFlooring = () => {
 
           <div className="row mt-3 vinyl-flooring-row">
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/education">
+              <NavLink to="/vinyl-flooring/education">
                 <img
                   src="/images/vinyl/Education.png"
                   alt="vinyl"
@@ -642,7 +648,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/healthcare">
                 <img
                   src="/images/vinyl/Healthcare.png"
                   alt="vinyl"
@@ -664,7 +670,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/wet-areas">
                 <img
                   src="/images/vinyl/wet-area-banner.png"
                   alt="vinyl"
@@ -686,7 +692,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/residential">
                 <img
                   src="/images/vinyl/Residential Vinyl.jpg"
                   alt="vinyl"
@@ -711,7 +717,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/offices-retail">
                 <img
                   src="/images/vinyl/Office Vinyl.jpg"
                   alt="vinyl"
@@ -733,7 +739,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/healthcare">
                 <img
                   src="/images/vinyl/Hospitality Vinyl.jpg"
                   alt="vinyl"
@@ -755,7 +761,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>{" "}
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/transport">
                 <img
                   src="/images/vinyl/Transport Vinyl.jpg"
                   alt="vinyl"
@@ -777,7 +783,7 @@ const VinylFlooring = () => {
               </NavLink>
             </div>
             <div className="col-lg-6 mt-5 px-3">
-              <NavLink to="/healthcare">
+              <NavLink to="/vinyl-flooring/sports">
                 <img
                   src="/images/vinyl/Avenger-Banner.jpg"
                   alt="vinyl"
