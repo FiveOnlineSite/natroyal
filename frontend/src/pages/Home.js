@@ -251,7 +251,7 @@ const Home = () => {
                 alt="about-img"
               />
             </div> */}
-            <div className="col-lg-10 mt-lg-0 mt-5">
+            <div className="col-lg-12 mt-lg-0 mt-5">
               <h6 className="subtitle">
                 About Us <span></span>
               </h6>
@@ -260,30 +260,41 @@ const Home = () => {
                 <span className="yellow-title">Natroyal Group:</span> Leaders in
                 Flooring, Fabrics, and Seating Solution
               </h2>
-              <p className="paragraph">
-                Since 1962, Natroyal Group has been a leader in manufacturing
-                and exporting Luxury Vinyl Plank & Tile, PVC vinyl flooring,
-                coated fabrics, knitted fabrics, and seating components—earning
-                trust through decades of expertise and innovation.
-              </p>
 
-              <div className="row align-items-center py-4">
-                <div className="col-lg-6 experience mb-lg-0 mb-4">
-                  <h2>60+</h2>
-                  <p>
-                    Years <br /> Experience
+              <div className="row">
+                <div className="col-lg-6">
+                  <p className="paragraph">
+                    Since 1962, Natroyal Group has been a leader in
+                    manufacturing and exporting Luxury Vinyl Plank & Tile, PVC
+                    vinyl flooring, coated fabrics, knitted fabrics, and seating
+                    components—earning trust through decades of expertise and
+                    innovation.
                   </p>
                 </div>
 
-                <div className="col-lg-6 mt-lg-0 mt-3 d-flex justify-content-lg-end justify-content-start">
-                  <NavLink to="/about-us" className="custom-button border-btn">
-                    Read More
-                    <img
-                      src="/images/icons/arrow-up-right.png"
-                      className="ps-2"
-                      alt="arrow"
-                    />
-                  </NavLink>
+                <div className="col-lg-6">
+                  <div className="row justify-content-around">
+                    <div className="col-lg-6 experience mb-lg-0 mb-4">
+                      <h2>60+</h2>
+                      <p>
+                        Years <br /> Experience
+                      </p>
+                    </div>
+
+                    <div className="col-lg-6 mt-lg-0 mt-3 d-flex align-items-center">
+                      <NavLink
+                        to="/about-us"
+                        className="custom-button border-btn"
+                      >
+                        Read More
+                        <img
+                          src="/images/icons/arrow-up-right.png"
+                          className="ps-2"
+                          alt="arrow"
+                        />
+                      </NavLink>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
